@@ -5,6 +5,7 @@ import math
 
 class MultiHeadAttention(nn.Module):
     def __init__(self, num_heads = 8, d_model = 256, masking = True):
+        super(MultiHeadAttention, self).__init__() 
         assert d_model % num_heads == 0
         self.masking = masking
         self.num_heads = num_heads
@@ -49,6 +50,7 @@ class PositionalEncoding(nn.Module):
         return x + self.pe[:, :x.size(1)] 
 class TransformerLayer(nn.Module):
     def __init__(self, vocab_size, d_model, num_heads = 8, dropout = 0.3):
+        super(TransformerLayer, self).__init__()
         self.token_embed = nn.Embedding(vocab_size, d_model)
         self.attention_module = MultiHeadAttention(num_heads, d_model)
         self.positional_encoding = PositionalEncoding()
