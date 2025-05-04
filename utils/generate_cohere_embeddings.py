@@ -25,12 +25,10 @@ def generate_cohere_embeddings(input_file, output_file, api_key):
             embedding_types=["float"],
             output_dimension=256
         )
-        print(response)
-        break
     # write embeddings to output file
     with open(output_file, "w") as f:
         for i, entry in enumerate(data):
-            entry["embedding"] = response.embeddings[i]
+            entry["embedding"] = response.embeddings.float
         json.dump(data, f, indent=2)
     print(f"Embeddings saved to {output_file}")
 if __name__ == "__main__":
