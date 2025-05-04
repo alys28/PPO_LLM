@@ -34,11 +34,38 @@ class MultiHeadAttention(nn.Module):
         combined = attention_output.transpose(1, 2).contiguous().view(batch_size, seq_len, self.d_model)
         combined = self.W_o(combined)
         return combined
-    
+
+class PositionalEncoding(nn.Module):
+    def __init__(self, d_model=256, max_seq_len=16):
+        super(PositionalEncoding, self).__init__()
+        self.pe = torch.zeros(max_seq_len, d_model)
+        position = torch.arange(0, max_seq_len, dtype=torch.float).unsqueeze(1)
+        div_term = torch.exp(torch.arange(0, d_model, 2).float() * -(math.log(10000.0) / d_model))
+        self.pe[:, 0::2] = torch.sin(position * div_term)
+        self.pe[:, 1::2] = torch.cos(position * div_term)
+        self.pe.unsqueeze(0)
+        
+    def forward(self, x):
+        return x + self.pe[:, :x.size(1)] 
 class TransformerLayer(nn.Module):
-    def __init__(self, vocab_size, d_model, num_heads = 8):
+    def __init__(self, vocab_size, d_model, num_heads = 8, dropout = 0.3):
         self.token_embed = nn.Embedding(vocab_size, d_model)
         self.attention_module = MultiHeadAttention(num_heads, d_model)
-        self.positional_encoding = None
-    def forward(self, x):
-        pass
+        self.positional_encoding = PositionalEncoding()
+        self.dropout = nn.Dropout(dropout)
+        self.layer_norm = nn.LayerNorm(d_model)
+        self.ff = nn.Sequential([
+            nn.Linear(d_model, d_model * 2),
+            nn.ReLU(),
+            nn.Linear(d_model * 2, d_model)
+        ])
+    def forward(self, embeddings, output_tokens):
+        embedded_tokens = self.token_embed(output_tokens)
+        inputs = torch.cat([embeddings, embedded_tokens])
+        seq_len = inputs.size(1)
+        inputs = self.positional_encoding(inputs)
+        attention_output = self.attention_module(inputs)
+        output = self.layer_norm(attention_output + self.dropout(attention_output)) # Residual skip
+        ff_output = self.feed_forward(output)
+        return ff_output
+
