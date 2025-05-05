@@ -22,4 +22,4 @@ def generate_math_dataset(filename, dir, num_examples=2000):
         json.dump(examples, f, indent=2)
 
 if __name__== "__main__":
-    generate_math_dataset("math_dataset.json", "data")
+    generate_math_dataset("math_dataset_val.json", "data", 250)

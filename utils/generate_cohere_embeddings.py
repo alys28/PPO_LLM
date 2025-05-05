@@ -40,4 +40,3 @@ if __name__ == "__main__":
     input_file = os.path.join(parent_dir, "data", "math_dataset.json")
     output_file = os.path.join(parent_dir, "data","cohere_embeddings_2.json")
     generate_cohere_embeddings(input_file, output_file, api_key)
-
