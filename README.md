@@ -1,4 +1,4 @@
-# Assessing Reasoning Potential of Semantic Embedding Models
+# Assessing Reasoning Potential of Semantic Embedding Models with SFT and PPO
 
 **→** A controlled experiment testing whether Cohere's semantic embeddings enable arithmetic reasoning when augmented with lightweight transformer layers. **Implemented from scratch in PyTorch with both SFT and PPO training.**
 
