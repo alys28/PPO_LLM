@@ -32,7 +32,7 @@ class ValueNetwork(nn.Module):
     
 class PolicyNetwork(nn.Module):
     def __init__(self, hidden_dim, output_dim = 11):
-        self.transformerLayer = TransformerLayer(hidden_dim)
+        self.transformerLayer = TransformerLayer(vocab_size = output_dim, d_model = hidden_dim)
         self.network = nn.Sequential([
             self.transformerLayer,
             nn.ReLU(),

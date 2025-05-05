@@ -25,6 +25,8 @@ def generate_cohere_embeddings(input_file, output_file, api_key):
             embedding_types=["float"],
             output_dimension=256
         )
+        print(response)
+        break
     # write embeddings to output file
     with open(output_file, "w") as f:
         for i, entry in enumerate(data):
@@ -36,6 +38,6 @@ if __name__ == "__main__":
     api_key = os.getenv("COHERE_API_KEY")
     parent_dir = Path(__file__).resolve().parent.parent
     input_file = os.path.join(parent_dir, "data", "math_dataset.json")
-    output_file = os.path.join(parent_dir, "data","cohere_embeddings.json")
+    output_file = os.path.join(parent_dir, "data","cohere_embeddings_2.json")
     generate_cohere_embeddings(input_file, output_file, api_key)
 

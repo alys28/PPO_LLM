@@ -1,5 +1,9 @@
 [
   {
+    "input": "What is -800 + 10?",
+    "answer": -790
+  },
+  {
     "input": "What is -928 * 586?",
     "answer": -543808
   },
