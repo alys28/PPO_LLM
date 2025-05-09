@@ -1,7 +1,7 @@
 import torch
 from sft_model import SFT_Model
 # import module in parent directory
-from dataLoader import get_math_dataloader, get_math_val_dataloader # Fix this
+from models.dataLoader import get_math_dataloader, get_math_val_dataloader # Fix this
 
 
 def train_sft(num_epochs=10, batch_size=32):
