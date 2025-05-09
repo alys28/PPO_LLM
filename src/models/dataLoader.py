@@ -25,22 +25,17 @@ class MathDataset(Dataset):
         token_ids = self.tokenizer.encode(answer_text, add_special_tokens=False)
         decoder_input = [self.tokenizer.sep_token_id] + token_ids
         output = token_ids + [self.tokenizer.end_token_id]
-        if len(decoder_input) < self.max_answer_len:
-            token_ids += [self.tokenizer.pad_token_id] * (self.max_answer_len - len(token_ids))
-        elif len(decoder_input) > self.max_answer_len:
-            raise ValueError(f"Answer length exceeds max_answer_len: {len(token_ids)} > {self.max_answer_len}")
-        decoder_input = torch.tensor(decoder_input, dtype=torch.long)
-        output = torch.tensor(output, dtype=torch.long)
-        # Create a mask such that the padded tokens are ignored
-        decoder_input = decoder_input.unsqueeze(0)
-        output = output.unsqueeze(0)
-        decoder_input = decoder_input.to(input_embedding.device)
-        output = output.to(input_embedding.device)
-        # Create a mask for the decoder input
-        padding_mask = (decoder_input != self.tokenizer.pad_token_id).unsqueeze(0)
-        decoder_mask = padding_mask & torch.tril(torch.ones(self.max_answer_len, self.max_answer_len), diagonal=1).int()
-        decoder_mask = decoder_mask.to(decoder_input.device)
-        return input_embedding, decoder_input, output, decoder_mask 
+        for seq in (decoder_input, output):
+            if len(seq) < self.max_answer_len:
+                seq.extend([self.tokenizer.pad_token_id] * (self.max_answer_len - len(seq)))
+            elif len(seq) > self.max_answer_len:
+                raise ValueError(f"Answer length exceeds max_answer_len: {len(seq)} > {self.max_answer_len}")
+        decoder_input = torch.tensor(decoder_input, dtype=torch.long, device=input_embedding.device)
+        output = torch.tensor(output,        dtype=torch.long, device=input_embedding.device)
+        key_padding_mask = (decoder_input != self.tokenizer.pad_token_id)
+        causal_mask = torch.tril(torch.ones(self.max_answer_len, self.max_answer_len), diagonal=1).int() 
+        # broadcast bitwise AND operation
+        return input_embedding, decoder_input, output, causal_mask, key_padding_mask 
 
 def get_math_dataloader(data_file, vocab, batch_size=32, shuffle=True):
     dataset = MathDataset(data_file)
