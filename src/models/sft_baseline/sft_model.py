@@ -8,10 +8,10 @@ from transformerLayer import TransformerLayer
 
 
 class SFT_Model(nn.Module):
-    def __init__(self, vocab_size, input_dim, num_heads = 8):
+    def __init__(self, vocab_size, input_dim, max_seq_len, num_heads = 8):
         super(SFT_Model, self).__init__()
+        self.transformer = TransformerLayer(vocab_size, input_dim, max_seq_len, num_heads)
         self.layers = nn.Sequential(
-            TransformerLayer(vocab_size, input_dim, num_heads),  # Must return (B, T, D)
             nn.Linear(input_dim, input_dim * 2),
             nn.ReLU(),
             nn.Linear(input_dim * 2, input_dim),
@@ -19,5 +19,7 @@ class SFT_Model(nn.Module):
             nn.Linear(input_dim, vocab_size)
         )
     
-    def forward(self, x, return_logits = True):
-        return self.layers(x) if return_logits else softmax(self.layers(x), dim = -1)
+    def forward(self, input_embedding, output_tokens, causal_mask, key_padding_mask):
+        x = self.transformer(input_embedding, output_tokens, causal_mask, key_padding_mask)
+        logits = self.layers(x)
+        return logits

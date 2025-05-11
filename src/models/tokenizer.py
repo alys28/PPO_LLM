@@ -2,46 +2,65 @@ class Tokenizer:
     def __init__(self, vocab, max_seq_len=16):
         self.vocab = vocab
         self.unk_token = "<unk>"
-        self.pad_token = "<pad>" # Used for padding sequences to the same length during batch training
+        self.pad_token = "<pad>"
         self.start_token = "<start>"
         self.end_token = "<end>"
-        self.sep_token = "<sep>"
-        self.vocab_size = len(vocab) + 5  # +4 for special tokens
-        self.unk_token_id = self.vocab_size
-        self.pad_token_id = self.vocab_size + 1
-        self.start_token_id = self.vocab_size + 2
-        self.end_token_id = self.vocab_size + 3 
-        self.sep_token_id = self.vocab_size + 4
+        # self.sep_token = "<sep>" # no need to add sep token since the embeddings are not part of the answer
+        # Create token mappings
         self.token_to_id = {token: idx for idx, token in enumerate(vocab)}
         self.id_to_token = {idx: token for token, idx in self.token_to_id.items()}
+        
+        # Add special tokens
+        special_tokens = [self.unk_token, self.pad_token, self.start_token, self.end_token]
+        for token in special_tokens:
+            idx = len(self.token_to_id)
+            self.token_to_id[token] = idx
+            self.id_to_token[idx] = token
+        
+        self.vocab_size = len(self.token_to_id)
+        self.unk_token_id = self.token_to_id[self.unk_token]
+        self.pad_token_id = self.token_to_id[self.pad_token]
+        self.start_token_id = self.token_to_id[self.start_token]
+        self.end_token_id = self.token_to_id[self.end_token]
+        # self.sep_token_id = self.token_to_id[self.sep_token]
         self.max_seq_len = max_seq_len
-        self.token_to_id = {**self.token_to_id, self.unk_token: self.unk_token_id, self.pad_token: self.pad_token_id, self.start_token: self.start_token_id, self.end_token: self.end_token_id, self.sep_token: self.sep_token_id}
-        self.id_to_token = {**self.id_to_token, self.unk_token_id: self.unk_token, self.pad_token_id: self.pad_token, self.start_token_id: self.start_token, self.end_token_id: self.end_token, self.sep_token_id: self.sep_token}
+
     def __len__(self):
         """Return the size of the vocabulary."""
         return self.vocab_size
-    def token_to_id(self, token):
+
+    def get_token_id(self, token):
         """Convert a token to its ID."""
         return self.token_to_id.get(token, self.unk_token_id)
-    def id_to_token(self, token_id):
+
+    def get_token(self, token_id):
         """Convert a token ID to its token."""
         return self.id_to_token.get(token_id, self.unk_token)
-    def encode(self, text, add_special_tokens=True):
+
+    def encode(self, text, add_start_token=False, add_end_token=True, add_pad_token=True):
         """Convert text to token IDs."""
+        assert len(text) <= self.max_seq_len, "text length {} must be less than or equal to max_seq_len {}".format(len(text), self.max_seq_len)
         tokens = text.split()
-        token_ids = [self.token_to_id.get(token, self.unk_token_id) for token in tokens]
-        if add_special_tokens:
-            token_ids = [self.start_token_id] + token_ids + [self.end_token_id]
+        token_ids = [self.get_token_id(token) for token in tokens]
+        if add_start_token:
+            token_ids = [self.start_token_id] + token_ids
+        if add_end_token:
+            token_ids = token_ids + [self.end_token_id]
+        if add_pad_token:
+            token_ids = token_ids + [self.pad_token_id] * (self.max_seq_len - len(token_ids))
         return token_ids[:self.max_seq_len]  # Truncate to max_seq_len
-    def encode_for_batch(self, text, add_special_tokens=True):
+
+    def encode_for_batch(self, text, add_start_token=False, add_end_token=True, add_pad_token=True):
         """Convert text to token IDs for training."""
-        token_ids = self.encode(text, add_special_tokens)
+        token_ids = self.encode(text, add_start_token, add_end_token, add_pad_token)
         padded_token_ids = token_ids + [self.pad_token_id] * (self.max_seq_len - len(token_ids))
         return padded_token_ids
+
     def decode(self, token_ids):
         """Convert token IDs back to text."""
-        tokens = [self.id_to_token.get(token_id, self.unk_token) for token_id in token_ids]
+        tokens = [self.get_token(token_id) for token_id in token_ids]
         return " ".join(tokens)
+
     def pad_sequence(self, sequences, max_length=None):
         """Pad sequences to the same length."""
         if max_length is None:

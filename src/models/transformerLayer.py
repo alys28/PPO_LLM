@@ -15,7 +15,7 @@ class MultiHeadAttention(nn.Module):
         self.W_k = nn.Linear(d_model, d_model, bias=False)
         self.W_v = nn.Linear(d_model, d_model, bias=False)
         self.W_o = nn.Linear(d_model, d_model)
-    def forward(self, x):
+    def forward(self, x, causal_mask = None, key_padding_mask = None):
         batch_size, seq_len, d_in = x.size()
         assert d_in == self.d_model, "Embedding Dimension is Incompatible with Initilized"
         q = self.W_q(x)
@@ -27,8 +27,11 @@ class MultiHeadAttention(nn.Module):
         v = v.view(batch_size, seq_len, self.num_heads, self.d_k).transpose(1, 2)
         attention_scores = q @ k.transpose(-2, -1) / math.sqrt(self.d_k) # seq_len * seq_len
         if self.masking:
-            mask = torch.triu(torch.ones(seq_len, seq_len), diagonal=1).bool().to(x.device)
-            attention_scores = attention_scores.masked_fill(mask.unsqueeze(0).unsqueeze(0), float('-inf')) 
+            attention_scores = attention_scores.masked_fill(causal_mask == 0, float('-inf'))
+        if key_padding_mask is not None:
+            # print("attention_scores", attention_scores.shape)
+            # print("key_padding_mask", key_padding_mask.shape)
+            attention_scores = attention_scores.masked_fill(key_padding_mask == 0, float('-inf'))
         attention_scores = torch.softmax(attention_scores, dim = -1)
         attention_output = attention_scores @ v 
         # Combine heads and reshape
@@ -39,35 +42,36 @@ class MultiHeadAttention(nn.Module):
 class PositionalEncoding(nn.Module):
     def __init__(self, d_model=256, max_seq_len=16):
         super(PositionalEncoding, self).__init__()
-        self.pe = torch.zeros(max_seq_len, d_model)
+        pe = torch.zeros(max_seq_len, d_model)
         position = torch.arange(0, max_seq_len, dtype=torch.float).unsqueeze(1)
         div_term = torch.exp(torch.arange(0, d_model, 2).float() * -(math.log(10000.0) / d_model))
-        self.pe[:, 0::2] = torch.sin(position * div_term)
-        self.pe[:, 1::2] = torch.cos(position * div_term)
-        self.pe.unsqueeze(0)
-        
+        pe[:, 0::2] = torch.sin(position * div_term)
+        pe[:, 1::2] = torch.cos(position * div_term)
+        pe = pe.unsqueeze(0)
+        self.register_buffer('pe', pe)
     def forward(self, x):
         return x + self.pe[:, :x.size(1)] 
 class TransformerLayer(nn.Module):
-    def __init__(self, vocab_size, d_model, num_heads = 8, dropout = 0.3):
+    def __init__(self, vocab_size, d_model, max_seq_len, num_heads = 8, dropout = 0.3):
         super(TransformerLayer, self).__init__()
         self.token_embed = nn.Embedding(vocab_size, d_model)
         self.attention_module = MultiHeadAttention(num_heads, d_model)
-        self.positional_encoding = PositionalEncoding()
+        self.positional_encoding = PositionalEncoding(d_model, max_seq_len)
         self.dropout = nn.Dropout(dropout)
         self.layer_norm = nn.LayerNorm(d_model)
-        self.ff = nn.Sequential([
+        self.ff = nn.Sequential(
             nn.Linear(d_model, d_model * 2),
             nn.ReLU(),
             nn.Linear(d_model * 2, d_model)
-        ])
-    def forward(self, embeddings, output_tokens):
+        )
+    
+    def forward(self, embeddings, output_tokens, causal_mask, key_padding_mask):
         embedded_tokens = self.token_embed(output_tokens)
-        inputs = torch.cat([embeddings, embedded_tokens])
-        seq_len = inputs.size(1)
+        inputs = torch.cat([embeddings, embedded_tokens], dim=1)
         inputs = self.positional_encoding(inputs)
-        attention_output = self.attention_module(inputs)
-        output = self.layer_norm(attention_output + self.dropout(attention_output)) # Residual skip
-        ff_output = self.feed_forward(output)
-        return ff_output
+        attention_output = self.attention_module(inputs, causal_mask, key_padding_mask)
+        output = self.layer_norm(inputs + self.dropout(attention_output))
+        ff_output = self.ff(output)
+        # Return only the output corresponding to the output tokens, excluding the input tokens
+        return ff_output[:, embeddings.size(1):, :]
 
