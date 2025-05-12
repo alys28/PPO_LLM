@@ -26,14 +26,14 @@ expressions = [
     "1000 + 2000", "-1000 + 2000"
 ]
 
-embeddings = response = co.embed(
+response = co.embed(
             texts = expressions,
             model = "embed-v4.0",
             input_type="classification",
             embedding_types=["float"],
             output_dimension=256
         )
-embeddings = np.array(embeddings.embeddings.float_)
+embeddings = np.array(response.embeddings.float_)
 
 embeddings = normalize(embeddings)
 

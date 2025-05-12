@@ -4,10 +4,9 @@ import math
 
 
 class MultiHeadAttention(nn.Module):
-    def __init__(self, num_heads = 8, d_model = 256, masking = True):
+    def __init__(self, num_heads = 8, d_model = 256):
         super(MultiHeadAttention, self).__init__() 
         assert d_model % num_heads == 0
-        self.masking = masking
         self.num_heads = num_heads
         self.d_model = d_model
         self.d_k = d_model // num_heads
@@ -26,7 +25,7 @@ class MultiHeadAttention(nn.Module):
         k = k.view(batch_size, seq_len, self.num_heads, self.d_k).transpose(1, 2)
         v = v.view(batch_size, seq_len, self.num_heads, self.d_k).transpose(1, 2)
         attention_scores = q @ k.transpose(-2, -1) / math.sqrt(self.d_k) # seq_len * seq_len
-        if self.masking:
+        if causal_mask is not None:
             attention_scores = attention_scores.masked_fill(causal_mask == 0, float('-inf'))
         if key_padding_mask is not None:
             # print("attention_scores", attention_scores.shape)
@@ -50,7 +49,7 @@ class PositionalEncoding(nn.Module):
         pe = pe.unsqueeze(0)
         self.register_buffer('pe', pe)
     def forward(self, x):
-        return x + self.pe[:, :x.size(1)] 
+        return x + self.pe[:, :x.size(1)]
 class TransformerLayer(nn.Module):
     def __init__(self, vocab_size, d_model, max_seq_len, num_heads = 8, dropout = 0.3):
         super(TransformerLayer, self).__init__()
@@ -65,13 +64,13 @@ class TransformerLayer(nn.Module):
             nn.Linear(d_model * 2, d_model)
         )
     
-    def forward(self, embeddings, output_tokens, causal_mask, key_padding_mask):
+    def forward(self, embeddings, output_tokens, causal_mask=None, key_padding_mask=None):
         embedded_tokens = self.token_embed(output_tokens)
-        inputs = torch.cat([embeddings, embedded_tokens], dim=1)
+        inputs = torch.cat([embeddings.unsqueeze(1), embedded_tokens], dim=1)
         inputs = self.positional_encoding(inputs)
         attention_output = self.attention_module(inputs, causal_mask, key_padding_mask)
-        output = self.layer_norm(inputs + self.dropout(attention_output))
+        output = self.layer_norm(inputs + self.dropout(attention_output))   
         ff_output = self.ff(output)
-        # Return only the output corresponding to the output tokens, excluding the input tokens
-        return ff_output[:, embeddings.size(1):, :]
+        return ff_output[:, embeddings.unsqueeze(1).size(1):, :]  # Only return predictions for output tokens
+
 

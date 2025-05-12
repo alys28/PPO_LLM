@@ -19,7 +19,7 @@ class SFT_Model(nn.Module):
             nn.Linear(input_dim, vocab_size)
         )
     
-    def forward(self, input_embedding, output_tokens, causal_mask, key_padding_mask):
+    def forward(self, input_embedding, output_tokens, causal_mask=None, key_padding_mask=None):
         x = self.transformer(input_embedding, output_tokens, causal_mask, key_padding_mask)
         logits = self.layers(x)
         return logits

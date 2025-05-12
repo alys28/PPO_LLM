@@ -9,7 +9,7 @@ def generate_math_dataset(filename, dir, num_examples=2000):
     if not os.path.exists(dir):
         os.makedirs(dir)
     examples = []
-    for _ in range(2000):
+    for _ in range(num_examples):
         x, y = random.randint(-1000, 1000), random.randint(0, 1000)
         op, fn = random.choice(ops)
         if op == '/' and y == 0:

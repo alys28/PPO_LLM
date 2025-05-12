@@ -1,3 +1,5 @@
+import torch
+
 class Tokenizer:
     def __init__(self, vocab, max_seq_len=16):
         self.vocab = vocab
@@ -24,14 +26,16 @@ class Tokenizer:
         self.end_token_id = self.token_to_id[self.end_token]
         # self.sep_token_id = self.token_to_id[self.sep_token]
         self.max_seq_len = max_seq_len
-
     def __len__(self):
         """Return the size of the vocabulary."""
         return self.vocab_size
 
     def get_token_id(self, token):
         """Convert a token to its ID."""
-        return self.token_to_id.get(token, self.unk_token_id)
+        if token in self.token_to_id:
+            return self.token_to_id[token]
+        else:
+            raise ValueError(f"Token {token} not found in vocabulary")
 
     def get_token(self, token_id):
         """Convert a token ID to its token."""
@@ -40,8 +44,7 @@ class Tokenizer:
     def encode(self, text, add_start_token=False, add_end_token=True, add_pad_token=True):
         """Convert text to token IDs."""
         assert len(text) <= self.max_seq_len, "text length {} must be less than or equal to max_seq_len {}".format(len(text), self.max_seq_len)
-        tokens = text.split()
-        token_ids = [self.get_token_id(token) for token in tokens]
+        token_ids = [self.get_token_id(token) for token in text]
         if add_start_token:
             token_ids = [self.start_token_id] + token_ids
         if add_end_token:
@@ -58,6 +61,9 @@ class Tokenizer:
 
     def decode(self, token_ids):
         """Convert token IDs back to text."""
+        # If token_ids is a tensor, convert it to a list
+        if isinstance(token_ids, torch.Tensor):
+            token_ids = token_ids.tolist()
         tokens = [self.get_token(token_id) for token_id in token_ids]
         return " ".join(tokens)
 
@@ -70,3 +76,5 @@ class Tokenizer:
             padded_seq = seq + [self.pad_token_id] * (max_length - len(seq))
             padded_sequences.append(padded_seq)
         return padded_sequences
+
+        
