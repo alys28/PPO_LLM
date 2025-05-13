@@ -6,7 +6,7 @@ import os
 from src.models.tokenizer import Tokenizer
 from src.models.sft_baseline.inference_sft import get_embedding
 
-def train_sft(train_data_file, num_transformer_layers, val_data_file, vocab, device_name, input_dim, max_seq_len, num_heads, num_epochs=10, batch_size=32, learning_rate=0.001, model_save_path="sft_model.pth"):
+def train_sft(train_data_file, embedding_dim, num_transformer_layers, val_data_file, vocab, device_name, input_dim, max_seq_len, num_heads, num_epochs=10, batch_size=32, learning_rate=0.001, model_save_path="sft_model.pth"):
     """Train the SFT model."""
     assert max_seq_len > 0, "max_seq_len must be greater than 0"
     assert num_heads > 0, "num_heads must be greater than 0"
@@ -16,7 +16,7 @@ def train_sft(train_data_file, num_transformer_layers, val_data_file, vocab, dev
     assert model_save_path, "model_save_path must be provided"
     tokenizer = Tokenizer(vocab)
     vocab_size = len(tokenizer)
-    model = SFT_Model(vocab_size, input_dim, max_seq_len, num_heads, num_transformer_layers)
+    model = SFT_Model(vocab_size, embedding_dim, input_dim, max_seq_len, num_heads, num_transformer_layers)
     device = torch.device(device_name)
     model.to(device)
     optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
@@ -146,7 +146,6 @@ def train_sft(train_data_file, num_transformer_layers, val_data_file, vocab, dev
             current_tokens = torch.tensor([[tokenizer.start_token_id]], dtype=torch.long, device=device)
             for _ in range(5):
                 logits = model(test_input_embedding, current_tokens)
-                print("logits", logits.shape)
                 next_token_logits = logits[:, -1, :]  # Get predictions for next token
                 probs = torch.softmax(next_token_logits, dim=-1)  # Convert logits to probabilities
                 next_token = torch.argmax(probs, dim=-1, keepdim=True)
@@ -170,5 +169,5 @@ if __name__ == "__main__":
     config_path = os.path.join(os.path.dirname(__file__), "config.yaml")
     with open(config_path, "r") as f:
         config = yaml.safe_load(f)
-    train_sft(config["train_data_file"], config["val_data_file"], config["vocab"], config["device"], config["input_dim"], config["max_seq_len"], config["num_heads"], config["num_epochs"], config["batch_size"], config["learning_rate"], config["model_save_path"])
+    train_sft(config["train_data_file"], config["embedding_dim"], config["num_transformer_layers"], config["val_data_file"], config["vocab"], config["device"], config["input_dim"], config["max_seq_len"], config["num_heads"], config["num_epochs"], config["batch_size"], config["learning_rate"], config["model_save_path"])
     

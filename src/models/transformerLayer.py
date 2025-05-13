@@ -51,39 +51,32 @@ class PositionalEncoding(nn.Module):
     def forward(self, x):
         return x + self.pe[:, :x.size(1)]
 class TransformerLayer(nn.Module):
-    def __init__(self, vocab_size, d_model, max_seq_len, num_heads = 8, dropout = 0.3, num_transformer_layers = 2):
+    def __init__(self, vocab_size, d_model, max_seq_len, num_heads = 8, dropout = 0.3):
         super(TransformerLayer, self).__init__()
         self.token_embed = nn.Embedding(vocab_size, d_model)
+        self.attention_module = MultiHeadAttention(num_heads, d_model)
         self.positional_encoding = PositionalEncoding(d_model, max_seq_len)
-    
-        self.layers = nn.ModuleList([
-            nn.ModuleDict({
-                'attention': MultiHeadAttention(num_heads, d_model),
-                'norm1': nn.LayerNorm(d_model),
-                'ff': nn.Sequential(
-                    nn.Linear(d_model, d_model * 2),
-                    nn.ReLU(),
-                    nn.Linear(d_model * 2, d_model)
-                ),
-                'norm2': nn.LayerNorm(d_model)
-            }) for _ in range(num_transformer_layers)
-        ])
-        
         self.dropout = nn.Dropout(dropout)
-        self.num_transformer_layers = num_transformer_layers
-
+        self.layer_norm = nn.LayerNorm(d_model)
+        self.ff = nn.Sequential(
+            nn.Linear(d_model, d_model * 2),
+            nn.ReLU(),
+            nn.Linear(d_model * 2, d_model),
+            nn.Dropout(0.3)
+        )
+    
     def forward(self, embeddings, output_tokens, causal_mask=None, key_padding_mask=None):
-        embedded_tokens = self.token_embed(output_tokens)
-        inputs = torch.cat([embeddings.unsqueeze(1), embedded_tokens], dim=1)
+        # Only embed tokens if we receive integer indices
+        if output_tokens.dtype in [torch.long, torch.int]:
+            embedded_tokens = self.token_embed(output_tokens)
+            inputs = torch.cat([embeddings.unsqueeze(1), embedded_tokens], dim=1)
+        else:
+            # If we receive float tensors (from previous layer), use them directly
+            inputs = torch.cat([embeddings.unsqueeze(1), output_tokens], dim=1)
         inputs = self.positional_encoding(inputs)
-        
-        for layer in self.layers:
-            attention_output = layer['attention'](inputs, causal_mask, key_padding_mask)
-            inputs = layer['norm1'](inputs + self.dropout(attention_output))
-            
-            ff_output = layer['ff'](inputs)
-            inputs = layer['norm2'](inputs + self.dropout(ff_output))
-            
-        return inputs[:, embeddings.unsqueeze(1).size(1):, :]  # Only return predictions for output tokens
+        attention_output = self.attention_module(inputs, causal_mask, key_padding_mask)
+        output = self.layer_norm(inputs + self.dropout(attention_output))   
+        ff_output = self.ff(output)
+        return ff_output[:, embeddings.unsqueeze(1).size(1):, :]  # Only return predictions for output tokens
 
 
