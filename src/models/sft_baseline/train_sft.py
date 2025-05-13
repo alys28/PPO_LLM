@@ -6,7 +6,7 @@ import os
 from src.models.tokenizer import Tokenizer
 from src.models.sft_baseline.inference_sft import get_embedding
 
-def train_sft(train_data_file, val_data_file, vocab, device_name, input_dim, max_seq_len, num_heads, num_epochs=10, batch_size=32, learning_rate=0.001, model_save_path="sft_model.pth"):
+def train_sft(train_data_file, num_transformer_layers, val_data_file, vocab, device_name, input_dim, max_seq_len, num_heads, num_epochs=10, batch_size=32, learning_rate=0.001, model_save_path="sft_model.pth"):
     """Train the SFT model."""
     assert max_seq_len > 0, "max_seq_len must be greater than 0"
     assert num_heads > 0, "num_heads must be greater than 0"
@@ -16,7 +16,7 @@ def train_sft(train_data_file, val_data_file, vocab, device_name, input_dim, max
     assert model_save_path, "model_save_path must be provided"
     tokenizer = Tokenizer(vocab)
     vocab_size = len(tokenizer)
-    model = SFT_Model(vocab_size, input_dim, max_seq_len, num_heads)
+    model = SFT_Model(vocab_size, input_dim, max_seq_len, num_heads, num_transformer_layers)
     device = torch.device(device_name)
     model.to(device)
     optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)

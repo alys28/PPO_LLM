@@ -8,9 +8,9 @@ from transformerLayer import TransformerLayer
 
 
 class SFT_Model(nn.Module):
-    def __init__(self, vocab_size, input_dim, max_seq_len, num_heads = 8):
+    def __init__(self, vocab_size, input_dim, max_seq_len, num_heads = 8, num_transformer_layers = 2):
         super(SFT_Model, self).__init__()
-        self.transformer = TransformerLayer(vocab_size, input_dim, max_seq_len, num_heads)
+        self.transformer = TransformerLayer(vocab_size, input_dim, max_seq_len, num_heads, num_transformer_layers)
         self.layers = nn.Sequential(
             nn.Linear(input_dim, input_dim * 2),
             nn.ReLU(),
