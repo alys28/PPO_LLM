@@ -37,7 +37,7 @@ class MathDataset(Dataset):
         key_padding_mask = key_padding_mask.to(self.device)
         return input_embedding, decoder_input, output, causal_mask, key_padding_mask 
 
-def get_math_dataloader(data_file, device, vocab, batch_size, max_answer_len, shuffle=False):
+def get_math_dataloader(data_file, device, vocab, batch_size, max_answer_len, shuffle=True):
     dataset = MathDataset(data_file, device, vocab, max_answer_len)
     return DataLoader(dataset, batch_size=batch_size, shuffle=shuffle)
 
