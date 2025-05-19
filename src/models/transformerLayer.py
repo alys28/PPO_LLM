@@ -51,16 +51,18 @@ class PositionalEncoding(nn.Module):
     def forward(self, x):
         return x + self.pe[:, :x.size(1)]
 class TransformerLayer(nn.Module):
-    def __init__(self, vocab_size, d_model, max_seq_len, num_heads = 8, dropout = 0.3, num_transformer_layers = 2):
+    def __init__(self, vocab_size, d_model, max_seq_len, num_heads = 8, dropout = 0.3):
         super(TransformerLayer, self).__init__()
         self.token_embed = nn.Embedding(vocab_size, d_model)
+        self.attention_module = MultiHeadAttention(num_heads, d_model)
         self.positional_encoding = PositionalEncoding(d_model, max_seq_len)
-        self.layer_norm = nn.LayerNorm(d_model)
+        self.dropout = nn.Dropout(dropout)
+        self.norm1 = nn.LayerNorm(d_model)
+        self.norm2 = nn.LayerNorm(d_model)
         self.ff = nn.Sequential(
             nn.Linear(d_model, d_model * 2),
             nn.ReLU(),
-            nn.Linear(d_model * 2, d_model),
-            nn.Dropout(dropout)
+            nn.Linear(d_model * 2, d_model)
         )
         self.dropout = nn.Dropout(dropout) 
         self.layers = nn.ModuleList([
@@ -86,15 +88,18 @@ class TransformerLayer(nn.Module):
         else:
             # If we receive float tensors (from previous layer), use them directly
             inputs = torch.cat([embeddings.unsqueeze(1), output_tokens], dim=1)
+            
+        # Apply positional encoding in both cases
         inputs = self.positional_encoding(inputs)
+            
+        # Self-attention block
+        attention_output = self.attention_module(inputs, causal_mask, key_padding_mask)
+        inputs = self.norm1(inputs + self.dropout(attention_output))
         
-        for layer in self.layers:
-            attention_output = layer['attention'](inputs, causal_mask, key_padding_mask)
-            inputs = layer['norm1'](inputs + self.dropout(attention_output))
-            
-            ff_output = layer['ff'](inputs)
-            inputs = layer['norm2'](inputs + self.dropout(ff_output))
-            
+        # Feed-forward block
+        ff_output = self.ff(inputs)
+        inputs = self.norm2(inputs + self.dropout(ff_output))
+        
         return inputs[:, embeddings.unsqueeze(1).size(1):, :]  # Only return predictions for output tokens
 
 
