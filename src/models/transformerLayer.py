@@ -62,7 +62,7 @@ class TransformerLayer(nn.Module):
             nn.Linear(d_model * 2, d_model),
             nn.Dropout(dropout)
         )
-    
+        self.dropout = nn.Dropout(dropout) 
         self.layers = nn.ModuleList([
             nn.ModuleDict({
                 'attention': MultiHeadAttention(num_heads, d_model),

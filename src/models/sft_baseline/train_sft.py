@@ -18,6 +18,12 @@ def train_sft(train_data_file, embedding_dim, num_transformer_layers, val_data_f
     vocab_size = len(tokenizer)
     model = SFT_Model(vocab_size, embedding_dim, input_dim, max_seq_len, num_heads, num_transformer_layers)
     device = torch.device(device_name)
+    print(f"Using device: {device}")
+    # Move model to device
+    if torch.cuda.is_available() and device_name == "cuda":
+        print(f"Using GPU: {torch.cuda.get_device_name(0)}")
+    else:
+        print("Using CPU")
     model.to(device)
     optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
     criterion = torch.nn.CrossEntropyLoss(ignore_index=tokenizer.pad_token_id)
