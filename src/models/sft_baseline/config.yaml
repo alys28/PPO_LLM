@@ -1,14 +1,15 @@
 batch_size: 32
 num_epochs: 1000
-num_transformer_layers: 2
+num_transformer_layers: 40
 embedding_dim: 256
 learning_rate: 0.001
 max_seq_len: 8
 model_save_path: "sft_model.pth"
-device: "cpu"  # or "cpu"
+device: "cuda"  # or "cpu"
 vocab: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '-']
-input_dim: 32
+input_dim: 256
 num_heads: 2
-train_data_file: "data/embeddings/cohere_embeddings_train_n.json"
-val_data_file: "data/embeddings/cohere_embeddings_train_n.json"
+train_data_file: "data/embeddings/cohere_embeddings_train.json"
+val_data_file: "data/embeddings/cohere_embeddings_train.json"
 
+# Epoch 1000/1000, Training Loss: 0.2800, Validation Loss: 0.0854

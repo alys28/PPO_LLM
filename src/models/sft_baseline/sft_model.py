@@ -8,7 +8,7 @@ from transformerLayer import TransformerLayer
 
 
 class SFT_Model(nn.Module):
-    def __init__(self, vocab_size, embedding_dim, input_dim, max_seq_len, num_heads = 8, num_transformer_layers = 2):
+    def __init__(self, vocab_size, embedding_dim, input_dim, max_seq_len, num_heads = 8, num_transformer_layers = 2, dropout = 0.3):
         super(SFT_Model, self).__init__()
         self.num_transformer_layers = num_transformer_layers
         self.transformer_layers = nn.ModuleList([TransformerLayer(vocab_size, input_dim, max_seq_len, num_heads) for _ in range(num_transformer_layers)])
@@ -28,7 +28,7 @@ class SFT_Model(nn.Module):
         self.layer_for_embeddings = nn.Sequential(
             nn.Linear(embedding_dim, input_dim * 2),
             nn.ReLU(),
-            nn.Dropout(0),
+            nn.Dropout(dropout),
             nn.Linear(input_dim * 2, input_dim),
             nn.ReLU(),
         )
