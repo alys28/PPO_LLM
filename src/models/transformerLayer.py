@@ -64,22 +64,7 @@ class TransformerLayer(nn.Module):
             nn.ReLU(),
             nn.Linear(d_model * 2, d_model)
         )
-        self.dropout = nn.Dropout(dropout) 
-        self.layers = nn.ModuleList([
-            nn.ModuleDict({
-                'attention': MultiHeadAttention(num_heads, d_model),
-                'norm1': nn.LayerNorm(d_model),
-                'ff': nn.Sequential(
-                    nn.Linear(d_model, d_model * 2),
-                    nn.ReLU(),
-                    nn.Linear(d_model * 2, d_model)
-                ),
-                'norm2': nn.LayerNorm(d_model)
-            }) for _ in range(num_transformer_layers)
-        ])
-        
-        self.num_transformer_layers = num_transformer_layers
-
+    
     def forward(self, embeddings, output_tokens, causal_mask=None, key_padding_mask=None):
         # Only embed tokens if we receive integer indices
         if output_tokens.dtype in [torch.long, torch.int]:
