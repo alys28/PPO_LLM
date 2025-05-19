@@ -21,7 +21,7 @@ class MathDataset(Dataset):
 
     def __getitem__(self, idx):
         item = self.data[idx]
-        input_embedding = torch.tensor(item['embedding'], dtype=torch.float)  # Precomputed embedding
+        input_embedding = torch.tensor(item['embedding'], dtype=torch.float, device=self.device)  # Move to device
         answer_text = str(item['answer'])  # Convert answer to string (e.g., "-543808")
         decoder_input = self.tokenizer.encode(answer_text, add_start_token=True, add_end_token=False, add_pad_token=True)
         output = self.tokenizer.encode(answer_text, add_start_token=False, add_end_token=True, add_pad_token=True)

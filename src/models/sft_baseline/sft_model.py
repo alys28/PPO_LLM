@@ -15,12 +15,12 @@ class SFT_Model(nn.Module):
         self.layers = nn.Sequential(
             nn.Linear(input_dim, input_dim * 2),
             nn.ReLU(),
-            nn.Dropout(0.5),
+            nn.Dropout(0),
             nn.Linear(input_dim * 2, input_dim),
             nn.ReLU(),
             nn.Linear(input_dim, input_dim),
             nn.ReLU(),
-            nn.Dropout(0.5),
+            nn.Dropout(0),
             nn.Linear(input_dim, 32),
             nn.ReLU(),
             nn.Linear(32, vocab_size)
@@ -28,7 +28,7 @@ class SFT_Model(nn.Module):
         self.layer_for_embeddings = nn.Sequential(
             nn.Linear(embedding_dim, input_dim * 2),
             nn.ReLU(),
-            nn.Dropout(0.5),
+            nn.Dropout(0),
             nn.Linear(input_dim * 2, input_dim),
             nn.ReLU(),
         )
