@@ -35,7 +35,7 @@ def generate_cohere_embeddings(input_file, output_file, api_key, batch_size=96):
             model="embed-v4.0",
             input_type="classification",
             embedding_types=["float"],
-            output_dimension=256
+            output_dimension=1536
         )
         
         # Store embeddings in the corresponding entries
@@ -51,6 +51,6 @@ if __name__ == "__main__":
     load_dotenv()
     api_key = os.getenv("COHERE_API_KEY")
     parent_dir = Path(__file__).resolve().parent.parent
-    input_file = os.path.join(parent_dir, "data", "math_dataset_val.json")
-    output_file = os.path.join(parent_dir, "data","cohere_embeddings_val.json")
+    input_file = os.path.join(parent_dir, "data", "math_dataset.json")
+    output_file = os.path.join(parent_dir, "data","cohere_embeddings_train.json")
     generate_cohere_embeddings(input_file, output_file, api_key)
