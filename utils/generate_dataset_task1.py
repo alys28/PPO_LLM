@@ -3,7 +3,7 @@ import os
 
 
 
-def generate_math_dataset(filename, dir, num_examples=2000):
+def generate_math_dataset(filename, dir, num_examples=15000):
     """Generate a dataset of simple math problems."""
     ops = [('+', lambda x, y: x + y), ('-', lambda x, y: x - y), ('*', lambda x, y: x * y), ('/', lambda x, y: x // y)]
     if not os.path.exists(dir):
@@ -20,6 +20,7 @@ def generate_math_dataset(filename, dir, num_examples=2000):
 
     with open(os.path.join(dir, filename), "w") as f:
         json.dump(examples, f, indent=2)
+        print(f"Generated {len(examples)} examples at {os.path.join(dir, filename)}")
 
 if __name__== "__main__":
-    generate_math_dataset("math_dataset_val.json", "data", 250)
+    generate_math_dataset("math_dataset_val.json", "data", 2000)

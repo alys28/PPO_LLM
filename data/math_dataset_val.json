@@ -1,1002 +1,8002 @@
 [
   {
-    "input": "What is -466 - 452?",
-    "answer": -918
+    "input": "What is 342 - 646?",
+    "answer": -304
   },
   {
-    "input": "What is 908 / 311?",
-    "answer": 2
+    "input": "What is -66 * 652?",
+    "answer": -43032
   },
   {
-    "input": "What is -970 + 876?",
-    "answer": -94
+    "input": "What is 283 + 874?",
+    "answer": 1157
   },
   {
-    "input": "What is 687 / 698?",
+    "input": "What is 126 + 445?",
+    "answer": 571
+  },
+  {
+    "input": "What is -981 * 282?",
+    "answer": -276642
+  },
+  {
+    "input": "What is 580 * 976?",
+    "answer": 566080
+  },
+  {
+    "input": "What is -745 - 589?",
+    "answer": -1334
+  },
+  {
+    "input": "What is -895 * 722?",
+    "answer": -646190
+  },
+  {
+    "input": "What is -20 - 793?",
+    "answer": -813
+  },
+  {
+    "input": "What is -270 * 840?",
+    "answer": -226800
+  },
+  {
+    "input": "What is -823 / 845?",
+    "answer": -1
+  },
+  {
+    "input": "What is 409 / 967?",
     "answer": 0
   },
   {
-    "input": "What is 978 / 728?",
-    "answer": 1
+    "input": "What is 397 * 567?",
+    "answer": 225099
   },
   {
-    "input": "What is 399 / 777?",
-    "answer": 0
+    "input": "What is -170 + 347?",
+    "answer": 177
   },
   {
-    "input": "What is -491 * 620?",
-    "answer": -304420
+    "input": "What is 905 * 948?",
+    "answer": 857940
   },
   {
-    "input": "What is -748 / 213?",
-    "answer": -4
+    "input": "What is -720 - 598?",
+    "answer": -1318
   },
   {
-    "input": "What is -439 / 5?",
-    "answer": -88
+    "input": "What is -987 - 667?",
+    "answer": -1654
   },
   {
-    "input": "What is 385 - 601?",
-    "answer": -216
+    "input": "What is 968 - 33?",
+    "answer": 935
   },
   {
-    "input": "What is -317 + 974?",
-    "answer": 657
+    "input": "What is -732 / 176?",
+    "answer": -5
   },
   {
-    "input": "What is 499 * 374?",
-    "answer": 186626
-  },
-  {
-    "input": "What is 431 - 794?",
-    "answer": -363
-  },
-  {
-    "input": "What is 723 * 666?",
-    "answer": 481518
-  },
-  {
-    "input": "What is -887 * 738?",
-    "answer": -654606
-  },
-  {
-    "input": "What is -666 - 819?",
-    "answer": -1485
-  },
-  {
-    "input": "What is -143 + 73?",
-    "answer": -70
-  },
-  {
-    "input": "What is -467 / 812?",
-    "answer": -1
-  },
-  {
-    "input": "What is -18 * 718?",
-    "answer": -12924
-  },
-  {
-    "input": "What is 2 + 559?",
-    "answer": 561
-  },
-  {
-    "input": "What is 749 + 525?",
-    "answer": 1274
-  },
-  {
-    "input": "What is -567 + 523?",
-    "answer": -44
-  },
-  {
-    "input": "What is -995 + 474?",
-    "answer": -521
-  },
-  {
-    "input": "What is 870 / 471?",
-    "answer": 1
-  },
-  {
-    "input": "What is 311 + 284?",
-    "answer": 595
-  },
-  {
-    "input": "What is -138 + 432?",
-    "answer": 294
-  },
-  {
-    "input": "What is 699 / 180?",
-    "answer": 3
-  },
-  {
-    "input": "What is 952 + 92?",
-    "answer": 1044
-  },
-  {
-    "input": "What is -505 * 970?",
-    "answer": -489850
-  },
-  {
-    "input": "What is -389 + 75?",
-    "answer": -314
-  },
-  {
-    "input": "What is 287 / 306?",
-    "answer": 0
-  },
-  {
-    "input": "What is 833 - 614?",
-    "answer": 219
-  },
-  {
-    "input": "What is -19 + 120?",
-    "answer": 101
-  },
-  {
-    "input": "What is -216 / 876?",
-    "answer": -1
-  },
-  {
-    "input": "What is 653 / 146?",
-    "answer": 4
-  },
-  {
-    "input": "What is 715 / 794?",
-    "answer": 0
-  },
-  {
-    "input": "What is 855 / 358?",
-    "answer": 2
-  },
-  {
-    "input": "What is -502 / 346?",
-    "answer": -2
-  },
-  {
-    "input": "What is -274 / 79?",
-    "answer": -4
-  },
-  {
-    "input": "What is -475 / 524?",
-    "answer": -1
-  },
-  {
-    "input": "What is 299 * 279?",
-    "answer": 83421
-  },
-  {
-    "input": "What is -723 - 173?",
-    "answer": -896
-  },
-  {
-    "input": "What is -609 * 498?",
-    "answer": -303282
-  },
-  {
-    "input": "What is -243 + 139?",
-    "answer": -104
-  },
-  {
-    "input": "What is 656 * 997?",
-    "answer": 654032
-  },
-  {
-    "input": "What is -199 / 727?",
-    "answer": -1
-  },
-  {
-    "input": "What is -980 * 149?",
-    "answer": -146020
-  },
-  {
-    "input": "What is 391 - 467?",
-    "answer": -76
-  },
-  {
-    "input": "What is 485 / 662?",
-    "answer": 0
-  },
-  {
-    "input": "What is -146 - 919?",
-    "answer": -1065
-  },
-  {
-    "input": "What is -891 + 869?",
-    "answer": -22
-  },
-  {
-    "input": "What is -843 + 150?",
-    "answer": -693
-  },
-  {
-    "input": "What is -274 / 493?",
-    "answer": -1
-  },
-  {
-    "input": "What is 171 / 3?",
-    "answer": 57
-  },
-  {
-    "input": "What is -962 + 257?",
-    "answer": -705
-  },
-  {
-    "input": "What is 578 + 938?",
-    "answer": 1516
-  },
-  {
-    "input": "What is 401 + 508?",
-    "answer": 909
-  },
-  {
-    "input": "What is 84 - 935?",
-    "answer": -851
-  },
-  {
-    "input": "What is 946 - 766?",
-    "answer": 180
-  },
-  {
-    "input": "What is -45 + 287?",
-    "answer": 242
-  },
-  {
-    "input": "What is 532 * 338?",
-    "answer": 179816
-  },
-  {
-    "input": "What is -276 / 532?",
-    "answer": -1
-  },
-  {
-    "input": "What is 716 - 58?",
-    "answer": 658
-  },
-  {
-    "input": "What is -154 / 659?",
-    "answer": -1
-  },
-  {
-    "input": "What is -665 + 970?",
-    "answer": 305
-  },
-  {
-    "input": "What is 589 - 236?",
-    "answer": 353
-  },
-  {
-    "input": "What is -457 - 327?",
-    "answer": -784
-  },
-  {
-    "input": "What is -451 - 792?",
-    "answer": -1243
-  },
-  {
-    "input": "What is -276 / 663?",
-    "answer": -1
-  },
-  {
-    "input": "What is -440 * 99?",
-    "answer": -43560
-  },
-  {
-    "input": "What is -123 / 15?",
-    "answer": -9
-  },
-  {
-    "input": "What is -539 * 388?",
-    "answer": -209132
-  },
-  {
-    "input": "What is -587 * 408?",
-    "answer": -239496
-  },
-  {
-    "input": "What is -941 * 333?",
-    "answer": -313353
-  },
-  {
-    "input": "What is 221 + 994?",
-    "answer": 1215
-  },
-  {
-    "input": "What is -712 - 878?",
-    "answer": -1590
-  },
-  {
-    "input": "What is -706 * 55?",
-    "answer": -38830
-  },
-  {
-    "input": "What is 76 * 516?",
-    "answer": 39216
-  },
-  {
-    "input": "What is -897 * 986?",
-    "answer": -884442
-  },
-  {
-    "input": "What is -621 - 786?",
-    "answer": -1407
-  },
-  {
-    "input": "What is -175 - 491?",
+    "input": "What is -456 - 210?",
     "answer": -666
   },
   {
-    "input": "What is 11 - 429?",
-    "answer": -418
+    "input": "What is -529 - 798?",
+    "answer": -1327
   },
   {
-    "input": "What is 9 * 533?",
-    "answer": 4797
+    "input": "What is -235 + 166?",
+    "answer": -69
   },
   {
-    "input": "What is 313 * 269?",
-    "answer": 84197
-  },
-  {
-    "input": "What is -473 * 978?",
-    "answer": -462594
-  },
-  {
-    "input": "What is 426 + 440?",
-    "answer": 866
-  },
-  {
-    "input": "What is 864 - 194?",
-    "answer": 670
-  },
-  {
-    "input": "What is 295 - 187?",
-    "answer": 108
-  },
-  {
-    "input": "What is -860 * 284?",
-    "answer": -244240
-  },
-  {
-    "input": "What is 717 / 471?",
-    "answer": 1
-  },
-  {
-    "input": "What is 988 - 795?",
-    "answer": 193
-  },
-  {
-    "input": "What is 783 / 244?",
-    "answer": 3
-  },
-  {
-    "input": "What is -604 * 76?",
-    "answer": -45904
-  },
-  {
-    "input": "What is -766 * 124?",
-    "answer": -94984
-  },
-  {
-    "input": "What is 453 / 41?",
-    "answer": 11
-  },
-  {
-    "input": "What is -896 * 514?",
-    "answer": -460544
-  },
-  {
-    "input": "What is -481 - 158?",
-    "answer": -639
-  },
-  {
-    "input": "What is 466 * 916?",
-    "answer": 426856
-  },
-  {
-    "input": "What is 915 / 806?",
-    "answer": 1
-  },
-  {
-    "input": "What is 98 + 951?",
-    "answer": 1049
-  },
-  {
-    "input": "What is -441 + 547?",
-    "answer": 106
-  },
-  {
-    "input": "What is 697 / 174?",
-    "answer": 4
-  },
-  {
-    "input": "What is -721 + 483?",
-    "answer": -238
-  },
-  {
-    "input": "What is -332 + 242?",
-    "answer": -90
-  },
-  {
-    "input": "What is 517 - 274?",
-    "answer": 243
-  },
-  {
-    "input": "What is 957 / 181?",
-    "answer": 5
-  },
-  {
-    "input": "What is -38 + 767?",
-    "answer": 729
-  },
-  {
-    "input": "What is 918 + 116?",
-    "answer": 1034
-  },
-  {
-    "input": "What is -618 * 145?",
-    "answer": -89610
-  },
-  {
-    "input": "What is 662 * 446?",
-    "answer": 295252
-  },
-  {
-    "input": "What is -146 / 20?",
-    "answer": -8
-  },
-  {
-    "input": "What is 752 + 743?",
-    "answer": 1495
-  },
-  {
-    "input": "What is -396 * 809?",
-    "answer": -320364
-  },
-  {
-    "input": "What is 978 - 364?",
-    "answer": 614
-  },
-  {
-    "input": "What is -657 - 289?",
-    "answer": -946
-  },
-  {
-    "input": "What is 293 + 983?",
-    "answer": 1276
-  },
-  {
-    "input": "What is 264 / 953?",
+    "input": "What is 206 / 256?",
     "answer": 0
   },
   {
-    "input": "What is 561 + 533?",
-    "answer": 1094
+    "input": "What is -614 + 90?",
+    "answer": -524
   },
   {
-    "input": "What is -626 - 885?",
-    "answer": -1511
+    "input": "What is 275 - 531?",
+    "answer": -256
   },
   {
-    "input": "What is -397 / 820?",
-    "answer": -1
+    "input": "What is 324 * 955?",
+    "answer": 309420
   },
   {
-    "input": "What is -259 / 248?",
-    "answer": -2
+    "input": "What is -34 - 252?",
+    "answer": -286
   },
   {
-    "input": "What is -89 * 349?",
-    "answer": -31061
-  },
-  {
-    "input": "What is 145 + 99?",
-    "answer": 244
-  },
-  {
-    "input": "What is -669 / 907?",
-    "answer": -1
-  },
-  {
-    "input": "What is 755 * 483?",
-    "answer": 364665
-  },
-  {
-    "input": "What is 915 / 635?",
-    "answer": 1
-  },
-  {
-    "input": "What is -816 * 495?",
-    "answer": -403920
-  },
-  {
-    "input": "What is 288 / 446?",
-    "answer": 0
-  },
-  {
-    "input": "What is -61 * 405?",
-    "answer": -24705
-  },
-  {
-    "input": "What is -985 / 711?",
-    "answer": -2
-  },
-  {
-    "input": "What is 520 - 871?",
-    "answer": -351
-  },
-  {
-    "input": "What is 492 + 429?",
-    "answer": 921
-  },
-  {
-    "input": "What is 859 * 270?",
-    "answer": 231930
-  },
-  {
-    "input": "What is 822 / 307?",
-    "answer": 2
-  },
-  {
-    "input": "What is 340 + 185?",
-    "answer": 525
-  },
-  {
-    "input": "What is -455 + 529?",
-    "answer": 74
-  },
-  {
-    "input": "What is 201 - 973?",
-    "answer": -772
-  },
-  {
-    "input": "What is -603 / 672?",
-    "answer": -1
-  },
-  {
-    "input": "What is 644 / 586?",
-    "answer": 1
-  },
-  {
-    "input": "What is -263 / 400?",
-    "answer": -1
-  },
-  {
-    "input": "What is 691 / 849?",
-    "answer": 0
-  },
-  {
-    "input": "What is 462 / 93?",
-    "answer": 4
-  },
-  {
-    "input": "What is -599 / 664?",
-    "answer": -1
-  },
-  {
-    "input": "What is -927 - 947?",
-    "answer": -1874
-  },
-  {
-    "input": "What is -556 - 34?",
-    "answer": -590
-  },
-  {
-    "input": "What is 914 + 773?",
-    "answer": 1687
-  },
-  {
-    "input": "What is -836 * 80?",
-    "answer": -66880
-  },
-  {
-    "input": "What is 170 - 892?",
-    "answer": -722
-  },
-  {
-    "input": "What is 189 * 84?",
-    "answer": 15876
-  },
-  {
-    "input": "What is -158 + 343?",
-    "answer": 185
-  },
-  {
-    "input": "What is 446 * 893?",
-    "answer": 398278
-  },
-  {
-    "input": "What is -81 / 92?",
-    "answer": -1
-  },
-  {
-    "input": "What is 398 * 275?",
-    "answer": 109450
-  },
-  {
-    "input": "What is -107 * 32?",
-    "answer": -3424
-  },
-  {
-    "input": "What is -649 + 920?",
-    "answer": 271
-  },
-  {
-    "input": "What is -618 / 719?",
-    "answer": -1
-  },
-  {
-    "input": "What is 173 * 106?",
-    "answer": 18338
-  },
-  {
-    "input": "What is 370 - 236?",
-    "answer": 134
-  },
-  {
-    "input": "What is -998 / 349?",
-    "answer": -3
-  },
-  {
-    "input": "What is -216 - 200?",
-    "answer": -416
-  },
-  {
-    "input": "What is -673 / 730?",
-    "answer": -1
-  },
-  {
-    "input": "What is -397 - 857?",
-    "answer": -1254
-  },
-  {
-    "input": "What is -369 + 172?",
-    "answer": -197
-  },
-  {
-    "input": "What is -696 + 34?",
-    "answer": -662
-  },
-  {
-    "input": "What is 358 * 296?",
-    "answer": 105968
-  },
-  {
-    "input": "What is -503 / 886?",
-    "answer": -1
-  },
-  {
-    "input": "What is 458 * 859?",
-    "answer": 393422
-  },
-  {
-    "input": "What is 204 + 525?",
-    "answer": 729
-  },
-  {
-    "input": "What is -150 + 634?",
-    "answer": 484
-  },
-  {
-    "input": "What is -575 + 238?",
-    "answer": -337
-  },
-  {
-    "input": "What is -467 * 363?",
-    "answer": -169521
-  },
-  {
-    "input": "What is 868 / 359?",
-    "answer": 2
-  },
-  {
-    "input": "What is -611 / 955?",
-    "answer": -1
-  },
-  {
-    "input": "What is -284 / 413?",
-    "answer": -1
-  },
-  {
-    "input": "What is 880 * 286?",
-    "answer": 251680
-  },
-  {
-    "input": "What is -182 - 92?",
-    "answer": -274
-  },
-  {
-    "input": "What is 75 / 811?",
-    "answer": 0
-  },
-  {
-    "input": "What is 618 + 909?",
-    "answer": 1527
-  },
-  {
-    "input": "What is -897 + 333?",
-    "answer": -564
-  },
-  {
-    "input": "What is 962 - 551?",
-    "answer": 411
-  },
-  {
-    "input": "What is -132 + 842?",
+    "input": "What is 924 - 214?",
     "answer": 710
   },
   {
-    "input": "What is 884 + 91?",
-    "answer": 975
+    "input": "What is 622 + 515?",
+    "answer": 1137
   },
   {
-    "input": "What is -921 / 398?",
-    "answer": -3
+    "input": "What is 452 + 644?",
+    "answer": 1096
   },
   {
-    "input": "What is 539 / 556?",
+    "input": "What is -526 - 676?",
+    "answer": -1202
+  },
+  {
+    "input": "What is -125 - 499?",
+    "answer": -624
+  },
+  {
+    "input": "What is 814 - 172?",
+    "answer": 642
+  },
+  {
+    "input": "What is 501 - 36?",
+    "answer": 465
+  },
+  {
+    "input": "What is 37 / 988?",
     "answer": 0
   },
   {
-    "input": "What is 632 / 250?",
-    "answer": 2
+    "input": "What is 457 - 977?",
+    "answer": -520
   },
   {
-    "input": "What is 16 + 497?",
-    "answer": 513
+    "input": "What is 183 + 186?",
+    "answer": 369
   },
   {
-    "input": "What is 155 + 261?",
-    "answer": 416
+    "input": "What is 807 + 263?",
+    "answer": 1070
   },
   {
-    "input": "What is 300 + 521?",
-    "answer": 821
+    "input": "What is 904 + 712?",
+    "answer": 1616
   },
   {
-    "input": "What is 773 - 661?",
-    "answer": 112
+    "input": "What is -533 - 263?",
+    "answer": -796
   },
   {
-    "input": "What is 746 * 668?",
-    "answer": 498328
+    "input": "What is -901 + 545?",
+    "answer": -356
   },
   {
-    "input": "What is 300 - 817?",
-    "answer": -517
+    "input": "What is -675 + 880?",
+    "answer": 205
   },
   {
-    "input": "What is 938 * 559?",
-    "answer": 524342
-  },
-  {
-    "input": "What is -416 * 976?",
-    "answer": -406016
-  },
-  {
-    "input": "What is -218 + 296?",
-    "answer": 78
-  },
-  {
-    "input": "What is 258 * 962?",
-    "answer": 248196
-  },
-  {
-    "input": "What is 920 / 76?",
-    "answer": 12
-  },
-  {
-    "input": "What is 419 * 31?",
-    "answer": 12989
-  },
-  {
-    "input": "What is -801 - 350?",
-    "answer": -1151
-  },
-  {
-    "input": "What is -84 * 988?",
-    "answer": -82992
-  },
-  {
-    "input": "What is 1 * 492?",
-    "answer": 492
-  },
-  {
-    "input": "What is -905 / 401?",
-    "answer": -3
-  },
-  {
-    "input": "What is 724 + 868?",
-    "answer": 1592
-  },
-  {
-    "input": "What is 745 * 527?",
-    "answer": 392615
-  },
-  {
-    "input": "What is 436 + 604?",
-    "answer": 1040
-  },
-  {
-    "input": "What is -376 / 973?",
-    "answer": -1
-  },
-  {
-    "input": "What is -243 - 111?",
-    "answer": -354
-  },
-  {
-    "input": "What is -758 * 375?",
-    "answer": -284250
-  },
-  {
-    "input": "What is 277 - 987?",
-    "answer": -710
-  },
-  {
-    "input": "What is -625 / 992?",
-    "answer": -1
-  },
-  {
-    "input": "What is -273 - 961?",
-    "answer": -1234
-  },
-  {
-    "input": "What is -664 - 402?",
-    "answer": -1066
-  },
-  {
-    "input": "What is -841 + 13?",
-    "answer": -828
-  },
-  {
-    "input": "What is -668 * 956?",
-    "answer": -638608
-  },
-  {
-    "input": "What is -702 / 410?",
-    "answer": -2
-  },
-  {
-    "input": "What is 344 * 148?",
-    "answer": 50912
-  },
-  {
-    "input": "What is -19 / 806?",
-    "answer": -1
-  },
-  {
-    "input": "What is -711 - 465?",
-    "answer": -1176
-  },
-  {
-    "input": "What is 482 + 272?",
-    "answer": 754
-  },
-  {
-    "input": "What is 423 - 625?",
-    "answer": -202
-  },
-  {
-    "input": "What is 986 * 421?",
-    "answer": 415106
-  },
-  {
-    "input": "What is 290 - 714?",
-    "answer": -424
-  },
-  {
-    "input": "What is -523 + 421?",
-    "answer": -102
-  },
-  {
-    "input": "What is -144 + 721?",
-    "answer": 577
-  },
-  {
-    "input": "What is 431 - 641?",
-    "answer": -210
-  },
-  {
-    "input": "What is 23 * 159?",
-    "answer": 3657
-  },
-  {
-    "input": "What is 315 * 224?",
-    "answer": 70560
-  },
-  {
-    "input": "What is -45 * 78?",
-    "answer": -3510
-  },
-  {
-    "input": "What is -701 / 803?",
-    "answer": -1
-  },
-  {
-    "input": "What is 936 / 170?",
-    "answer": 5
-  },
-  {
-    "input": "What is 552 - 245?",
-    "answer": 307
-  },
-  {
-    "input": "What is 706 / 951?",
+    "input": "What is 435 / 873?",
     "answer": 0
   },
   {
-    "input": "What is -404 / 997?",
-    "answer": -1
+    "input": "What is 392 + 182?",
+    "answer": 574
   },
   {
-    "input": "What is -161 - 318?",
-    "answer": -479
+    "input": "What is -169 * 768?",
+    "answer": -129792
   },
   {
-    "input": "What is 199 / 973?",
+    "input": "What is 604 + 284?",
+    "answer": 888
+  },
+  {
+    "input": "What is -587 + 469?",
+    "answer": -118
+  },
+  {
+    "input": "What is 216 / 713?",
     "answer": 0
   },
   {
-    "input": "What is 368 + 447?",
-    "answer": 815
+    "input": "What is -854 - 331?",
+    "answer": -1185
   },
   {
-    "input": "What is 629 - 795?",
-    "answer": -166
+    "input": "What is 994 - 10?",
+    "answer": 984
   },
   {
-    "input": "What is -564 - 673?",
-    "answer": -1237
-  },
-  {
-    "input": "What is -187 + 592?",
-    "answer": 405
-  },
-  {
-    "input": "What is -40 + 568?",
-    "answer": 528
-  },
-  {
-    "input": "What is -816 - 2?",
-    "answer": -818
-  },
-  {
-    "input": "What is -231 / 541?",
+    "input": "What is -366 / 752?",
     "answer": -1
   },
   {
-    "input": "What is -984 / 129?",
-    "answer": -8
+    "input": "What is -716 - 836?",
+    "answer": -1552
   },
   {
-    "input": "What is 704 + 80?",
-    "answer": 784
+    "input": "What is -239 / 931?",
+    "answer": -1
   },
   {
-    "input": "What is 320 + 312?",
-    "answer": 632
+    "input": "What is 696 / 181?",
+    "answer": 3
   },
   {
-    "input": "What is -22 - 633?",
-    "answer": -655
+    "input": "What is -64 - 215?",
+    "answer": -279
   },
   {
-    "input": "What is 875 / 683?",
+    "input": "What is -196 / 884?",
+    "answer": -1
+  },
+  {
+    "input": "What is 953 / 797?",
     "answer": 1
   },
   {
-    "input": "What is 709 - 63?",
+    "input": "What is 439 / 717?",
+    "answer": 0
+  },
+  {
+    "input": "What is -114 - 377?",
+    "answer": -491
+  },
+  {
+    "input": "What is 767 - 508?",
+    "answer": 259
+  },
+  {
+    "input": "What is -759 + 756?",
+    "answer": -3
+  },
+  {
+    "input": "What is 940 * 605?",
+    "answer": 568700
+  },
+  {
+    "input": "What is 452 - 640?",
+    "answer": -188
+  },
+  {
+    "input": "What is 34 + 43?",
+    "answer": 77
+  },
+  {
+    "input": "What is -71 + 858?",
+    "answer": 787
+  },
+  {
+    "input": "What is -723 * 347?",
+    "answer": -250881
+  },
+  {
+    "input": "What is 565 + 634?",
+    "answer": 1199
+  },
+  {
+    "input": "What is 773 - 587?",
+    "answer": 186
+  },
+  {
+    "input": "What is 526 + 64?",
+    "answer": 590
+  },
+  {
+    "input": "What is 120 + 685?",
+    "answer": 805
+  },
+  {
+    "input": "What is 298 + 967?",
+    "answer": 1265
+  },
+  {
+    "input": "What is 97 * 646?",
+    "answer": 62662
+  },
+  {
+    "input": "What is 982 / 590?",
+    "answer": 1
+  },
+  {
+    "input": "What is -396 + 399?",
+    "answer": 3
+  },
+  {
+    "input": "What is -443 * 243?",
+    "answer": -107649
+  },
+  {
+    "input": "What is 790 - 639?",
+    "answer": 151
+  },
+  {
+    "input": "What is 925 / 680?",
+    "answer": 1
+  },
+  {
+    "input": "What is -42 - 165?",
+    "answer": -207
+  },
+  {
+    "input": "What is 128 * 842?",
+    "answer": 107776
+  },
+  {
+    "input": "What is -224 + 824?",
+    "answer": 600
+  },
+  {
+    "input": "What is 992 / 183?",
+    "answer": 5
+  },
+  {
+    "input": "What is -345 * 92?",
+    "answer": -31740
+  },
+  {
+    "input": "What is -169 / 687?",
+    "answer": -1
+  },
+  {
+    "input": "What is 275 + 903?",
+    "answer": 1178
+  },
+  {
+    "input": "What is -20 + 345?",
+    "answer": 325
+  },
+  {
+    "input": "What is 131 * 268?",
+    "answer": 35108
+  },
+  {
+    "input": "What is -34 + 584?",
+    "answer": 550
+  },
+  {
+    "input": "What is -427 + 3?",
+    "answer": -424
+  },
+  {
+    "input": "What is -159 * 980?",
+    "answer": -155820
+  },
+  {
+    "input": "What is -629 * 715?",
+    "answer": -449735
+  },
+  {
+    "input": "What is 656 + 449?",
+    "answer": 1105
+  },
+  {
+    "input": "What is -19 / 280?",
+    "answer": -1
+  },
+  {
+    "input": "What is 796 + 753?",
+    "answer": 1549
+  },
+  {
+    "input": "What is 566 / 257?",
+    "answer": 2
+  },
+  {
+    "input": "What is -976 / 516?",
+    "answer": -2
+  },
+  {
+    "input": "What is -150 * 435?",
+    "answer": -65250
+  },
+  {
+    "input": "What is 109 - 782?",
+    "answer": -673
+  },
+  {
+    "input": "What is -629 + 119?",
+    "answer": -510
+  },
+  {
+    "input": "What is 296 + 338?",
+    "answer": 634
+  },
+  {
+    "input": "What is 362 - 120?",
+    "answer": 242
+  },
+  {
+    "input": "What is 789 * 211?",
+    "answer": 166479
+  },
+  {
+    "input": "What is -372 - 82?",
+    "answer": -454
+  },
+  {
+    "input": "What is -408 * 205?",
+    "answer": -83640
+  },
+  {
+    "input": "What is -725 * 677?",
+    "answer": -490825
+  },
+  {
+    "input": "What is 667 + 343?",
+    "answer": 1010
+  },
+  {
+    "input": "What is 709 / 133?",
+    "answer": 5
+  },
+  {
+    "input": "What is 159 * 602?",
+    "answer": 95718
+  },
+  {
+    "input": "What is -259 / 732?",
+    "answer": -1
+  },
+  {
+    "input": "What is 649 / 894?",
+    "answer": 0
+  },
+  {
+    "input": "What is 151 * 982?",
+    "answer": 148282
+  },
+  {
+    "input": "What is -852 + 589?",
+    "answer": -263
+  },
+  {
+    "input": "What is 668 + 501?",
+    "answer": 1169
+  },
+  {
+    "input": "What is -309 - 274?",
+    "answer": -583
+  },
+  {
+    "input": "What is 706 * 858?",
+    "answer": 605748
+  },
+  {
+    "input": "What is -80 - 122?",
+    "answer": -202
+  },
+  {
+    "input": "What is 642 * 726?",
+    "answer": 466092
+  },
+  {
+    "input": "What is -709 * 288?",
+    "answer": -204192
+  },
+  {
+    "input": "What is 721 * 91?",
+    "answer": 65611
+  },
+  {
+    "input": "What is -320 - 488?",
+    "answer": -808
+  },
+  {
+    "input": "What is -122 - 26?",
+    "answer": -148
+  },
+  {
+    "input": "What is 86 * 813?",
+    "answer": 69918
+  },
+  {
+    "input": "What is 728 - 670?",
+    "answer": 58
+  },
+  {
+    "input": "What is 195 / 693?",
+    "answer": 0
+  },
+  {
+    "input": "What is -599 + 991?",
+    "answer": 392
+  },
+  {
+    "input": "What is 310 / 642?",
+    "answer": 0
+  },
+  {
+    "input": "What is 265 - 400?",
+    "answer": -135
+  },
+  {
+    "input": "What is -421 * 486?",
+    "answer": -204606
+  },
+  {
+    "input": "What is -136 * 966?",
+    "answer": -131376
+  },
+  {
+    "input": "What is -225 - 508?",
+    "answer": -733
+  },
+  {
+    "input": "What is 114 * 548?",
+    "answer": 62472
+  },
+  {
+    "input": "What is 165 / 102?",
+    "answer": 1
+  },
+  {
+    "input": "What is -555 - 472?",
+    "answer": -1027
+  },
+  {
+    "input": "What is 213 - 858?",
+    "answer": -645
+  },
+  {
+    "input": "What is 524 * 91?",
+    "answer": 47684
+  },
+  {
+    "input": "What is 2 * 982?",
+    "answer": 1964
+  },
+  {
+    "input": "What is 207 / 618?",
+    "answer": 0
+  },
+  {
+    "input": "What is 93 / 328?",
+    "answer": 0
+  },
+  {
+    "input": "What is 33 / 279?",
+    "answer": 0
+  },
+  {
+    "input": "What is 391 + 528?",
+    "answer": 919
+  },
+  {
+    "input": "What is 406 - 778?",
+    "answer": -372
+  },
+  {
+    "input": "What is -513 * 684?",
+    "answer": -350892
+  },
+  {
+    "input": "What is 759 * 597?",
+    "answer": 453123
+  },
+  {
+    "input": "What is -983 * 729?",
+    "answer": -716607
+  },
+  {
+    "input": "What is -774 * 308?",
+    "answer": -238392
+  },
+  {
+    "input": "What is -800 - 131?",
+    "answer": -931
+  },
+  {
+    "input": "What is -228 / 830?",
+    "answer": -1
+  },
+  {
+    "input": "What is -148 / 336?",
+    "answer": -1
+  },
+  {
+    "input": "What is 593 / 415?",
+    "answer": 1
+  },
+  {
+    "input": "What is -503 - 617?",
+    "answer": -1120
+  },
+  {
+    "input": "What is 498 - 820?",
+    "answer": -322
+  },
+  {
+    "input": "What is 233 + 865?",
+    "answer": 1098
+  },
+  {
+    "input": "What is -961 - 435?",
+    "answer": -1396
+  },
+  {
+    "input": "What is -553 - 671?",
+    "answer": -1224
+  },
+  {
+    "input": "What is -765 * 86?",
+    "answer": -65790
+  },
+  {
+    "input": "What is 453 / 485?",
+    "answer": 0
+  },
+  {
+    "input": "What is -83 + 257?",
+    "answer": 174
+  },
+  {
+    "input": "What is -136 - 42?",
+    "answer": -178
+  },
+  {
+    "input": "What is -972 / 606?",
+    "answer": -2
+  },
+  {
+    "input": "What is 108 * 522?",
+    "answer": 56376
+  },
+  {
+    "input": "What is 993 / 416?",
+    "answer": 2
+  },
+  {
+    "input": "What is 534 / 731?",
+    "answer": 0
+  },
+  {
+    "input": "What is 335 + 613?",
+    "answer": 948
+  },
+  {
+    "input": "What is -953 * 8?",
+    "answer": -7624
+  },
+  {
+    "input": "What is 816 * 808?",
+    "answer": 659328
+  },
+  {
+    "input": "What is 114 + 386?",
+    "answer": 500
+  },
+  {
+    "input": "What is 159 - 654?",
+    "answer": -495
+  },
+  {
+    "input": "What is -20 * 279?",
+    "answer": -5580
+  },
+  {
+    "input": "What is -623 - 502?",
+    "answer": -1125
+  },
+  {
+    "input": "What is -358 - 882?",
+    "answer": -1240
+  },
+  {
+    "input": "What is 564 / 933?",
+    "answer": 0
+  },
+  {
+    "input": "What is 986 - 880?",
+    "answer": 106
+  },
+  {
+    "input": "What is 104 - 4?",
+    "answer": 100
+  },
+  {
+    "input": "What is -934 / 827?",
+    "answer": -2
+  },
+  {
+    "input": "What is -497 * 696?",
+    "answer": -345912
+  },
+  {
+    "input": "What is -894 + 724?",
+    "answer": -170
+  },
+  {
+    "input": "What is -42 / 715?",
+    "answer": -1
+  },
+  {
+    "input": "What is -375 + 817?",
+    "answer": 442
+  },
+  {
+    "input": "What is 112 / 789?",
+    "answer": 0
+  },
+  {
+    "input": "What is -933 * 479?",
+    "answer": -446907
+  },
+  {
+    "input": "What is 683 - 415?",
+    "answer": 268
+  },
+  {
+    "input": "What is -159 * 577?",
+    "answer": -91743
+  },
+  {
+    "input": "What is -324 - 517?",
+    "answer": -841
+  },
+  {
+    "input": "What is -418 / 315?",
+    "answer": -2
+  },
+  {
+    "input": "What is -494 - 535?",
+    "answer": -1029
+  },
+  {
+    "input": "What is 750 / 533?",
+    "answer": 1
+  },
+  {
+    "input": "What is -92 + 922?",
+    "answer": 830
+  },
+  {
+    "input": "What is 413 / 691?",
+    "answer": 0
+  },
+  {
+    "input": "What is 682 * 788?",
+    "answer": 537416
+  },
+  {
+    "input": "What is 157 * 813?",
+    "answer": 127641
+  },
+  {
+    "input": "What is 265 - 195?",
+    "answer": 70
+  },
+  {
+    "input": "What is -939 + 476?",
+    "answer": -463
+  },
+  {
+    "input": "What is -579 * 809?",
+    "answer": -468411
+  },
+  {
+    "input": "What is 204 + 62?",
+    "answer": 266
+  },
+  {
+    "input": "What is 549 * 682?",
+    "answer": 374418
+  },
+  {
+    "input": "What is -173 * 794?",
+    "answer": -137362
+  },
+  {
+    "input": "What is 503 + 42?",
+    "answer": 545
+  },
+  {
+    "input": "What is 358 - 829?",
+    "answer": -471
+  },
+  {
+    "input": "What is 625 * 575?",
+    "answer": 359375
+  },
+  {
+    "input": "What is 769 * 935?",
+    "answer": 719015
+  },
+  {
+    "input": "What is 190 / 37?",
+    "answer": 5
+  },
+  {
+    "input": "What is -735 + 37?",
+    "answer": -698
+  },
+  {
+    "input": "What is -294 - 719?",
+    "answer": -1013
+  },
+  {
+    "input": "What is -20 * 383?",
+    "answer": -7660
+  },
+  {
+    "input": "What is 559 + 728?",
+    "answer": 1287
+  },
+  {
+    "input": "What is -180 + 723?",
+    "answer": 543
+  },
+  {
+    "input": "What is 696 + 781?",
+    "answer": 1477
+  },
+  {
+    "input": "What is -796 - 967?",
+    "answer": -1763
+  },
+  {
+    "input": "What is -363 - 742?",
+    "answer": -1105
+  },
+  {
+    "input": "What is 64 - 966?",
+    "answer": -902
+  },
+  {
+    "input": "What is 916 + 505?",
+    "answer": 1421
+  },
+  {
+    "input": "What is 562 - 342?",
+    "answer": 220
+  },
+  {
+    "input": "What is -803 - 485?",
+    "answer": -1288
+  },
+  {
+    "input": "What is 995 - 22?",
+    "answer": 973
+  },
+  {
+    "input": "What is 514 + 250?",
+    "answer": 764
+  },
+  {
+    "input": "What is -422 / 944?",
+    "answer": -1
+  },
+  {
+    "input": "What is 777 * 368?",
+    "answer": 285936
+  },
+  {
+    "input": "What is 748 * 932?",
+    "answer": 697136
+  },
+  {
+    "input": "What is -34 * 252?",
+    "answer": -8568
+  },
+  {
+    "input": "What is 516 + 91?",
+    "answer": 607
+  },
+  {
+    "input": "What is -275 * 950?",
+    "answer": -261250
+  },
+  {
+    "input": "What is 444 / 14?",
+    "answer": 31
+  },
+  {
+    "input": "What is -108 * 38?",
+    "answer": -4104
+  },
+  {
+    "input": "What is 583 + 379?",
+    "answer": 962
+  },
+  {
+    "input": "What is -117 - 386?",
+    "answer": -503
+  },
+  {
+    "input": "What is 520 * 268?",
+    "answer": 139360
+  },
+  {
+    "input": "What is 342 + 599?",
+    "answer": 941
+  },
+  {
+    "input": "What is 590 * 168?",
+    "answer": 99120
+  },
+  {
+    "input": "What is 843 * 819?",
+    "answer": 690417
+  },
+  {
+    "input": "What is 418 + 530?",
+    "answer": 948
+  },
+  {
+    "input": "What is -668 / 800?",
+    "answer": -1
+  },
+  {
+    "input": "What is 342 + 876?",
+    "answer": 1218
+  },
+  {
+    "input": "What is 790 * 878?",
+    "answer": 693620
+  },
+  {
+    "input": "What is -746 * 687?",
+    "answer": -512502
+  },
+  {
+    "input": "What is 319 - 996?",
+    "answer": -677
+  },
+  {
+    "input": "What is 627 - 293?",
+    "answer": 334
+  },
+  {
+    "input": "What is 142 / 612?",
+    "answer": 0
+  },
+  {
+    "input": "What is -724 * 33?",
+    "answer": -23892
+  },
+  {
+    "input": "What is -630 * 664?",
+    "answer": -418320
+  },
+  {
+    "input": "What is -359 * 413?",
+    "answer": -148267
+  },
+  {
+    "input": "What is 711 * 546?",
+    "answer": 388206
+  },
+  {
+    "input": "What is -176 / 80?",
+    "answer": -3
+  },
+  {
+    "input": "What is 365 - 722?",
+    "answer": -357
+  },
+  {
+    "input": "What is -262 - 251?",
+    "answer": -513
+  },
+  {
+    "input": "What is 188 + 508?",
+    "answer": 696
+  },
+  {
+    "input": "What is 890 * 871?",
+    "answer": 775190
+  },
+  {
+    "input": "What is -176 - 298?",
+    "answer": -474
+  },
+  {
+    "input": "What is -578 - 488?",
+    "answer": -1066
+  },
+  {
+    "input": "What is -69 * 963?",
+    "answer": -66447
+  },
+  {
+    "input": "What is -178 * 141?",
+    "answer": -25098
+  },
+  {
+    "input": "What is -419 / 451?",
+    "answer": -1
+  },
+  {
+    "input": "What is 566 * 651?",
+    "answer": 368466
+  },
+  {
+    "input": "What is 802 - 846?",
+    "answer": -44
+  },
+  {
+    "input": "What is -784 + 533?",
+    "answer": -251
+  },
+  {
+    "input": "What is -576 / 900?",
+    "answer": -1
+  },
+  {
+    "input": "What is -755 / 634?",
+    "answer": -2
+  },
+  {
+    "input": "What is -89 - 326?",
+    "answer": -415
+  },
+  {
+    "input": "What is -466 + 649?",
+    "answer": 183
+  },
+  {
+    "input": "What is -360 / 446?",
+    "answer": -1
+  },
+  {
+    "input": "What is 225 - 682?",
+    "answer": -457
+  },
+  {
+    "input": "What is 562 * 108?",
+    "answer": 60696
+  },
+  {
+    "input": "What is 673 + 488?",
+    "answer": 1161
+  },
+  {
+    "input": "What is 60 * 667?",
+    "answer": 40020
+  },
+  {
+    "input": "What is 463 / 163?",
+    "answer": 2
+  },
+  {
+    "input": "What is 283 - 374?",
+    "answer": -91
+  },
+  {
+    "input": "What is 669 / 796?",
+    "answer": 0
+  },
+  {
+    "input": "What is 199 - 439?",
+    "answer": -240
+  },
+  {
+    "input": "What is -925 * 722?",
+    "answer": -667850
+  },
+  {
+    "input": "What is 782 - 701?",
+    "answer": 81
+  },
+  {
+    "input": "What is 371 / 843?",
+    "answer": 0
+  },
+  {
+    "input": "What is 265 + 359?",
+    "answer": 624
+  },
+  {
+    "input": "What is -523 * 103?",
+    "answer": -53869
+  },
+  {
+    "input": "What is 368 - 170?",
+    "answer": 198
+  },
+  {
+    "input": "What is 687 * 918?",
+    "answer": 630666
+  },
+  {
+    "input": "What is -738 / 390?",
+    "answer": -2
+  },
+  {
+    "input": "What is -841 + 162?",
+    "answer": -679
+  },
+  {
+    "input": "What is 378 - 407?",
+    "answer": -29
+  },
+  {
+    "input": "What is 136 - 776?",
+    "answer": -640
+  },
+  {
+    "input": "What is -636 + 615?",
+    "answer": -21
+  },
+  {
+    "input": "What is 126 + 346?",
+    "answer": 472
+  },
+  {
+    "input": "What is -279 * 602?",
+    "answer": -167958
+  },
+  {
+    "input": "What is 29 + 330?",
+    "answer": 359
+  },
+  {
+    "input": "What is 146 / 113?",
+    "answer": 1
+  },
+  {
+    "input": "What is 420 - 499?",
+    "answer": -79
+  },
+  {
+    "input": "What is 146 * 35?",
+    "answer": 5110
+  },
+  {
+    "input": "What is -632 + 976?",
+    "answer": 344
+  },
+  {
+    "input": "What is -520 * 144?",
+    "answer": -74880
+  },
+  {
+    "input": "What is -881 + 538?",
+    "answer": -343
+  },
+  {
+    "input": "What is 959 * 498?",
+    "answer": 477582
+  },
+  {
+    "input": "What is 746 - 571?",
+    "answer": 175
+  },
+  {
+    "input": "What is -669 / 383?",
+    "answer": -2
+  },
+  {
+    "input": "What is 389 * 101?",
+    "answer": 39289
+  },
+  {
+    "input": "What is 924 + 665?",
+    "answer": 1589
+  },
+  {
+    "input": "What is -85 / 293?",
+    "answer": -1
+  },
+  {
+    "input": "What is 730 - 116?",
+    "answer": 614
+  },
+  {
+    "input": "What is -972 + 168?",
+    "answer": -804
+  },
+  {
+    "input": "What is 970 - 253?",
+    "answer": 717
+  },
+  {
+    "input": "What is 128 / 200?",
+    "answer": 0
+  },
+  {
+    "input": "What is 947 + 618?",
+    "answer": 1565
+  },
+  {
+    "input": "What is -587 * 616?",
+    "answer": -361592
+  },
+  {
+    "input": "What is -104 / 666?",
+    "answer": -1
+  },
+  {
+    "input": "What is -204 + 936?",
+    "answer": 732
+  },
+  {
+    "input": "What is 787 * 796?",
+    "answer": 626452
+  },
+  {
+    "input": "What is 598 - 271?",
+    "answer": 327
+  },
+  {
+    "input": "What is -275 - 232?",
+    "answer": -507
+  },
+  {
+    "input": "What is 739 + 155?",
+    "answer": 894
+  },
+  {
+    "input": "What is -330 + 837?",
+    "answer": 507
+  },
+  {
+    "input": "What is -336 + 97?",
+    "answer": -239
+  },
+  {
+    "input": "What is -807 - 401?",
+    "answer": -1208
+  },
+  {
+    "input": "What is -16 / 325?",
+    "answer": -1
+  },
+  {
+    "input": "What is 725 / 379?",
+    "answer": 1
+  },
+  {
+    "input": "What is -221 + 840?",
+    "answer": 619
+  },
+  {
+    "input": "What is -866 * 491?",
+    "answer": -425206
+  },
+  {
+    "input": "What is -737 * 947?",
+    "answer": -697939
+  },
+  {
+    "input": "What is -965 - 599?",
+    "answer": -1564
+  },
+  {
+    "input": "What is -494 / 173?",
+    "answer": -3
+  },
+  {
+    "input": "What is -663 / 753?",
+    "answer": -1
+  },
+  {
+    "input": "What is 837 * 72?",
+    "answer": 60264
+  },
+  {
+    "input": "What is 155 + 40?",
+    "answer": 195
+  },
+  {
+    "input": "What is -612 - 760?",
+    "answer": -1372
+  },
+  {
+    "input": "What is -335 + 12?",
+    "answer": -323
+  },
+  {
+    "input": "What is 933 / 212?",
+    "answer": 4
+  },
+  {
+    "input": "What is 647 - 623?",
+    "answer": 24
+  },
+  {
+    "input": "What is 94 + 279?",
+    "answer": 373
+  },
+  {
+    "input": "What is 169 * 892?",
+    "answer": 150748
+  },
+  {
+    "input": "What is -468 - 744?",
+    "answer": -1212
+  },
+  {
+    "input": "What is -942 - 440?",
+    "answer": -1382
+  },
+  {
+    "input": "What is 98 - 456?",
+    "answer": -358
+  },
+  {
+    "input": "What is -946 / 896?",
+    "answer": -2
+  },
+  {
+    "input": "What is -139 * 463?",
+    "answer": -64357
+  },
+  {
+    "input": "What is -565 / 564?",
+    "answer": -2
+  },
+  {
+    "input": "What is -551 - 241?",
+    "answer": -792
+  },
+  {
+    "input": "What is 647 + 641?",
+    "answer": 1288
+  },
+  {
+    "input": "What is 823 + 649?",
+    "answer": 1472
+  },
+  {
+    "input": "What is 349 * 175?",
+    "answer": 61075
+  },
+  {
+    "input": "What is 9 + 61?",
+    "answer": 70
+  },
+  {
+    "input": "What is 303 - 101?",
+    "answer": 202
+  },
+  {
+    "input": "What is -523 * 205?",
+    "answer": -107215
+  },
+  {
+    "input": "What is 575 * 179?",
+    "answer": 102925
+  },
+  {
+    "input": "What is 327 + 531?",
+    "answer": 858
+  },
+  {
+    "input": "What is -248 - 300?",
+    "answer": -548
+  },
+  {
+    "input": "What is -137 * 531?",
+    "answer": -72747
+  },
+  {
+    "input": "What is -302 + 762?",
+    "answer": 460
+  },
+  {
+    "input": "What is -993 + 26?",
+    "answer": -967
+  },
+  {
+    "input": "What is 637 * 258?",
+    "answer": 164346
+  },
+  {
+    "input": "What is -975 * 338?",
+    "answer": -329550
+  },
+  {
+    "input": "What is 199 - 876?",
+    "answer": -677
+  },
+  {
+    "input": "What is -982 - 863?",
+    "answer": -1845
+  },
+  {
+    "input": "What is -607 * 474?",
+    "answer": -287718
+  },
+  {
+    "input": "What is -61 - 428?",
+    "answer": -489
+  },
+  {
+    "input": "What is -442 - 179?",
+    "answer": -621
+  },
+  {
+    "input": "What is 817 / 21?",
+    "answer": 38
+  },
+  {
+    "input": "What is -994 / 485?",
+    "answer": -3
+  },
+  {
+    "input": "What is 662 * 898?",
+    "answer": 594476
+  },
+  {
+    "input": "What is 867 * 993?",
+    "answer": 860931
+  },
+  {
+    "input": "What is -934 * 82?",
+    "answer": -76588
+  },
+  {
+    "input": "What is 735 / 510?",
+    "answer": 1
+  },
+  {
+    "input": "What is -263 + 97?",
+    "answer": -166
+  },
+  {
+    "input": "What is -626 - 621?",
+    "answer": -1247
+  },
+  {
+    "input": "What is 542 - 76?",
+    "answer": 466
+  },
+  {
+    "input": "What is -819 * 518?",
+    "answer": -424242
+  },
+  {
+    "input": "What is -341 / 627?",
+    "answer": -1
+  },
+  {
+    "input": "What is -261 / 503?",
+    "answer": -1
+  },
+  {
+    "input": "What is 141 / 810?",
+    "answer": 0
+  },
+  {
+    "input": "What is 221 - 475?",
+    "answer": -254
+  },
+  {
+    "input": "What is -67 * 39?",
+    "answer": -2613
+  },
+  {
+    "input": "What is 267 + 894?",
+    "answer": 1161
+  },
+  {
+    "input": "What is -954 / 218?",
+    "answer": -5
+  },
+  {
+    "input": "What is -218 - 501?",
+    "answer": -719
+  },
+  {
+    "input": "What is -812 / 221?",
+    "answer": -4
+  },
+  {
+    "input": "What is -302 / 161?",
+    "answer": -2
+  },
+  {
+    "input": "What is 840 * 188?",
+    "answer": 157920
+  },
+  {
+    "input": "What is 919 + 513?",
+    "answer": 1432
+  },
+  {
+    "input": "What is -669 * 534?",
+    "answer": -357246
+  },
+  {
+    "input": "What is -552 * 94?",
+    "answer": -51888
+  },
+  {
+    "input": "What is 346 / 995?",
+    "answer": 0
+  },
+  {
+    "input": "What is -619 / 275?",
+    "answer": -3
+  },
+  {
+    "input": "What is 335 - 638?",
+    "answer": -303
+  },
+  {
+    "input": "What is -525 * 260?",
+    "answer": -136500
+  },
+  {
+    "input": "What is 572 - 891?",
+    "answer": -319
+  },
+  {
+    "input": "What is -337 / 955?",
+    "answer": -1
+  },
+  {
+    "input": "What is 467 + 254?",
+    "answer": 721
+  },
+  {
+    "input": "What is 751 - 996?",
+    "answer": -245
+  },
+  {
+    "input": "What is -648 + 330?",
+    "answer": -318
+  },
+  {
+    "input": "What is 183 * 856?",
+    "answer": 156648
+  },
+  {
+    "input": "What is -774 - 857?",
+    "answer": -1631
+  },
+  {
+    "input": "What is 782 / 445?",
+    "answer": 1
+  },
+  {
+    "input": "What is 960 - 346?",
+    "answer": 614
+  },
+  {
+    "input": "What is -996 / 36?",
+    "answer": -28
+  },
+  {
+    "input": "What is -244 * 643?",
+    "answer": -156892
+  },
+  {
+    "input": "What is 470 + 309?",
+    "answer": 779
+  },
+  {
+    "input": "What is -805 + 363?",
+    "answer": -442
+  },
+  {
+    "input": "What is 14 + 584?",
+    "answer": 598
+  },
+  {
+    "input": "What is 119 + 563?",
+    "answer": 682
+  },
+  {
+    "input": "What is 497 * 811?",
+    "answer": 403067
+  },
+  {
+    "input": "What is -861 * 78?",
+    "answer": -67158
+  },
+  {
+    "input": "What is 234 - 687?",
+    "answer": -453
+  },
+  {
+    "input": "What is 461 * 416?",
+    "answer": 191776
+  },
+  {
+    "input": "What is -607 + 350?",
+    "answer": -257
+  },
+  {
+    "input": "What is -180 + 630?",
+    "answer": 450
+  },
+  {
+    "input": "What is -651 / 104?",
+    "answer": -7
+  },
+  {
+    "input": "What is 26 + 947?",
+    "answer": 973
+  },
+  {
+    "input": "What is -651 * 214?",
+    "answer": -139314
+  },
+  {
+    "input": "What is 452 * 875?",
+    "answer": 395500
+  },
+  {
+    "input": "What is -989 / 69?",
+    "answer": -15
+  },
+  {
+    "input": "What is 949 - 98?",
+    "answer": 851
+  },
+  {
+    "input": "What is 806 / 357?",
+    "answer": 2
+  },
+  {
+    "input": "What is 668 - 105?",
+    "answer": 563
+  },
+  {
+    "input": "What is -357 * 434?",
+    "answer": -154938
+  },
+  {
+    "input": "What is 382 + 682?",
+    "answer": 1064
+  },
+  {
+    "input": "What is 871 * 630?",
+    "answer": 548730
+  },
+  {
+    "input": "What is -230 * 824?",
+    "answer": -189520
+  },
+  {
+    "input": "What is 372 + 631?",
+    "answer": 1003
+  },
+  {
+    "input": "What is 905 * 371?",
+    "answer": 335755
+  },
+  {
+    "input": "What is 142 + 74?",
+    "answer": 216
+  },
+  {
+    "input": "What is 59 * 870?",
+    "answer": 51330
+  },
+  {
+    "input": "What is 462 - 333?",
+    "answer": 129
+  },
+  {
+    "input": "What is 791 * 347?",
+    "answer": 274477
+  },
+  {
+    "input": "What is -479 - 659?",
+    "answer": -1138
+  },
+  {
+    "input": "What is 658 + 929?",
+    "answer": 1587
+  },
+  {
+    "input": "What is -887 + 97?",
+    "answer": -790
+  },
+  {
+    "input": "What is 910 - 430?",
+    "answer": 480
+  },
+  {
+    "input": "What is 553 + 987?",
+    "answer": 1540
+  },
+  {
+    "input": "What is 319 / 183?",
+    "answer": 1
+  },
+  {
+    "input": "What is 347 + 828?",
+    "answer": 1175
+  },
+  {
+    "input": "What is 404 + 426?",
+    "answer": 830
+  },
+  {
+    "input": "What is 202 * 942?",
+    "answer": 190284
+  },
+  {
+    "input": "What is -374 * 891?",
+    "answer": -333234
+  },
+  {
+    "input": "What is 149 - 260?",
+    "answer": -111
+  },
+  {
+    "input": "What is 138 - 239?",
+    "answer": -101
+  },
+  {
+    "input": "What is 549 * 511?",
+    "answer": 280539
+  },
+  {
+    "input": "What is 67 / 118?",
+    "answer": 0
+  },
+  {
+    "input": "What is -400 / 919?",
+    "answer": -1
+  },
+  {
+    "input": "What is -38 - 804?",
+    "answer": -842
+  },
+  {
+    "input": "What is 191 + 92?",
+    "answer": 283
+  },
+  {
+    "input": "What is -471 * 974?",
+    "answer": -458754
+  },
+  {
+    "input": "What is 351 + 508?",
+    "answer": 859
+  },
+  {
+    "input": "What is -385 + 479?",
+    "answer": 94
+  },
+  {
+    "input": "What is -710 + 423?",
+    "answer": -287
+  },
+  {
+    "input": "What is -876 * 149?",
+    "answer": -130524
+  },
+  {
+    "input": "What is -144 / 699?",
+    "answer": -1
+  },
+  {
+    "input": "What is 310 / 261?",
+    "answer": 1
+  },
+  {
+    "input": "What is 399 * 251?",
+    "answer": 100149
+  },
+  {
+    "input": "What is -13 * 944?",
+    "answer": -12272
+  },
+  {
+    "input": "What is 722 + 122?",
+    "answer": 844
+  },
+  {
+    "input": "What is 98 * 48?",
+    "answer": 4704
+  },
+  {
+    "input": "What is 278 + 941?",
+    "answer": 1219
+  },
+  {
+    "input": "What is 697 / 117?",
+    "answer": 5
+  },
+  {
+    "input": "What is 940 * 203?",
+    "answer": 190820
+  },
+  {
+    "input": "What is -348 + 534?",
+    "answer": 186
+  },
+  {
+    "input": "What is -633 - 301?",
+    "answer": -934
+  },
+  {
+    "input": "What is -971 - 771?",
+    "answer": -1742
+  },
+  {
+    "input": "What is 56 * 548?",
+    "answer": 30688
+  },
+  {
+    "input": "What is 993 - 873?",
+    "answer": 120
+  },
+  {
+    "input": "What is -126 - 418?",
+    "answer": -544
+  },
+  {
+    "input": "What is -210 * 616?",
+    "answer": -129360
+  },
+  {
+    "input": "What is 76 - 813?",
+    "answer": -737
+  },
+  {
+    "input": "What is 716 * 595?",
+    "answer": 426020
+  },
+  {
+    "input": "What is -960 - 532?",
+    "answer": -1492
+  },
+  {
+    "input": "What is 631 / 724?",
+    "answer": 0
+  },
+  {
+    "input": "What is 836 * 93?",
+    "answer": 77748
+  },
+  {
+    "input": "What is -721 * 542?",
+    "answer": -390782
+  },
+  {
+    "input": "What is -793 * 521?",
+    "answer": -413153
+  },
+  {
+    "input": "What is 174 - 25?",
+    "answer": 149
+  },
+  {
+    "input": "What is 593 - 751?",
+    "answer": -158
+  },
+  {
+    "input": "What is 132 * 575?",
+    "answer": 75900
+  },
+  {
+    "input": "What is 688 - 758?",
+    "answer": -70
+  },
+  {
+    "input": "What is -277 * 960?",
+    "answer": -265920
+  },
+  {
+    "input": "What is 141 + 760?",
+    "answer": 901
+  },
+  {
+    "input": "What is 603 - 124?",
+    "answer": 479
+  },
+  {
+    "input": "What is 896 * 133?",
+    "answer": 119168
+  },
+  {
+    "input": "What is 582 + 411?",
+    "answer": 993
+  },
+  {
+    "input": "What is 105 / 501?",
+    "answer": 0
+  },
+  {
+    "input": "What is -92 * 56?",
+    "answer": -5152
+  },
+  {
+    "input": "What is 215 / 494?",
+    "answer": 0
+  },
+  {
+    "input": "What is -895 / 212?",
+    "answer": -5
+  },
+  {
+    "input": "What is -13 / 756?",
+    "answer": -1
+  },
+  {
+    "input": "What is 693 + 571?",
+    "answer": 1264
+  },
+  {
+    "input": "What is -104 + 915?",
+    "answer": 811
+  },
+  {
+    "input": "What is -603 * 562?",
+    "answer": -338886
+  },
+  {
+    "input": "What is -162 / 282?",
+    "answer": -1
+  },
+  {
+    "input": "What is 300 - 670?",
+    "answer": -370
+  },
+  {
+    "input": "What is 662 + 667?",
+    "answer": 1329
+  },
+  {
+    "input": "What is -381 / 130?",
+    "answer": -3
+  },
+  {
+    "input": "What is 903 - 681?",
+    "answer": 222
+  },
+  {
+    "input": "What is -139 * 757?",
+    "answer": -105223
+  },
+  {
+    "input": "What is 97 / 428?",
+    "answer": 0
+  },
+  {
+    "input": "What is -963 - 30?",
+    "answer": -993
+  },
+  {
+    "input": "What is 440 - 979?",
+    "answer": -539
+  },
+  {
+    "input": "What is -406 / 872?",
+    "answer": -1
+  },
+  {
+    "input": "What is 72 * 627?",
+    "answer": 45144
+  },
+  {
+    "input": "What is 945 / 869?",
+    "answer": 1
+  },
+  {
+    "input": "What is 77 / 63?",
+    "answer": 1
+  },
+  {
+    "input": "What is -411 - 438?",
+    "answer": -849
+  },
+  {
+    "input": "What is -818 * 4?",
+    "answer": -3272
+  },
+  {
+    "input": "What is 334 / 762?",
+    "answer": 0
+  },
+  {
+    "input": "What is -616 + 796?",
+    "answer": 180
+  },
+  {
+    "input": "What is -138 + 828?",
+    "answer": 690
+  },
+  {
+    "input": "What is -419 / 786?",
+    "answer": -1
+  },
+  {
+    "input": "What is 885 / 825?",
+    "answer": 1
+  },
+  {
+    "input": "What is -425 - 816?",
+    "answer": -1241
+  },
+  {
+    "input": "What is 723 / 398?",
+    "answer": 1
+  },
+  {
+    "input": "What is 789 - 208?",
+    "answer": 581
+  },
+  {
+    "input": "What is 537 / 424?",
+    "answer": 1
+  },
+  {
+    "input": "What is 969 * 725?",
+    "answer": 702525
+  },
+  {
+    "input": "What is -823 * 758?",
+    "answer": -623834
+  },
+  {
+    "input": "What is -303 - 961?",
+    "answer": -1264
+  },
+  {
+    "input": "What is -123 - 612?",
+    "answer": -735
+  },
+  {
+    "input": "What is -595 * 424?",
+    "answer": -252280
+  },
+  {
+    "input": "What is -530 + 742?",
+    "answer": 212
+  },
+  {
+    "input": "What is 497 + 723?",
+    "answer": 1220
+  },
+  {
+    "input": "What is 133 - 639?",
+    "answer": -506
+  },
+  {
+    "input": "What is 174 * 64?",
+    "answer": 11136
+  },
+  {
+    "input": "What is -747 + 419?",
+    "answer": -328
+  },
+  {
+    "input": "What is -385 - 640?",
+    "answer": -1025
+  },
+  {
+    "input": "What is 364 + 43?",
+    "answer": 407
+  },
+  {
+    "input": "What is -352 / 849?",
+    "answer": -1
+  },
+  {
+    "input": "What is 5 * 119?",
+    "answer": 595
+  },
+  {
+    "input": "What is 142 * 940?",
+    "answer": 133480
+  },
+  {
+    "input": "What is 354 * 398?",
+    "answer": 140892
+  },
+  {
+    "input": "What is -877 + 305?",
+    "answer": -572
+  },
+  {
+    "input": "What is -161 * 154?",
+    "answer": -24794
+  },
+  {
+    "input": "What is -877 * 766?",
+    "answer": -671782
+  },
+  {
+    "input": "What is -1000 + 77?",
+    "answer": -923
+  },
+  {
+    "input": "What is 467 * 561?",
+    "answer": 261987
+  },
+  {
+    "input": "What is 31 / 32?",
+    "answer": 0
+  },
+  {
+    "input": "What is 980 / 192?",
+    "answer": 5
+  },
+  {
+    "input": "What is 222 + 634?",
+    "answer": 856
+  },
+  {
+    "input": "What is 274 + 878?",
+    "answer": 1152
+  },
+  {
+    "input": "What is -934 + 882?",
+    "answer": -52
+  },
+  {
+    "input": "What is -23 + 164?",
+    "answer": 141
+  },
+  {
+    "input": "What is 371 + 208?",
+    "answer": 579
+  },
+  {
+    "input": "What is 216 + 554?",
+    "answer": 770
+  },
+  {
+    "input": "What is -961 + 106?",
+    "answer": -855
+  },
+  {
+    "input": "What is -717 + 266?",
+    "answer": -451
+  },
+  {
+    "input": "What is 250 / 977?",
+    "answer": 0
+  },
+  {
+    "input": "What is -622 - 720?",
+    "answer": -1342
+  },
+  {
+    "input": "What is -852 / 458?",
+    "answer": -2
+  },
+  {
+    "input": "What is 594 / 96?",
+    "answer": 6
+  },
+  {
+    "input": "What is 93 * 566?",
+    "answer": 52638
+  },
+  {
+    "input": "What is -553 / 308?",
+    "answer": -2
+  },
+  {
+    "input": "What is -432 * 623?",
+    "answer": -269136
+  },
+  {
+    "input": "What is 963 + 520?",
+    "answer": 1483
+  },
+  {
+    "input": "What is 630 + 722?",
+    "answer": 1352
+  },
+  {
+    "input": "What is 115 / 558?",
+    "answer": 0
+  },
+  {
+    "input": "What is -812 - 338?",
+    "answer": -1150
+  },
+  {
+    "input": "What is -422 + 536?",
+    "answer": 114
+  },
+  {
+    "input": "What is 32 * 403?",
+    "answer": 12896
+  },
+  {
+    "input": "What is -825 + 864?",
+    "answer": 39
+  },
+  {
+    "input": "What is 881 / 404?",
+    "answer": 2
+  },
+  {
+    "input": "What is 792 - 645?",
+    "answer": 147
+  },
+  {
+    "input": "What is 220 - 763?",
+    "answer": -543
+  },
+  {
+    "input": "What is -65 / 51?",
+    "answer": -2
+  },
+  {
+    "input": "What is -532 / 761?",
+    "answer": -1
+  },
+  {
+    "input": "What is -959 / 590?",
+    "answer": -2
+  },
+  {
+    "input": "What is 218 + 557?",
+    "answer": 775
+  },
+  {
+    "input": "What is -641 - 303?",
+    "answer": -944
+  },
+  {
+    "input": "What is -637 * 53?",
+    "answer": -33761
+  },
+  {
+    "input": "What is -781 + 734?",
+    "answer": -47
+  },
+  {
+    "input": "What is -472 / 604?",
+    "answer": -1
+  },
+  {
+    "input": "What is 163 * 196?",
+    "answer": 31948
+  },
+  {
+    "input": "What is 720 * 330?",
+    "answer": 237600
+  },
+  {
+    "input": "What is -99 + 395?",
+    "answer": 296
+  },
+  {
+    "input": "What is -820 + 197?",
+    "answer": -623
+  },
+  {
+    "input": "What is -675 + 661?",
+    "answer": -14
+  },
+  {
+    "input": "What is -123 + 667?",
+    "answer": 544
+  },
+  {
+    "input": "What is -947 / 883?",
+    "answer": -2
+  },
+  {
+    "input": "What is 522 + 915?",
+    "answer": 1437
+  },
+  {
+    "input": "What is -346 - 426?",
+    "answer": -772
+  },
+  {
+    "input": "What is 162 * 3?",
+    "answer": 486
+  },
+  {
+    "input": "What is -264 / 468?",
+    "answer": -1
+  },
+  {
+    "input": "What is -226 + 870?",
+    "answer": 644
+  },
+  {
+    "input": "What is 72 - 769?",
+    "answer": -697
+  },
+  {
+    "input": "What is 202 * 8?",
+    "answer": 1616
+  },
+  {
+    "input": "What is 377 - 904?",
+    "answer": -527
+  },
+  {
+    "input": "What is 223 + 632?",
+    "answer": 855
+  },
+  {
+    "input": "What is 926 / 542?",
+    "answer": 1
+  },
+  {
+    "input": "What is -557 * 632?",
+    "answer": -352024
+  },
+  {
+    "input": "What is -419 * 929?",
+    "answer": -389251
+  },
+  {
+    "input": "What is -475 - 82?",
+    "answer": -557
+  },
+  {
+    "input": "What is -87 / 956?",
+    "answer": -1
+  },
+  {
+    "input": "What is -110 + 585?",
+    "answer": 475
+  },
+  {
+    "input": "What is -904 - 964?",
+    "answer": -1868
+  },
+  {
+    "input": "What is 114 - 204?",
+    "answer": -90
+  },
+  {
+    "input": "What is -554 - 667?",
+    "answer": -1221
+  },
+  {
+    "input": "What is -328 + 478?",
+    "answer": 150
+  },
+  {
+    "input": "What is -461 + 685?",
+    "answer": 224
+  },
+  {
+    "input": "What is 360 / 908?",
+    "answer": 0
+  },
+  {
+    "input": "What is 145 / 885?",
+    "answer": 0
+  },
+  {
+    "input": "What is -522 + 884?",
+    "answer": 362
+  },
+  {
+    "input": "What is 56 + 945?",
+    "answer": 1001
+  },
+  {
+    "input": "What is 212 * 450?",
+    "answer": 95400
+  },
+  {
+    "input": "What is -479 - 383?",
+    "answer": -862
+  },
+  {
+    "input": "What is -392 + 212?",
+    "answer": -180
+  },
+  {
+    "input": "What is 55 / 915?",
+    "answer": 0
+  },
+  {
+    "input": "What is -638 * 98?",
+    "answer": -62524
+  },
+  {
+    "input": "What is -531 - 816?",
+    "answer": -1347
+  },
+  {
+    "input": "What is 403 - 175?",
+    "answer": 228
+  },
+  {
+    "input": "What is -788 / 346?",
+    "answer": -3
+  },
+  {
+    "input": "What is 438 * 328?",
+    "answer": 143664
+  },
+  {
+    "input": "What is -926 + 516?",
+    "answer": -410
+  },
+  {
+    "input": "What is -943 * 129?",
+    "answer": -121647
+  },
+  {
+    "input": "What is 534 - 55?",
+    "answer": 479
+  },
+  {
+    "input": "What is -309 + 257?",
+    "answer": -52
+  },
+  {
+    "input": "What is 327 / 435?",
+    "answer": 0
+  },
+  {
+    "input": "What is 786 * 697?",
+    "answer": 547842
+  },
+  {
+    "input": "What is 450 + 522?",
+    "answer": 972
+  },
+  {
+    "input": "What is 998 - 750?",
+    "answer": 248
+  },
+  {
+    "input": "What is 105 + 632?",
+    "answer": 737
+  },
+  {
+    "input": "What is 370 + 486?",
+    "answer": 856
+  },
+  {
+    "input": "What is -214 - 639?",
+    "answer": -853
+  },
+  {
+    "input": "What is 198 / 588?",
+    "answer": 0
+  },
+  {
+    "input": "What is -40 - 314?",
+    "answer": -354
+  },
+  {
+    "input": "What is 638 * 844?",
+    "answer": 538472
+  },
+  {
+    "input": "What is -923 * 70?",
+    "answer": -64610
+  },
+  {
+    "input": "What is 343 / 51?",
+    "answer": 6
+  },
+  {
+    "input": "What is 745 + 957?",
+    "answer": 1702
+  },
+  {
+    "input": "What is -225 - 194?",
+    "answer": -419
+  },
+  {
+    "input": "What is -412 / 12?",
+    "answer": -35
+  },
+  {
+    "input": "What is -204 - 480?",
+    "answer": -684
+  },
+  {
+    "input": "What is -856 + 921?",
+    "answer": 65
+  },
+  {
+    "input": "What is 891 - 906?",
+    "answer": -15
+  },
+  {
+    "input": "What is 399 * 388?",
+    "answer": 154812
+  },
+  {
+    "input": "What is 743 * 477?",
+    "answer": 354411
+  },
+  {
+    "input": "What is 421 * 919?",
+    "answer": 386899
+  },
+  {
+    "input": "What is 941 - 70?",
+    "answer": 871
+  },
+  {
+    "input": "What is -450 / 50?",
+    "answer": -9
+  },
+  {
+    "input": "What is 811 + 375?",
+    "answer": 1186
+  },
+  {
+    "input": "What is -809 - 831?",
+    "answer": -1640
+  },
+  {
+    "input": "What is 63 + 126?",
+    "answer": 189
+  },
+  {
+    "input": "What is -323 - 76?",
+    "answer": -399
+  },
+  {
+    "input": "What is 264 - 993?",
+    "answer": -729
+  },
+  {
+    "input": "What is 849 - 341?",
+    "answer": 508
+  },
+  {
+    "input": "What is -258 / 41?",
+    "answer": -7
+  },
+  {
+    "input": "What is -691 * 329?",
+    "answer": -227339
+  },
+  {
+    "input": "What is -45 / 507?",
+    "answer": -1
+  },
+  {
+    "input": "What is -531 * 541?",
+    "answer": -287271
+  },
+  {
+    "input": "What is -380 * 752?",
+    "answer": -285760
+  },
+  {
+    "input": "What is -571 * 992?",
+    "answer": -566432
+  },
+  {
+    "input": "What is -932 / 90?",
+    "answer": -11
+  },
+  {
+    "input": "What is -227 / 879?",
+    "answer": -1
+  },
+  {
+    "input": "What is -712 * 670?",
+    "answer": -477040
+  },
+  {
+    "input": "What is 415 / 876?",
+    "answer": 0
+  },
+  {
+    "input": "What is 112 + 845?",
+    "answer": 957
+  },
+  {
+    "input": "What is 521 + 188?",
+    "answer": 709
+  },
+  {
+    "input": "What is 212 - 438?",
+    "answer": -226
+  },
+  {
+    "input": "What is 161 - 730?",
+    "answer": -569
+  },
+  {
+    "input": "What is -50 - 592?",
+    "answer": -642
+  },
+  {
+    "input": "What is -405 / 265?",
+    "answer": -2
+  },
+  {
+    "input": "What is 238 / 745?",
+    "answer": 0
+  },
+  {
+    "input": "What is -519 - 927?",
+    "answer": -1446
+  },
+  {
+    "input": "What is 728 - 853?",
+    "answer": -125
+  },
+  {
+    "input": "What is 184 / 459?",
+    "answer": 0
+  },
+  {
+    "input": "What is 282 + 206?",
+    "answer": 488
+  },
+  {
+    "input": "What is -71 * 123?",
+    "answer": -8733
+  },
+  {
+    "input": "What is 609 - 288?",
+    "answer": 321
+  },
+  {
+    "input": "What is 607 + 55?",
+    "answer": 662
+  },
+  {
+    "input": "What is -840 - 249?",
+    "answer": -1089
+  },
+  {
+    "input": "What is 257 - 730?",
+    "answer": -473
+  },
+  {
+    "input": "What is 885 - 91?",
+    "answer": 794
+  },
+  {
+    "input": "What is 830 - 473?",
+    "answer": 357
+  },
+  {
+    "input": "What is 383 - 769?",
+    "answer": -386
+  },
+  {
+    "input": "What is -856 + 800?",
+    "answer": -56
+  },
+  {
+    "input": "What is 77 / 42?",
+    "answer": 1
+  },
+  {
+    "input": "What is 281 + 363?",
+    "answer": 644
+  },
+  {
+    "input": "What is -9 - 775?",
+    "answer": -784
+  },
+  {
+    "input": "What is -503 + 191?",
+    "answer": -312
+  },
+  {
+    "input": "What is 898 - 89?",
+    "answer": 809
+  },
+  {
+    "input": "What is -10 - 281?",
+    "answer": -291
+  },
+  {
+    "input": "What is -126 / 990?",
+    "answer": -1
+  },
+  {
+    "input": "What is -137 / 19?",
+    "answer": -8
+  },
+  {
+    "input": "What is 932 - 618?",
+    "answer": 314
+  },
+  {
+    "input": "What is 679 / 460?",
+    "answer": 1
+  },
+  {
+    "input": "What is -868 / 792?",
+    "answer": -2
+  },
+  {
+    "input": "What is 879 - 850?",
+    "answer": 29
+  },
+  {
+    "input": "What is -250 + 686?",
+    "answer": 436
+  },
+  {
+    "input": "What is 932 / 531?",
+    "answer": 1
+  },
+  {
+    "input": "What is 844 / 963?",
+    "answer": 0
+  },
+  {
+    "input": "What is -669 - 788?",
+    "answer": -1457
+  },
+  {
+    "input": "What is -921 * 818?",
+    "answer": -753378
+  },
+  {
+    "input": "What is 603 / 576?",
+    "answer": 1
+  },
+  {
+    "input": "What is -218 + 522?",
+    "answer": 304
+  },
+  {
+    "input": "What is 659 * 800?",
+    "answer": 527200
+  },
+  {
+    "input": "What is 247 - 69?",
+    "answer": 178
+  },
+  {
+    "input": "What is -137 + 117?",
+    "answer": -20
+  },
+  {
+    "input": "What is -625 / 19?",
+    "answer": -33
+  },
+  {
+    "input": "What is 233 / 428?",
+    "answer": 0
+  },
+  {
+    "input": "What is 264 - 34?",
+    "answer": 230
+  },
+  {
+    "input": "What is 371 + 907?",
+    "answer": 1278
+  },
+  {
+    "input": "What is 362 + 41?",
+    "answer": 403
+  },
+  {
+    "input": "What is -948 + 354?",
+    "answer": -594
+  },
+  {
+    "input": "What is -422 + 697?",
+    "answer": 275
+  },
+  {
+    "input": "What is 769 - 326?",
+    "answer": 443
+  },
+  {
+    "input": "What is 763 * 927?",
+    "answer": 707301
+  },
+  {
+    "input": "What is 401 - 550?",
+    "answer": -149
+  },
+  {
+    "input": "What is -187 - 468?",
+    "answer": -655
+  },
+  {
+    "input": "What is 962 - 176?",
+    "answer": 786
+  },
+  {
+    "input": "What is 752 + 891?",
+    "answer": 1643
+  },
+  {
+    "input": "What is -437 - 65?",
+    "answer": -502
+  },
+  {
+    "input": "What is 489 / 319?",
+    "answer": 1
+  },
+  {
+    "input": "What is 501 * 492?",
+    "answer": 246492
+  },
+  {
+    "input": "What is 493 / 759?",
+    "answer": 0
+  },
+  {
+    "input": "What is 707 - 922?",
+    "answer": -215
+  },
+  {
+    "input": "What is 327 / 704?",
+    "answer": 0
+  },
+  {
+    "input": "What is 138 + 978?",
+    "answer": 1116
+  },
+  {
+    "input": "What is 786 * 413?",
+    "answer": 324618
+  },
+  {
+    "input": "What is -651 * 677?",
+    "answer": -440727
+  },
+  {
+    "input": "What is 322 + 493?",
+    "answer": 815
+  },
+  {
+    "input": "What is 424 - 607?",
+    "answer": -183
+  },
+  {
+    "input": "What is 129 / 567?",
+    "answer": 0
+  },
+  {
+    "input": "What is 161 - 536?",
+    "answer": -375
+  },
+  {
+    "input": "What is 419 / 91?",
+    "answer": 4
+  },
+  {
+    "input": "What is -173 * 240?",
+    "answer": -41520
+  },
+  {
+    "input": "What is 510 + 66?",
+    "answer": 576
+  },
+  {
+    "input": "What is -410 - 372?",
+    "answer": -782
+  },
+  {
+    "input": "What is 668 + 449?",
+    "answer": 1117
+  },
+  {
+    "input": "What is 634 + 741?",
+    "answer": 1375
+  },
+  {
+    "input": "What is 630 / 241?",
+    "answer": 2
+  },
+  {
+    "input": "What is -719 - 620?",
+    "answer": -1339
+  },
+  {
+    "input": "What is -415 / 207?",
+    "answer": -3
+  },
+  {
+    "input": "What is -411 / 334?",
+    "answer": -2
+  },
+  {
+    "input": "What is 755 + 990?",
+    "answer": 1745
+  },
+  {
+    "input": "What is -889 / 386?",
+    "answer": -3
+  },
+  {
+    "input": "What is 949 / 210?",
+    "answer": 4
+  },
+  {
+    "input": "What is -360 + 745?",
+    "answer": 385
+  },
+  {
+    "input": "What is -471 * 165?",
+    "answer": -77715
+  },
+  {
+    "input": "What is 186 / 174?",
+    "answer": 1
+  },
+  {
+    "input": "What is 881 * 720?",
+    "answer": 634320
+  },
+  {
+    "input": "What is 368 + 147?",
+    "answer": 515
+  },
+  {
+    "input": "What is -547 * 526?",
+    "answer": -287722
+  },
+  {
+    "input": "What is 654 * 292?",
+    "answer": 190968
+  },
+  {
+    "input": "What is -687 + 382?",
+    "answer": -305
+  },
+  {
+    "input": "What is -119 - 726?",
+    "answer": -845
+  },
+  {
+    "input": "What is 884 + 887?",
+    "answer": 1771
+  },
+  {
+    "input": "What is 193 + 819?",
+    "answer": 1012
+  },
+  {
+    "input": "What is -711 - 972?",
+    "answer": -1683
+  },
+  {
+    "input": "What is 444 / 717?",
+    "answer": 0
+  },
+  {
+    "input": "What is 775 * 54?",
+    "answer": 41850
+  },
+  {
+    "input": "What is -665 + 259?",
+    "answer": -406
+  },
+  {
+    "input": "What is 586 * 436?",
+    "answer": 255496
+  },
+  {
+    "input": "What is -109 - 483?",
+    "answer": -592
+  },
+  {
+    "input": "What is 34 * 237?",
+    "answer": 8058
+  },
+  {
+    "input": "What is 826 + 399?",
+    "answer": 1225
+  },
+  {
+    "input": "What is 485 / 275?",
+    "answer": 1
+  },
+  {
+    "input": "What is 590 - 383?",
+    "answer": 207
+  },
+  {
+    "input": "What is 876 * 894?",
+    "answer": 783144
+  },
+  {
+    "input": "What is 491 + 718?",
+    "answer": 1209
+  },
+  {
+    "input": "What is -361 * 985?",
+    "answer": -355585
+  },
+  {
+    "input": "What is -267 - 62?",
+    "answer": -329
+  },
+  {
+    "input": "What is 550 + 397?",
+    "answer": 947
+  },
+  {
+    "input": "What is 202 / 240?",
+    "answer": 0
+  },
+  {
+    "input": "What is 774 - 694?",
+    "answer": 80
+  },
+  {
+    "input": "What is 673 / 314?",
+    "answer": 2
+  },
+  {
+    "input": "What is -886 - 269?",
+    "answer": -1155
+  },
+  {
+    "input": "What is -687 + 275?",
+    "answer": -412
+  },
+  {
+    "input": "What is -290 + 977?",
+    "answer": 687
+  },
+  {
+    "input": "What is -259 * 614?",
+    "answer": -159026
+  },
+  {
+    "input": "What is -560 - 830?",
+    "answer": -1390
+  },
+  {
+    "input": "What is 671 + 68?",
+    "answer": 739
+  },
+  {
+    "input": "What is 446 / 24?",
+    "answer": 18
+  },
+  {
+    "input": "What is -766 / 681?",
+    "answer": -2
+  },
+  {
+    "input": "What is -808 + 175?",
+    "answer": -633
+  },
+  {
+    "input": "What is -674 / 931?",
+    "answer": -1
+  },
+  {
+    "input": "What is 808 - 453?",
+    "answer": 355
+  },
+  {
+    "input": "What is 112 / 747?",
+    "answer": 0
+  },
+  {
+    "input": "What is 767 / 756?",
+    "answer": 1
+  },
+  {
+    "input": "What is -647 / 359?",
+    "answer": -2
+  },
+  {
+    "input": "What is -926 / 413?",
+    "answer": -3
+  },
+  {
+    "input": "What is -171 / 504?",
+    "answer": -1
+  },
+  {
+    "input": "What is 977 + 743?",
+    "answer": 1720
+  },
+  {
+    "input": "What is 52 * 632?",
+    "answer": 32864
+  },
+  {
+    "input": "What is -171 * 568?",
+    "answer": -97128
+  },
+  {
+    "input": "What is 90 + 326?",
+    "answer": 416
+  },
+  {
+    "input": "What is 976 * 352?",
+    "answer": 343552
+  },
+  {
+    "input": "What is 876 * 604?",
+    "answer": 529104
+  },
+  {
+    "input": "What is -971 / 203?",
+    "answer": -5
+  },
+  {
+    "input": "What is -911 * 666?",
+    "answer": -606726
+  },
+  {
+    "input": "What is -382 - 919?",
+    "answer": -1301
+  },
+  {
+    "input": "What is -539 * 544?",
+    "answer": -293216
+  },
+  {
+    "input": "What is 596 + 653?",
+    "answer": 1249
+  },
+  {
+    "input": "What is 269 + 48?",
+    "answer": 317
+  },
+  {
+    "input": "What is 363 - 375?",
+    "answer": -12
+  },
+  {
+    "input": "What is -427 * 748?",
+    "answer": -319396
+  },
+  {
+    "input": "What is 354 * 465?",
+    "answer": 164610
+  },
+  {
+    "input": "What is 740 - 24?",
+    "answer": 716
+  },
+  {
+    "input": "What is 559 + 629?",
+    "answer": 1188
+  },
+  {
+    "input": "What is -310 + 251?",
+    "answer": -59
+  },
+  {
+    "input": "What is -819 * 523?",
+    "answer": -428337
+  },
+  {
+    "input": "What is 296 / 28?",
+    "answer": 10
+  },
+  {
+    "input": "What is -828 / 922?",
+    "answer": -1
+  },
+  {
+    "input": "What is 541 + 899?",
+    "answer": 1440
+  },
+  {
+    "input": "What is -193 + 120?",
+    "answer": -73
+  },
+  {
+    "input": "What is 264 - 758?",
+    "answer": -494
+  },
+  {
+    "input": "What is 793 / 622?",
+    "answer": 1
+  },
+  {
+    "input": "What is 779 - 963?",
+    "answer": -184
+  },
+  {
+    "input": "What is -595 / 785?",
+    "answer": -1
+  },
+  {
+    "input": "What is 873 - 5?",
+    "answer": 868
+  },
+  {
+    "input": "What is 866 * 48?",
+    "answer": 41568
+  },
+  {
+    "input": "What is 426 / 786?",
+    "answer": 0
+  },
+  {
+    "input": "What is 518 * 722?",
+    "answer": 373996
+  },
+  {
+    "input": "What is -709 - 283?",
+    "answer": -992
+  },
+  {
+    "input": "What is -35 * 485?",
+    "answer": -16975
+  },
+  {
+    "input": "What is -232 - 716?",
+    "answer": -948
+  },
+  {
+    "input": "What is -989 - 14?",
+    "answer": -1003
+  },
+  {
+    "input": "What is 761 * 861?",
+    "answer": 655221
+  },
+  {
+    "input": "What is 999 * 152?",
+    "answer": 151848
+  },
+  {
+    "input": "What is -592 - 791?",
+    "answer": -1383
+  },
+  {
+    "input": "What is -739 / 313?",
+    "answer": -3
+  },
+  {
+    "input": "What is -51 + 232?",
+    "answer": 181
+  },
+  {
+    "input": "What is -619 * 968?",
+    "answer": -599192
+  },
+  {
+    "input": "What is 17 + 208?",
+    "answer": 225
+  },
+  {
+    "input": "What is -228 * 474?",
+    "answer": -108072
+  },
+  {
+    "input": "What is -635 - 615?",
+    "answer": -1250
+  },
+  {
+    "input": "What is 362 * 504?",
+    "answer": 182448
+  },
+  {
+    "input": "What is -926 / 343?",
+    "answer": -3
+  },
+  {
+    "input": "What is -488 - 795?",
+    "answer": -1283
+  },
+  {
+    "input": "What is 674 * 15?",
+    "answer": 10110
+  },
+  {
+    "input": "What is -562 + 154?",
+    "answer": -408
+  },
+  {
+    "input": "What is -750 * 44?",
+    "answer": -33000
+  },
+  {
+    "input": "What is 20 * 205?",
+    "answer": 4100
+  },
+  {
+    "input": "What is 235 - 351?",
+    "answer": -116
+  },
+  {
+    "input": "What is -726 - 67?",
+    "answer": -793
+  },
+  {
+    "input": "What is 825 + 330?",
+    "answer": 1155
+  },
+  {
+    "input": "What is -7 / 954?",
+    "answer": -1
+  },
+  {
+    "input": "What is 774 - 726?",
+    "answer": 48
+  },
+  {
+    "input": "What is 561 - 4?",
+    "answer": 557
+  },
+  {
+    "input": "What is 552 / 777?",
+    "answer": 0
+  },
+  {
+    "input": "What is -527 / 616?",
+    "answer": -1
+  },
+  {
+    "input": "What is -442 / 367?",
+    "answer": -2
+  },
+  {
+    "input": "What is -386 * 463?",
+    "answer": -178718
+  },
+  {
+    "input": "What is -981 / 141?",
+    "answer": -7
+  },
+  {
+    "input": "What is -996 - 993?",
+    "answer": -1989
+  },
+  {
+    "input": "What is 647 - 263?",
+    "answer": 384
+  },
+  {
+    "input": "What is 443 * 941?",
+    "answer": 416863
+  },
+  {
+    "input": "What is -126 - 153?",
+    "answer": -279
+  },
+  {
+    "input": "What is -312 * 621?",
+    "answer": -193752
+  },
+  {
+    "input": "What is -732 / 450?",
+    "answer": -2
+  },
+  {
+    "input": "What is -230 + 344?",
+    "answer": 114
+  },
+  {
+    "input": "What is -987 - 229?",
+    "answer": -1216
+  },
+  {
+    "input": "What is -705 / 867?",
+    "answer": -1
+  },
+  {
+    "input": "What is -194 / 487?",
+    "answer": -1
+  },
+  {
+    "input": "What is -998 + 762?",
+    "answer": -236
+  },
+  {
+    "input": "What is 128 - 326?",
+    "answer": -198
+  },
+  {
+    "input": "What is 633 + 922?",
+    "answer": 1555
+  },
+  {
+    "input": "What is 329 * 96?",
+    "answer": 31584
+  },
+  {
+    "input": "What is -305 + 535?",
+    "answer": 230
+  },
+  {
+    "input": "What is 1000 + 103?",
+    "answer": 1103
+  },
+  {
+    "input": "What is -524 + 381?",
+    "answer": -143
+  },
+  {
+    "input": "What is -784 + 923?",
+    "answer": 139
+  },
+  {
+    "input": "What is 877 + 330?",
+    "answer": 1207
+  },
+  {
+    "input": "What is 851 - 627?",
+    "answer": 224
+  },
+  {
+    "input": "What is 438 - 909?",
+    "answer": -471
+  },
+  {
+    "input": "What is -539 - 232?",
+    "answer": -771
+  },
+  {
+    "input": "What is -525 + 137?",
+    "answer": -388
+  },
+  {
+    "input": "What is 209 - 806?",
+    "answer": -597
+  },
+  {
+    "input": "What is -8 - 263?",
+    "answer": -271
+  },
+  {
+    "input": "What is -283 - 1?",
+    "answer": -284
+  },
+  {
+    "input": "What is 352 / 525?",
+    "answer": 0
+  },
+  {
+    "input": "What is -185 / 823?",
+    "answer": -1
+  },
+  {
+    "input": "What is 255 - 72?",
+    "answer": 183
+  },
+  {
+    "input": "What is 57 - 915?",
+    "answer": -858
+  },
+  {
+    "input": "What is -917 / 864?",
+    "answer": -2
+  },
+  {
+    "input": "What is -101 + 639?",
+    "answer": 538
+  },
+  {
+    "input": "What is 17 / 771?",
+    "answer": 0
+  },
+  {
+    "input": "What is 260 - 137?",
+    "answer": 123
+  },
+  {
+    "input": "What is -657 - 262?",
+    "answer": -919
+  },
+  {
+    "input": "What is 197 / 817?",
+    "answer": 0
+  },
+  {
+    "input": "What is -669 / 772?",
+    "answer": -1
+  },
+  {
+    "input": "What is -828 * 531?",
+    "answer": -439668
+  },
+  {
+    "input": "What is -692 - 72?",
+    "answer": -764
+  },
+  {
+    "input": "What is 26 / 602?",
+    "answer": 0
+  },
+  {
+    "input": "What is -517 / 667?",
+    "answer": -1
+  },
+  {
+    "input": "What is -730 / 237?",
+    "answer": -4
+  },
+  {
+    "input": "What is 271 / 485?",
+    "answer": 0
+  },
+  {
+    "input": "What is -229 / 418?",
+    "answer": -1
+  },
+  {
+    "input": "What is -928 - 959?",
+    "answer": -1887
+  },
+  {
+    "input": "What is -675 * 51?",
+    "answer": -34425
+  },
+  {
+    "input": "What is 56 / 431?",
+    "answer": 0
+  },
+  {
+    "input": "What is 256 / 802?",
+    "answer": 0
+  },
+  {
+    "input": "What is -112 - 970?",
+    "answer": -1082
+  },
+  {
+    "input": "What is 180 - 60?",
+    "answer": 120
+  },
+  {
+    "input": "What is -511 / 255?",
+    "answer": -3
+  },
+  {
+    "input": "What is -289 - 115?",
+    "answer": -404
+  },
+  {
+    "input": "What is 146 * 156?",
+    "answer": 22776
+  },
+  {
+    "input": "What is 70 / 930?",
+    "answer": 0
+  },
+  {
+    "input": "What is 617 + 317?",
+    "answer": 934
+  },
+  {
+    "input": "What is -401 + 106?",
+    "answer": -295
+  },
+  {
+    "input": "What is -230 * 729?",
+    "answer": -167670
+  },
+  {
+    "input": "What is 302 + 762?",
+    "answer": 1064
+  },
+  {
+    "input": "What is -457 - 834?",
+    "answer": -1291
+  },
+  {
+    "input": "What is 666 - 142?",
+    "answer": 524
+  },
+  {
+    "input": "What is -51 - 629?",
+    "answer": -680
+  },
+  {
+    "input": "What is 290 * 43?",
+    "answer": 12470
+  },
+  {
+    "input": "What is 967 * 819?",
+    "answer": 791973
+  },
+  {
+    "input": "What is 778 * 147?",
+    "answer": 114366
+  },
+  {
+    "input": "What is -721 - 928?",
+    "answer": -1649
+  },
+  {
+    "input": "What is -438 * 923?",
+    "answer": -404274
+  },
+  {
+    "input": "What is -667 - 35?",
+    "answer": -702
+  },
+  {
+    "input": "What is -311 / 297?",
+    "answer": -2
+  },
+  {
+    "input": "What is 344 + 571?",
+    "answer": 915
+  },
+  {
+    "input": "What is -604 * 108?",
+    "answer": -65232
+  },
+  {
+    "input": "What is 469 + 659?",
+    "answer": 1128
+  },
+  {
+    "input": "What is 103 - 165?",
+    "answer": -62
+  },
+  {
+    "input": "What is -37 / 571?",
+    "answer": -1
+  },
+  {
+    "input": "What is 809 * 317?",
+    "answer": 256453
+  },
+  {
+    "input": "What is 36 / 561?",
+    "answer": 0
+  },
+  {
+    "input": "What is -426 / 871?",
+    "answer": -1
+  },
+  {
+    "input": "What is -145 / 371?",
+    "answer": -1
+  },
+  {
+    "input": "What is 99 * 641?",
+    "answer": 63459
+  },
+  {
+    "input": "What is 943 + 970?",
+    "answer": 1913
+  },
+  {
+    "input": "What is 943 / 940?",
+    "answer": 1
+  },
+  {
+    "input": "What is 727 * 14?",
+    "answer": 10178
+  },
+  {
+    "input": "What is -790 * 555?",
+    "answer": -438450
+  },
+  {
+    "input": "What is 545 + 611?",
+    "answer": 1156
+  },
+  {
+    "input": "What is 107 - 489?",
+    "answer": -382
+  },
+  {
+    "input": "What is 332 + 290?",
+    "answer": 622
+  },
+  {
+    "input": "What is 703 + 93?",
+    "answer": 796
+  },
+  {
+    "input": "What is 503 + 377?",
+    "answer": 880
+  },
+  {
+    "input": "What is -730 / 690?",
+    "answer": -2
+  },
+  {
+    "input": "What is 333 / 5?",
+    "answer": 66
+  },
+  {
+    "input": "What is -299 - 919?",
+    "answer": -1218
+  },
+  {
+    "input": "What is 876 / 233?",
+    "answer": 3
+  },
+  {
+    "input": "What is 707 / 229?",
+    "answer": 3
+  },
+  {
+    "input": "What is 98 * 586?",
+    "answer": 57428
+  },
+  {
+    "input": "What is -832 / 138?",
+    "answer": -7
+  },
+  {
+    "input": "What is -697 + 42?",
+    "answer": -655
+  },
+  {
+    "input": "What is 790 * 839?",
+    "answer": 662810
+  },
+  {
+    "input": "What is 985 + 250?",
+    "answer": 1235
+  },
+  {
+    "input": "What is 735 - 847?",
+    "answer": -112
+  },
+  {
+    "input": "What is 924 - 681?",
+    "answer": 243
+  },
+  {
+    "input": "What is -139 + 174?",
+    "answer": 35
+  },
+  {
+    "input": "What is -853 + 614?",
+    "answer": -239
+  },
+  {
+    "input": "What is -378 + 506?",
+    "answer": 128
+  },
+  {
+    "input": "What is 985 - 575?",
+    "answer": 410
+  },
+  {
+    "input": "What is 254 * 608?",
+    "answer": 154432
+  },
+  {
+    "input": "What is -297 * 982?",
+    "answer": -291654
+  },
+  {
+    "input": "What is -554 / 763?",
+    "answer": -1
+  },
+  {
+    "input": "What is -928 / 39?",
+    "answer": -24
+  },
+  {
+    "input": "What is -816 / 49?",
+    "answer": -17
+  },
+  {
+    "input": "What is -685 + 578?",
+    "answer": -107
+  },
+  {
+    "input": "What is 257 + 262?",
+    "answer": 519
+  },
+  {
+    "input": "What is 915 * 571?",
+    "answer": 522465
+  },
+  {
+    "input": "What is -378 + 972?",
+    "answer": 594
+  },
+  {
+    "input": "What is 721 + 467?",
+    "answer": 1188
+  },
+  {
+    "input": "What is -658 - 507?",
+    "answer": -1165
+  },
+  {
+    "input": "What is -892 * 136?",
+    "answer": -121312
+  },
+  {
+    "input": "What is -469 / 479?",
+    "answer": -1
+  },
+  {
+    "input": "What is -671 - 762?",
+    "answer": -1433
+  },
+  {
+    "input": "What is 602 + 410?",
+    "answer": 1012
+  },
+  {
+    "input": "What is 874 - 803?",
+    "answer": 71
+  },
+  {
+    "input": "What is -691 + 467?",
+    "answer": -224
+  },
+  {
+    "input": "What is -458 - 303?",
+    "answer": -761
+  },
+  {
+    "input": "What is -569 + 128?",
+    "answer": -441
+  },
+  {
+    "input": "What is -628 - 853?",
+    "answer": -1481
+  },
+  {
+    "input": "What is -237 - 942?",
+    "answer": -1179
+  },
+  {
+    "input": "What is 826 + 690?",
+    "answer": 1516
+  },
+  {
+    "input": "What is -370 * 455?",
+    "answer": -168350
+  },
+  {
+    "input": "What is -409 / 645?",
+    "answer": -1
+  },
+  {
+    "input": "What is -239 / 149?",
+    "answer": -2
+  },
+  {
+    "input": "What is -816 - 461?",
+    "answer": -1277
+  },
+  {
+    "input": "What is -135 + 870?",
+    "answer": 735
+  },
+  {
+    "input": "What is -550 / 951?",
+    "answer": -1
+  },
+  {
+    "input": "What is 747 / 683?",
+    "answer": 1
+  },
+  {
+    "input": "What is 41 + 465?",
+    "answer": 506
+  },
+  {
+    "input": "What is 369 - 843?",
+    "answer": -474
+  },
+  {
+    "input": "What is -78 + 742?",
+    "answer": 664
+  },
+  {
+    "input": "What is 794 + 782?",
+    "answer": 1576
+  },
+  {
+    "input": "What is -831 / 512?",
+    "answer": -2
+  },
+  {
+    "input": "What is 687 - 88?",
+    "answer": 599
+  },
+  {
+    "input": "What is -33 * 357?",
+    "answer": -11781
+  },
+  {
+    "input": "What is -987 + 411?",
+    "answer": -576
+  },
+  {
+    "input": "What is 385 + 295?",
+    "answer": 680
+  },
+  {
+    "input": "What is -560 * 662?",
+    "answer": -370720
+  },
+  {
+    "input": "What is -288 - 831?",
+    "answer": -1119
+  },
+  {
+    "input": "What is -407 / 121?",
+    "answer": -4
+  },
+  {
+    "input": "What is -365 - 401?",
+    "answer": -766
+  },
+  {
+    "input": "What is 32 * 70?",
+    "answer": 2240
+  },
+  {
+    "input": "What is 319 - 882?",
+    "answer": -563
+  },
+  {
+    "input": "What is -583 - 63?",
+    "answer": -646
+  },
+  {
+    "input": "What is 440 * 987?",
+    "answer": 434280
+  },
+  {
+    "input": "What is -810 * 126?",
+    "answer": -102060
+  },
+  {
+    "input": "What is 6 - 852?",
+    "answer": -846
+  },
+  {
+    "input": "What is -892 / 763?",
+    "answer": -2
+  },
+  {
+    "input": "What is 131 - 415?",
+    "answer": -284
+  },
+  {
+    "input": "What is -573 * 266?",
+    "answer": -152418
+  },
+  {
+    "input": "What is -574 + 595?",
+    "answer": 21
+  },
+  {
+    "input": "What is 490 + 335?",
+    "answer": 825
+  },
+  {
+    "input": "What is -90 * 891?",
+    "answer": -80190
+  },
+  {
+    "input": "What is 261 - 624?",
+    "answer": -363
+  },
+  {
+    "input": "What is -857 + 4?",
+    "answer": -853
+  },
+  {
+    "input": "What is -393 * 50?",
+    "answer": -19650
+  },
+  {
+    "input": "What is -337 - 117?",
+    "answer": -454
+  },
+  {
+    "input": "What is 851 / 736?",
+    "answer": 1
+  },
+  {
+    "input": "What is 512 / 120?",
+    "answer": 4
+  },
+  {
+    "input": "What is 412 + 536?",
+    "answer": 948
+  },
+  {
+    "input": "What is -514 / 916?",
+    "answer": -1
+  },
+  {
+    "input": "What is 310 / 366?",
+    "answer": 0
+  },
+  {
+    "input": "What is 309 / 686?",
+    "answer": 0
+  },
+  {
+    "input": "What is 961 / 987?",
+    "answer": 0
+  },
+  {
+    "input": "What is -345 * 915?",
+    "answer": -315675
+  },
+  {
+    "input": "What is 969 - 777?",
+    "answer": 192
+  },
+  {
+    "input": "What is -694 / 687?",
+    "answer": -2
+  },
+  {
+    "input": "What is -951 - 124?",
+    "answer": -1075
+  },
+  {
+    "input": "What is 34 + 401?",
+    "answer": 435
+  },
+  {
+    "input": "What is -645 + 850?",
+    "answer": 205
+  },
+  {
+    "input": "What is 929 + 999?",
+    "answer": 1928
+  },
+  {
+    "input": "What is 89 / 943?",
+    "answer": 0
+  },
+  {
+    "input": "What is -877 * 762?",
+    "answer": -668274
+  },
+  {
+    "input": "What is -395 / 407?",
+    "answer": -1
+  },
+  {
+    "input": "What is 653 - 286?",
+    "answer": 367
+  },
+  {
+    "input": "What is 667 + 969?",
+    "answer": 1636
+  },
+  {
+    "input": "What is -581 / 912?",
+    "answer": -1
+  },
+  {
+    "input": "What is 658 + 270?",
+    "answer": 928
+  },
+  {
+    "input": "What is -352 + 709?",
+    "answer": 357
+  },
+  {
+    "input": "What is -867 - 423?",
+    "answer": -1290
+  },
+  {
+    "input": "What is 530 + 116?",
     "answer": 646
   },
   {
-    "input": "What is -254 * 412?",
-    "answer": -104648
+    "input": "What is 805 / 62?",
+    "answer": 12
   },
   {
-    "input": "What is -865 * 14?",
-    "answer": -12110
+    "input": "What is 964 - 111?",
+    "answer": 853
   },
   {
-    "input": "What is 18 - 429?",
+    "input": "What is -205 + 20?",
+    "answer": -185
+  },
+  {
+    "input": "What is -320 * 932?",
+    "answer": -298240
+  },
+  {
+    "input": "What is 556 / 709?",
+    "answer": 0
+  },
+  {
+    "input": "What is -787 - 800?",
+    "answer": -1587
+  },
+  {
+    "input": "What is 251 + 214?",
+    "answer": 465
+  },
+  {
+    "input": "What is -65 / 15?",
+    "answer": -5
+  },
+  {
+    "input": "What is -758 * 758?",
+    "answer": -574564
+  },
+  {
+    "input": "What is -246 - 379?",
+    "answer": -625
+  },
+  {
+    "input": "What is 776 + 319?",
+    "answer": 1095
+  },
+  {
+    "input": "What is -415 / 782?",
+    "answer": -1
+  },
+  {
+    "input": "What is -642 + 341?",
+    "answer": -301
+  },
+  {
+    "input": "What is 117 - 453?",
+    "answer": -336
+  },
+  {
+    "input": "What is 334 / 834?",
+    "answer": 0
+  },
+  {
+    "input": "What is 945 + 836?",
+    "answer": 1781
+  },
+  {
+    "input": "What is 30 - 30?",
+    "answer": 0
+  },
+  {
+    "input": "What is -989 * 935?",
+    "answer": -924715
+  },
+  {
+    "input": "What is 610 * 33?",
+    "answer": 20130
+  },
+  {
+    "input": "What is -5 + 973?",
+    "answer": 968
+  },
+  {
+    "input": "What is 438 * 669?",
+    "answer": 293022
+  },
+  {
+    "input": "What is 115 / 234?",
+    "answer": 0
+  },
+  {
+    "input": "What is 740 + 492?",
+    "answer": 1232
+  },
+  {
+    "input": "What is 559 + 735?",
+    "answer": 1294
+  },
+  {
+    "input": "What is 762 - 864?",
+    "answer": -102
+  },
+  {
+    "input": "What is 794 + 671?",
+    "answer": 1465
+  },
+  {
+    "input": "What is -840 * 370?",
+    "answer": -310800
+  },
+  {
+    "input": "What is 667 - 776?",
+    "answer": -109
+  },
+  {
+    "input": "What is -182 - 525?",
+    "answer": -707
+  },
+  {
+    "input": "What is 657 / 292?",
+    "answer": 2
+  },
+  {
+    "input": "What is -475 * 625?",
+    "answer": -296875
+  },
+  {
+    "input": "What is -825 / 964?",
+    "answer": -1
+  },
+  {
+    "input": "What is 27 + 771?",
+    "answer": 798
+  },
+  {
+    "input": "What is 353 - 650?",
+    "answer": -297
+  },
+  {
+    "input": "What is 492 - 538?",
+    "answer": -46
+  },
+  {
+    "input": "What is -513 - 886?",
+    "answer": -1399
+  },
+  {
+    "input": "What is 619 + 412?",
+    "answer": 1031
+  },
+  {
+    "input": "What is -710 + 777?",
+    "answer": 67
+  },
+  {
+    "input": "What is 733 + 972?",
+    "answer": 1705
+  },
+  {
+    "input": "What is 975 / 171?",
+    "answer": 5
+  },
+  {
+    "input": "What is -721 + 354?",
+    "answer": -367
+  },
+  {
+    "input": "What is -596 + 126?",
+    "answer": -470
+  },
+  {
+    "input": "What is 628 * 319?",
+    "answer": 200332
+  },
+  {
+    "input": "What is -259 * 447?",
+    "answer": -115773
+  },
+  {
+    "input": "What is 807 - 488?",
+    "answer": 319
+  },
+  {
+    "input": "What is 628 + 27?",
+    "answer": 655
+  },
+  {
+    "input": "What is -442 / 166?",
+    "answer": -3
+  },
+  {
+    "input": "What is -959 * 962?",
+    "answer": -922558
+  },
+  {
+    "input": "What is 519 - 856?",
+    "answer": -337
+  },
+  {
+    "input": "What is 701 / 90?",
+    "answer": 7
+  },
+  {
+    "input": "What is -70 * 602?",
+    "answer": -42140
+  },
+  {
+    "input": "What is 181 - 846?",
+    "answer": -665
+  },
+  {
+    "input": "What is 136 * 30?",
+    "answer": 4080
+  },
+  {
+    "input": "What is 795 * 21?",
+    "answer": 16695
+  },
+  {
+    "input": "What is 761 + 523?",
+    "answer": 1284
+  },
+  {
+    "input": "What is 212 * 793?",
+    "answer": 168116
+  },
+  {
+    "input": "What is 728 / 660?",
+    "answer": 1
+  },
+  {
+    "input": "What is 820 * 405?",
+    "answer": 332100
+  },
+  {
+    "input": "What is 501 + 767?",
+    "answer": 1268
+  },
+  {
+    "input": "What is -966 / 185?",
+    "answer": -6
+  },
+  {
+    "input": "What is 816 * 928?",
+    "answer": 757248
+  },
+  {
+    "input": "What is 403 + 180?",
+    "answer": 583
+  },
+  {
+    "input": "What is 930 * 671?",
+    "answer": 624030
+  },
+  {
+    "input": "What is 985 / 804?",
+    "answer": 1
+  },
+  {
+    "input": "What is -355 * 374?",
+    "answer": -132770
+  },
+  {
+    "input": "What is 536 * 221?",
+    "answer": 118456
+  },
+  {
+    "input": "What is -505 - 698?",
+    "answer": -1203
+  },
+  {
+    "input": "What is 231 + 971?",
+    "answer": 1202
+  },
+  {
+    "input": "What is 453 - 657?",
+    "answer": -204
+  },
+  {
+    "input": "What is -745 * 827?",
+    "answer": -616115
+  },
+  {
+    "input": "What is 545 + 708?",
+    "answer": 1253
+  },
+  {
+    "input": "What is 488 + 133?",
+    "answer": 621
+  },
+  {
+    "input": "What is 878 - 783?",
+    "answer": 95
+  },
+  {
+    "input": "What is 327 + 872?",
+    "answer": 1199
+  },
+  {
+    "input": "What is -198 + 502?",
+    "answer": 304
+  },
+  {
+    "input": "What is 658 - 863?",
+    "answer": -205
+  },
+  {
+    "input": "What is -546 + 894?",
+    "answer": 348
+  },
+  {
+    "input": "What is 991 / 225?",
+    "answer": 4
+  },
+  {
+    "input": "What is -186 + 158?",
+    "answer": -28
+  },
+  {
+    "input": "What is 435 / 849?",
+    "answer": 0
+  },
+  {
+    "input": "What is -380 * 585?",
+    "answer": -222300
+  },
+  {
+    "input": "What is -15 - 461?",
+    "answer": -476
+  },
+  {
+    "input": "What is 978 + 102?",
+    "answer": 1080
+  },
+  {
+    "input": "What is 596 / 931?",
+    "answer": 0
+  },
+  {
+    "input": "What is 768 + 753?",
+    "answer": 1521
+  },
+  {
+    "input": "What is 288 + 705?",
+    "answer": 993
+  },
+  {
+    "input": "What is 127 + 82?",
+    "answer": 209
+  },
+  {
+    "input": "What is 223 + 635?",
+    "answer": 858
+  },
+  {
+    "input": "What is -48 / 860?",
+    "answer": -1
+  },
+  {
+    "input": "What is -935 - 99?",
+    "answer": -1034
+  },
+  {
+    "input": "What is -223 - 239?",
+    "answer": -462
+  },
+  {
+    "input": "What is -625 + 941?",
+    "answer": 316
+  },
+  {
+    "input": "What is -799 / 641?",
+    "answer": -2
+  },
+  {
+    "input": "What is -882 / 872?",
+    "answer": -2
+  },
+  {
+    "input": "What is -761 * 851?",
+    "answer": -647611
+  },
+  {
+    "input": "What is 280 - 379?",
+    "answer": -99
+  },
+  {
+    "input": "What is -682 - 543?",
+    "answer": -1225
+  },
+  {
+    "input": "What is 355 + 181?",
+    "answer": 536
+  },
+  {
+    "input": "What is 255 / 900?",
+    "answer": 0
+  },
+  {
+    "input": "What is 285 - 688?",
+    "answer": -403
+  },
+  {
+    "input": "What is 73 - 961?",
+    "answer": -888
+  },
+  {
+    "input": "What is 900 * 585?",
+    "answer": 526500
+  },
+  {
+    "input": "What is 701 / 670?",
+    "answer": 1
+  },
+  {
+    "input": "What is -224 / 685?",
+    "answer": -1
+  },
+  {
+    "input": "What is 171 * 514?",
+    "answer": 87894
+  },
+  {
+    "input": "What is 139 - 553?",
+    "answer": -414
+  },
+  {
+    "input": "What is 178 + 783?",
+    "answer": 961
+  },
+  {
+    "input": "What is -622 + 629?",
+    "answer": 7
+  },
+  {
+    "input": "What is -410 * 683?",
+    "answer": -280030
+  },
+  {
+    "input": "What is -630 - 727?",
+    "answer": -1357
+  },
+  {
+    "input": "What is -301 / 650?",
+    "answer": -1
+  },
+  {
+    "input": "What is -77 - 579?",
+    "answer": -656
+  },
+  {
+    "input": "What is 213 * 4?",
+    "answer": 852
+  },
+  {
+    "input": "What is -764 * 545?",
+    "answer": -416380
+  },
+  {
+    "input": "What is 713 - 225?",
+    "answer": 488
+  },
+  {
+    "input": "What is 525 * 591?",
+    "answer": 310275
+  },
+  {
+    "input": "What is 248 + 230?",
+    "answer": 478
+  },
+  {
+    "input": "What is -922 - 586?",
+    "answer": -1508
+  },
+  {
+    "input": "What is -942 + 277?",
+    "answer": -665
+  },
+  {
+    "input": "What is 824 + 501?",
+    "answer": 1325
+  },
+  {
+    "input": "What is 106 + 395?",
+    "answer": 501
+  },
+  {
+    "input": "What is -246 / 281?",
+    "answer": -1
+  },
+  {
+    "input": "What is -567 / 852?",
+    "answer": -1
+  },
+  {
+    "input": "What is -439 / 163?",
+    "answer": -3
+  },
+  {
+    "input": "What is -18 * 348?",
+    "answer": -6264
+  },
+  {
+    "input": "What is -59 - 68?",
+    "answer": -127
+  },
+  {
+    "input": "What is -837 / 882?",
+    "answer": -1
+  },
+  {
+    "input": "What is 818 / 649?",
+    "answer": 1
+  },
+  {
+    "input": "What is 292 / 629?",
+    "answer": 0
+  },
+  {
+    "input": "What is 546 / 205?",
+    "answer": 2
+  },
+  {
+    "input": "What is 257 * 512?",
+    "answer": 131584
+  },
+  {
+    "input": "What is -960 * 447?",
+    "answer": -429120
+  },
+  {
+    "input": "What is -501 - 750?",
+    "answer": -1251
+  },
+  {
+    "input": "What is -18 + 126?",
+    "answer": 108
+  },
+  {
+    "input": "What is 85 * 1?",
+    "answer": 85
+  },
+  {
+    "input": "What is 273 * 259?",
+    "answer": 70707
+  },
+  {
+    "input": "What is -296 + 999?",
+    "answer": 703
+  },
+  {
+    "input": "What is -548 + 375?",
+    "answer": -173
+  },
+  {
+    "input": "What is -969 + 669?",
+    "answer": -300
+  },
+  {
+    "input": "What is -23 - 559?",
+    "answer": -582
+  },
+  {
+    "input": "What is -973 + 230?",
+    "answer": -743
+  },
+  {
+    "input": "What is -886 + 554?",
+    "answer": -332
+  },
+  {
+    "input": "What is -975 * 862?",
+    "answer": -840450
+  },
+  {
+    "input": "What is 328 * 598?",
+    "answer": 196144
+  },
+  {
+    "input": "What is -598 * 716?",
+    "answer": -428168
+  },
+  {
+    "input": "What is -394 + 272?",
+    "answer": -122
+  },
+  {
+    "input": "What is 858 + 689?",
+    "answer": 1547
+  },
+  {
+    "input": "What is 797 + 546?",
+    "answer": 1343
+  },
+  {
+    "input": "What is 924 * 706?",
+    "answer": 652344
+  },
+  {
+    "input": "What is -777 + 685?",
+    "answer": -92
+  },
+  {
+    "input": "What is 538 / 672?",
+    "answer": 0
+  },
+  {
+    "input": "What is -872 / 517?",
+    "answer": -2
+  },
+  {
+    "input": "What is 102 + 431?",
+    "answer": 533
+  },
+  {
+    "input": "What is -727 / 100?",
+    "answer": -8
+  },
+  {
+    "input": "What is 38 + 864?",
+    "answer": 902
+  },
+  {
+    "input": "What is -977 + 63?",
+    "answer": -914
+  },
+  {
+    "input": "What is -366 + 762?",
+    "answer": 396
+  },
+  {
+    "input": "What is 364 + 644?",
+    "answer": 1008
+  },
+  {
+    "input": "What is -360 / 629?",
+    "answer": -1
+  },
+  {
+    "input": "What is 770 - 527?",
+    "answer": 243
+  },
+  {
+    "input": "What is 944 / 678?",
+    "answer": 1
+  },
+  {
+    "input": "What is 222 - 570?",
+    "answer": -348
+  },
+  {
+    "input": "What is 7 * 760?",
+    "answer": 5320
+  },
+  {
+    "input": "What is 431 * 989?",
+    "answer": 426259
+  },
+  {
+    "input": "What is -778 - 307?",
+    "answer": -1085
+  },
+  {
+    "input": "What is 945 + 635?",
+    "answer": 1580
+  },
+  {
+    "input": "What is 708 - 121?",
+    "answer": 587
+  },
+  {
+    "input": "What is -360 + 29?",
+    "answer": -331
+  },
+  {
+    "input": "What is -511 * 465?",
+    "answer": -237615
+  },
+  {
+    "input": "What is -534 + 923?",
+    "answer": 389
+  },
+  {
+    "input": "What is -836 * 881?",
+    "answer": -736516
+  },
+  {
+    "input": "What is 382 / 932?",
+    "answer": 0
+  },
+  {
+    "input": "What is -74 - 384?",
+    "answer": -458
+  },
+  {
+    "input": "What is 923 + 63?",
+    "answer": 986
+  },
+  {
+    "input": "What is 327 - 826?",
+    "answer": -499
+  },
+  {
+    "input": "What is -885 * 883?",
+    "answer": -781455
+  },
+  {
+    "input": "What is 711 / 158?",
+    "answer": 4
+  },
+  {
+    "input": "What is -268 * 239?",
+    "answer": -64052
+  },
+  {
+    "input": "What is -882 - 228?",
+    "answer": -1110
+  },
+  {
+    "input": "What is 702 - 594?",
+    "answer": 108
+  },
+  {
+    "input": "What is 201 - 829?",
+    "answer": -628
+  },
+  {
+    "input": "What is -184 * 866?",
+    "answer": -159344
+  },
+  {
+    "input": "What is -985 + 508?",
+    "answer": -477
+  },
+  {
+    "input": "What is -453 * 71?",
+    "answer": -32163
+  },
+  {
+    "input": "What is 357 + 34?",
+    "answer": 391
+  },
+  {
+    "input": "What is -144 * 963?",
+    "answer": -138672
+  },
+  {
+    "input": "What is -375 / 964?",
+    "answer": -1
+  },
+  {
+    "input": "What is 755 - 680?",
+    "answer": 75
+  },
+  {
+    "input": "What is 450 + 363?",
+    "answer": 813
+  },
+  {
+    "input": "What is -711 + 363?",
+    "answer": -348
+  },
+  {
+    "input": "What is -285 * 465?",
+    "answer": -132525
+  },
+  {
+    "input": "What is -74 - 86?",
+    "answer": -160
+  },
+  {
+    "input": "What is -79 - 732?",
+    "answer": -811
+  },
+  {
+    "input": "What is 168 * 122?",
+    "answer": 20496
+  },
+  {
+    "input": "What is 660 * 995?",
+    "answer": 656700
+  },
+  {
+    "input": "What is -23 + 210?",
+    "answer": 187
+  },
+  {
+    "input": "What is -910 / 726?",
+    "answer": -2
+  },
+  {
+    "input": "What is 844 * 156?",
+    "answer": 131664
+  },
+  {
+    "input": "What is -914 + 516?",
+    "answer": -398
+  },
+  {
+    "input": "What is -824 + 461?",
+    "answer": -363
+  },
+  {
+    "input": "What is 751 + 543?",
+    "answer": 1294
+  },
+  {
+    "input": "What is 48 - 264?",
+    "answer": -216
+  },
+  {
+    "input": "What is -681 * 710?",
+    "answer": -483510
+  },
+  {
+    "input": "What is 348 + 307?",
+    "answer": 655
+  },
+  {
+    "input": "What is 269 - 65?",
+    "answer": 204
+  },
+  {
+    "input": "What is -955 / 965?",
+    "answer": -1
+  },
+  {
+    "input": "What is -91 + 446?",
+    "answer": 355
+  },
+  {
+    "input": "What is -890 - 60?",
+    "answer": -950
+  },
+  {
+    "input": "What is 246 - 803?",
+    "answer": -557
+  },
+  {
+    "input": "What is -274 / 453?",
+    "answer": -1
+  },
+  {
+    "input": "What is 799 - 777?",
+    "answer": 22
+  },
+  {
+    "input": "What is -79 / 211?",
+    "answer": -1
+  },
+  {
+    "input": "What is 654 * 278?",
+    "answer": 181812
+  },
+  {
+    "input": "What is 872 + 790?",
+    "answer": 1662
+  },
+  {
+    "input": "What is 692 / 961?",
+    "answer": 0
+  },
+  {
+    "input": "What is 942 + 575?",
+    "answer": 1517
+  },
+  {
+    "input": "What is -714 + 936?",
+    "answer": 222
+  },
+  {
+    "input": "What is 999 * 423?",
+    "answer": 422577
+  },
+  {
+    "input": "What is 561 / 960?",
+    "answer": 0
+  },
+  {
+    "input": "What is 500 * 134?",
+    "answer": 67000
+  },
+  {
+    "input": "What is -594 * 679?",
+    "answer": -403326
+  },
+  {
+    "input": "What is -270 / 656?",
+    "answer": -1
+  },
+  {
+    "input": "What is -817 * 29?",
+    "answer": -23693
+  },
+  {
+    "input": "What is 975 + 10?",
+    "answer": 985
+  },
+  {
+    "input": "What is -474 - 790?",
+    "answer": -1264
+  },
+  {
+    "input": "What is -845 - 676?",
+    "answer": -1521
+  },
+  {
+    "input": "What is 887 + 950?",
+    "answer": 1837
+  },
+  {
+    "input": "What is -184 + 61?",
+    "answer": -123
+  },
+  {
+    "input": "What is -659 / 312?",
+    "answer": -3
+  },
+  {
+    "input": "What is -739 * 194?",
+    "answer": -143366
+  },
+  {
+    "input": "What is 145 - 899?",
+    "answer": -754
+  },
+  {
+    "input": "What is 903 + 602?",
+    "answer": 1505
+  },
+  {
+    "input": "What is 296 * 966?",
+    "answer": 285936
+  },
+  {
+    "input": "What is -148 / 526?",
+    "answer": -1
+  },
+  {
+    "input": "What is 801 - 386?",
+    "answer": 415
+  },
+  {
+    "input": "What is -974 * 156?",
+    "answer": -151944
+  },
+  {
+    "input": "What is -142 / 114?",
+    "answer": -2
+  },
+  {
+    "input": "What is -192 / 305?",
+    "answer": -1
+  },
+  {
+    "input": "What is 566 + 164?",
+    "answer": 730
+  },
+  {
+    "input": "What is -15 + 926?",
+    "answer": 911
+  },
+  {
+    "input": "What is -72 / 961?",
+    "answer": -1
+  },
+  {
+    "input": "What is 72 / 120?",
+    "answer": 0
+  },
+  {
+    "input": "What is 315 / 777?",
+    "answer": 0
+  },
+  {
+    "input": "What is 932 * 724?",
+    "answer": 674768
+  },
+  {
+    "input": "What is 184 * 666?",
+    "answer": 122544
+  },
+  {
+    "input": "What is -257 - 71?",
+    "answer": -328
+  },
+  {
+    "input": "What is -989 - 475?",
+    "answer": -1464
+  },
+  {
+    "input": "What is -452 - 177?",
+    "answer": -629
+  },
+  {
+    "input": "What is 512 * 487?",
+    "answer": 249344
+  },
+  {
+    "input": "What is -703 / 416?",
+    "answer": -2
+  },
+  {
+    "input": "What is -269 - 45?",
+    "answer": -314
+  },
+  {
+    "input": "What is -299 / 189?",
+    "answer": -2
+  },
+  {
+    "input": "What is -443 * 675?",
+    "answer": -299025
+  },
+  {
+    "input": "What is -102 + 499?",
+    "answer": 397
+  },
+  {
+    "input": "What is 64 * 659?",
+    "answer": 42176
+  },
+  {
+    "input": "What is -794 * 207?",
+    "answer": -164358
+  },
+  {
+    "input": "What is 215 / 561?",
+    "answer": 0
+  },
+  {
+    "input": "What is 803 + 805?",
+    "answer": 1608
+  },
+  {
+    "input": "What is 421 - 179?",
+    "answer": 242
+  },
+  {
+    "input": "What is 429 * 506?",
+    "answer": 217074
+  },
+  {
+    "input": "What is 861 * 872?",
+    "answer": 750792
+  },
+  {
+    "input": "What is -96 + 355?",
+    "answer": 259
+  },
+  {
+    "input": "What is 698 + 808?",
+    "answer": 1506
+  },
+  {
+    "input": "What is 65 + 952?",
+    "answer": 1017
+  },
+  {
+    "input": "What is 568 - 1?",
+    "answer": 567
+  },
+  {
+    "input": "What is -184 + 966?",
+    "answer": 782
+  },
+  {
+    "input": "What is 245 / 817?",
+    "answer": 0
+  },
+  {
+    "input": "What is 690 / 495?",
+    "answer": 1
+  },
+  {
+    "input": "What is 177 * 206?",
+    "answer": 36462
+  },
+  {
+    "input": "What is 649 + 83?",
+    "answer": 732
+  },
+  {
+    "input": "What is 655 / 983?",
+    "answer": 0
+  },
+  {
+    "input": "What is 780 * 606?",
+    "answer": 472680
+  },
+  {
+    "input": "What is 218 - 595?",
+    "answer": -377
+  },
+  {
+    "input": "What is 589 + 60?",
+    "answer": 649
+  },
+  {
+    "input": "What is 219 / 208?",
+    "answer": 1
+  },
+  {
+    "input": "What is -596 + 239?",
+    "answer": -357
+  },
+  {
+    "input": "What is 690 - 157?",
+    "answer": 533
+  },
+  {
+    "input": "What is -210 * 513?",
+    "answer": -107730
+  },
+  {
+    "input": "What is 123 * 169?",
+    "answer": 20787
+  },
+  {
+    "input": "What is 285 * 991?",
+    "answer": 282435
+  },
+  {
+    "input": "What is 380 * 63?",
+    "answer": 23940
+  },
+  {
+    "input": "What is -458 / 739?",
+    "answer": -1
+  },
+  {
+    "input": "What is -490 * 152?",
+    "answer": -74480
+  },
+  {
+    "input": "What is -744 - 141?",
+    "answer": -885
+  },
+  {
+    "input": "What is -397 + 168?",
+    "answer": -229
+  },
+  {
+    "input": "What is -567 / 293?",
+    "answer": -2
+  },
+  {
+    "input": "What is 876 - 425?",
+    "answer": 451
+  },
+  {
+    "input": "What is -848 / 621?",
+    "answer": -2
+  },
+  {
+    "input": "What is 116 + 699?",
+    "answer": 815
+  },
+  {
+    "input": "What is -459 - 493?",
+    "answer": -952
+  },
+  {
+    "input": "What is 752 + 340?",
+    "answer": 1092
+  },
+  {
+    "input": "What is 570 + 994?",
+    "answer": 1564
+  },
+  {
+    "input": "What is -163 + 986?",
+    "answer": 823
+  },
+  {
+    "input": "What is 533 + 4?",
+    "answer": 537
+  },
+  {
+    "input": "What is -955 + 277?",
+    "answer": -678
+  },
+  {
+    "input": "What is 136 + 66?",
+    "answer": 202
+  },
+  {
+    "input": "What is -379 + 288?",
+    "answer": -91
+  },
+  {
+    "input": "What is -470 + 474?",
+    "answer": 4
+  },
+  {
+    "input": "What is -511 - 483?",
+    "answer": -994
+  },
+  {
+    "input": "What is 498 * 264?",
+    "answer": 131472
+  },
+  {
+    "input": "What is -513 / 108?",
+    "answer": -5
+  },
+  {
+    "input": "What is -202 + 339?",
+    "answer": 137
+  },
+  {
+    "input": "What is -483 / 654?",
+    "answer": -1
+  },
+  {
+    "input": "What is -257 / 487?",
+    "answer": -1
+  },
+  {
+    "input": "What is -994 + 485?",
+    "answer": -509
+  },
+  {
+    "input": "What is 718 - 591?",
+    "answer": 127
+  },
+  {
+    "input": "What is 671 - 668?",
+    "answer": 3
+  },
+  {
+    "input": "What is -773 / 107?",
+    "answer": -8
+  },
+  {
+    "input": "What is -286 + 669?",
+    "answer": 383
+  },
+  {
+    "input": "What is 604 - 679?",
+    "answer": -75
+  },
+  {
+    "input": "What is 825 + 313?",
+    "answer": 1138
+  },
+  {
+    "input": "What is -596 + 234?",
+    "answer": -362
+  },
+  {
+    "input": "What is 968 + 734?",
+    "answer": 1702
+  },
+  {
+    "input": "What is 667 - 376?",
+    "answer": 291
+  },
+  {
+    "input": "What is -504 / 989?",
+    "answer": -1
+  },
+  {
+    "input": "What is 742 + 611?",
+    "answer": 1353
+  },
+  {
+    "input": "What is -324 / 274?",
+    "answer": -2
+  },
+  {
+    "input": "What is 351 / 744?",
+    "answer": 0
+  },
+  {
+    "input": "What is -121 - 573?",
+    "answer": -694
+  },
+  {
+    "input": "What is 964 / 977?",
+    "answer": 0
+  },
+  {
+    "input": "What is 589 * 718?",
+    "answer": 422902
+  },
+  {
+    "input": "What is 469 - 299?",
+    "answer": 170
+  },
+  {
+    "input": "What is -895 + 743?",
+    "answer": -152
+  },
+  {
+    "input": "What is 914 * 660?",
+    "answer": 603240
+  },
+  {
+    "input": "What is 16 + 470?",
+    "answer": 486
+  },
+  {
+    "input": "What is 649 - 563?",
+    "answer": 86
+  },
+  {
+    "input": "What is -570 / 378?",
+    "answer": -2
+  },
+  {
+    "input": "What is -757 - 220?",
+    "answer": -977
+  },
+  {
+    "input": "What is 170 - 331?",
+    "answer": -161
+  },
+  {
+    "input": "What is 697 - 122?",
+    "answer": 575
+  },
+  {
+    "input": "What is -986 + 222?",
+    "answer": -764
+  },
+  {
+    "input": "What is 69 + 62?",
+    "answer": 131
+  },
+  {
+    "input": "What is 196 * 367?",
+    "answer": 71932
+  },
+  {
+    "input": "What is 812 - 487?",
+    "answer": 325
+  },
+  {
+    "input": "What is -784 - 289?",
+    "answer": -1073
+  },
+  {
+    "input": "What is -331 + 230?",
+    "answer": -101
+  },
+  {
+    "input": "What is -641 / 848?",
+    "answer": -1
+  },
+  {
+    "input": "What is 529 / 262?",
+    "answer": 2
+  },
+  {
+    "input": "What is 261 - 665?",
+    "answer": -404
+  },
+  {
+    "input": "What is 669 - 677?",
+    "answer": -8
+  },
+  {
+    "input": "What is 228 - 456?",
+    "answer": -228
+  },
+  {
+    "input": "What is 894 / 586?",
+    "answer": 1
+  },
+  {
+    "input": "What is 420 * 754?",
+    "answer": 316680
+  },
+  {
+    "input": "What is 398 + 460?",
+    "answer": 858
+  },
+  {
+    "input": "What is 597 + 229?",
+    "answer": 826
+  },
+  {
+    "input": "What is 20 + 232?",
+    "answer": 252
+  },
+  {
+    "input": "What is 23 - 878?",
+    "answer": -855
+  },
+  {
+    "input": "What is 188 + 2?",
+    "answer": 190
+  },
+  {
+    "input": "What is -560 + 725?",
+    "answer": 165
+  },
+  {
+    "input": "What is -600 / 252?",
+    "answer": -3
+  },
+  {
+    "input": "What is 282 / 862?",
+    "answer": 0
+  },
+  {
+    "input": "What is 30 - 554?",
+    "answer": -524
+  },
+  {
+    "input": "What is 126 - 898?",
+    "answer": -772
+  },
+  {
+    "input": "What is 771 * 296?",
+    "answer": 228216
+  },
+  {
+    "input": "What is -18 * 637?",
+    "answer": -11466
+  },
+  {
+    "input": "What is -650 - 826?",
+    "answer": -1476
+  },
+  {
+    "input": "What is 143 * 51?",
+    "answer": 7293
+  },
+  {
+    "input": "What is -270 - 474?",
+    "answer": -744
+  },
+  {
+    "input": "What is -152 - 978?",
+    "answer": -1130
+  },
+  {
+    "input": "What is 11 + 919?",
+    "answer": 930
+  },
+  {
+    "input": "What is -569 - 297?",
+    "answer": -866
+  },
+  {
+    "input": "What is 322 * 130?",
+    "answer": 41860
+  },
+  {
+    "input": "What is 56 * 236?",
+    "answer": 13216
+  },
+  {
+    "input": "What is -370 / 598?",
+    "answer": -1
+  },
+  {
+    "input": "What is 664 - 136?",
+    "answer": 528
+  },
+  {
+    "input": "What is 734 / 926?",
+    "answer": 0
+  },
+  {
+    "input": "What is -917 - 507?",
+    "answer": -1424
+  },
+  {
+    "input": "What is -649 + 284?",
+    "answer": -365
+  },
+  {
+    "input": "What is 6 * 896?",
+    "answer": 5376
+  },
+  {
+    "input": "What is 296 * 402?",
+    "answer": 118992
+  },
+  {
+    "input": "What is 29 * 673?",
+    "answer": 19517
+  },
+  {
+    "input": "What is -852 * 231?",
+    "answer": -196812
+  },
+  {
+    "input": "What is 374 * 282?",
+    "answer": 105468
+  },
+  {
+    "input": "What is 675 / 90?",
+    "answer": 7
+  },
+  {
+    "input": "What is 240 - 298?",
+    "answer": -58
+  },
+  {
+    "input": "What is 328 / 425?",
+    "answer": 0
+  },
+  {
+    "input": "What is 96 + 305?",
+    "answer": 401
+  },
+  {
+    "input": "What is -559 - 289?",
+    "answer": -848
+  },
+  {
+    "input": "What is 142 / 675?",
+    "answer": 0
+  },
+  {
+    "input": "What is -840 / 845?",
+    "answer": -1
+  },
+  {
+    "input": "What is -495 + 978?",
+    "answer": 483
+  },
+  {
+    "input": "What is -658 + 895?",
+    "answer": 237
+  },
+  {
+    "input": "What is -623 + 510?",
+    "answer": -113
+  },
+  {
+    "input": "What is -307 + 184?",
+    "answer": -123
+  },
+  {
+    "input": "What is 186 + 895?",
+    "answer": 1081
+  },
+  {
+    "input": "What is 534 * 461?",
+    "answer": 246174
+  },
+  {
+    "input": "What is 376 - 250?",
+    "answer": 126
+  },
+  {
+    "input": "What is 660 + 300?",
+    "answer": 960
+  },
+  {
+    "input": "What is -508 - 953?",
+    "answer": -1461
+  },
+  {
+    "input": "What is 924 - 756?",
+    "answer": 168
+  },
+  {
+    "input": "What is -769 / 388?",
+    "answer": -2
+  },
+  {
+    "input": "What is -459 + 17?",
+    "answer": -442
+  },
+  {
+    "input": "What is 593 / 596?",
+    "answer": 0
+  },
+  {
+    "input": "What is -79 + 278?",
+    "answer": 199
+  },
+  {
+    "input": "What is 475 - 575?",
+    "answer": -100
+  },
+  {
+    "input": "What is 820 / 686?",
+    "answer": 1
+  },
+  {
+    "input": "What is -298 + 97?",
+    "answer": -201
+  },
+  {
+    "input": "What is -990 - 27?",
+    "answer": -1017
+  },
+  {
+    "input": "What is -88 / 168?",
+    "answer": -1
+  },
+  {
+    "input": "What is 604 + 477?",
+    "answer": 1081
+  },
+  {
+    "input": "What is 981 * 100?",
+    "answer": 98100
+  },
+  {
+    "input": "What is 557 / 289?",
+    "answer": 1
+  },
+  {
+    "input": "What is -994 + 977?",
+    "answer": -17
+  },
+  {
+    "input": "What is 196 + 566?",
+    "answer": 762
+  },
+  {
+    "input": "What is 181 + 773?",
+    "answer": 954
+  },
+  {
+    "input": "What is 733 + 378?",
+    "answer": 1111
+  },
+  {
+    "input": "What is -910 * 913?",
+    "answer": -830830
+  },
+  {
+    "input": "What is 419 + 678?",
+    "answer": 1097
+  },
+  {
+    "input": "What is 115 - 518?",
+    "answer": -403
+  },
+  {
+    "input": "What is 153 - 668?",
+    "answer": -515
+  },
+  {
+    "input": "What is 943 / 305?",
+    "answer": 3
+  },
+  {
+    "input": "What is -477 / 747?",
+    "answer": -1
+  },
+  {
+    "input": "What is -193 + 110?",
+    "answer": -83
+  },
+  {
+    "input": "What is 456 * 491?",
+    "answer": 223896
+  },
+  {
+    "input": "What is -164 / 204?",
+    "answer": -1
+  },
+  {
+    "input": "What is 662 + 5?",
+    "answer": 667
+  },
+  {
+    "input": "What is -832 * 988?",
+    "answer": -822016
+  },
+  {
+    "input": "What is -481 / 87?",
+    "answer": -6
+  },
+  {
+    "input": "What is 203 / 914?",
+    "answer": 0
+  },
+  {
+    "input": "What is -227 - 808?",
+    "answer": -1035
+  },
+  {
+    "input": "What is -885 - 760?",
+    "answer": -1645
+  },
+  {
+    "input": "What is 399 * 897?",
+    "answer": 357903
+  },
+  {
+    "input": "What is 175 / 169?",
+    "answer": 1
+  },
+  {
+    "input": "What is -640 - 803?",
+    "answer": -1443
+  },
+  {
+    "input": "What is -52 - 337?",
+    "answer": -389
+  },
+  {
+    "input": "What is 152 / 862?",
+    "answer": 0
+  },
+  {
+    "input": "What is 80 / 501?",
+    "answer": 0
+  },
+  {
+    "input": "What is 730 * 27?",
+    "answer": 19710
+  },
+  {
+    "input": "What is -433 - 904?",
+    "answer": -1337
+  },
+  {
+    "input": "What is -253 - 168?",
+    "answer": -421
+  },
+  {
+    "input": "What is 79 + 616?",
+    "answer": 695
+  },
+  {
+    "input": "What is 895 * 430?",
+    "answer": 384850
+  },
+  {
+    "input": "What is -51 / 397?",
+    "answer": -1
+  },
+  {
+    "input": "What is -963 * 139?",
+    "answer": -133857
+  },
+  {
+    "input": "What is -276 - 500?",
+    "answer": -776
+  },
+  {
+    "input": "What is 279 + 825?",
+    "answer": 1104
+  },
+  {
+    "input": "What is -668 + 373?",
+    "answer": -295
+  },
+  {
+    "input": "What is -313 - 346?",
+    "answer": -659
+  },
+  {
+    "input": "What is -770 - 781?",
+    "answer": -1551
+  },
+  {
+    "input": "What is 247 / 389?",
+    "answer": 0
+  },
+  {
+    "input": "What is 458 + 436?",
+    "answer": 894
+  },
+  {
+    "input": "What is 218 - 891?",
+    "answer": -673
+  },
+  {
+    "input": "What is 156 - 257?",
+    "answer": -101
+  },
+  {
+    "input": "What is 439 * 903?",
+    "answer": 396417
+  },
+  {
+    "input": "What is -122 - 394?",
+    "answer": -516
+  },
+  {
+    "input": "What is 581 + 753?",
+    "answer": 1334
+  },
+  {
+    "input": "What is 213 + 300?",
+    "answer": 513
+  },
+  {
+    "input": "What is -91 / 645?",
+    "answer": -1
+  },
+  {
+    "input": "What is 959 * 217?",
+    "answer": 208103
+  },
+  {
+    "input": "What is 806 - 172?",
+    "answer": 634
+  },
+  {
+    "input": "What is 418 * 907?",
+    "answer": 379126
+  },
+  {
+    "input": "What is -15 / 260?",
+    "answer": -1
+  },
+  {
+    "input": "What is -104 - 321?",
+    "answer": -425
+  },
+  {
+    "input": "What is 398 - 323?",
+    "answer": 75
+  },
+  {
+    "input": "What is 477 + 607?",
+    "answer": 1084
+  },
+  {
+    "input": "What is -642 / 284?",
+    "answer": -3
+  },
+  {
+    "input": "What is 864 * 786?",
+    "answer": 679104
+  },
+  {
+    "input": "What is -395 - 529?",
+    "answer": -924
+  },
+  {
+    "input": "What is 861 / 747?",
+    "answer": 1
+  },
+  {
+    "input": "What is -593 + 931?",
+    "answer": 338
+  },
+  {
+    "input": "What is 750 * 685?",
+    "answer": 513750
+  },
+  {
+    "input": "What is 510 / 585?",
+    "answer": 0
+  },
+  {
+    "input": "What is 483 + 151?",
+    "answer": 634
+  },
+  {
+    "input": "What is -886 / 569?",
+    "answer": -2
+  },
+  {
+    "input": "What is -953 / 843?",
+    "answer": -2
+  },
+  {
+    "input": "What is -54 / 201?",
+    "answer": -1
+  },
+  {
+    "input": "What is -67 / 265?",
+    "answer": -1
+  },
+  {
+    "input": "What is 896 - 30?",
+    "answer": 866
+  },
+  {
+    "input": "What is -368 * 263?",
+    "answer": -96784
+  },
+  {
+    "input": "What is 256 / 127?",
+    "answer": 2
+  },
+  {
+    "input": "What is -532 + 513?",
+    "answer": -19
+  },
+  {
+    "input": "What is 38 / 582?",
+    "answer": 0
+  },
+  {
+    "input": "What is -540 * 874?",
+    "answer": -471960
+  },
+  {
+    "input": "What is 845 * 855?",
+    "answer": 722475
+  },
+  {
+    "input": "What is -745 / 730?",
+    "answer": -2
+  },
+  {
+    "input": "What is 635 - 41?",
+    "answer": 594
+  },
+  {
+    "input": "What is -344 - 743?",
+    "answer": -1087
+  },
+  {
+    "input": "What is 721 / 746?",
+    "answer": 0
+  },
+  {
+    "input": "What is 598 * 255?",
+    "answer": 152490
+  },
+  {
+    "input": "What is -887 - 560?",
+    "answer": -1447
+  },
+  {
+    "input": "What is 870 + 483?",
+    "answer": 1353
+  },
+  {
+    "input": "What is -250 + 888?",
+    "answer": 638
+  },
+  {
+    "input": "What is -239 * 44?",
+    "answer": -10516
+  },
+  {
+    "input": "What is 575 * 487?",
+    "answer": 280025
+  },
+  {
+    "input": "What is 986 * 849?",
+    "answer": 837114
+  },
+  {
+    "input": "What is 998 - 760?",
+    "answer": 238
+  },
+  {
+    "input": "What is -485 + 922?",
+    "answer": 437
+  },
+  {
+    "input": "What is -77 * 137?",
+    "answer": -10549
+  },
+  {
+    "input": "What is -683 / 385?",
+    "answer": -2
+  },
+  {
+    "input": "What is 779 - 394?",
+    "answer": 385
+  },
+  {
+    "input": "What is -320 - 982?",
+    "answer": -1302
+  },
+  {
+    "input": "What is 739 - 210?",
+    "answer": 529
+  },
+  {
+    "input": "What is -1 - 76?",
+    "answer": -77
+  },
+  {
+    "input": "What is 97 / 770?",
+    "answer": 0
+  },
+  {
+    "input": "What is -586 / 369?",
+    "answer": -2
+  },
+  {
+    "input": "What is 363 / 114?",
+    "answer": 3
+  },
+  {
+    "input": "What is 701 * 918?",
+    "answer": 643518
+  },
+  {
+    "input": "What is 876 + 985?",
+    "answer": 1861
+  },
+  {
+    "input": "What is -982 + 142?",
+    "answer": -840
+  },
+  {
+    "input": "What is -711 * 849?",
+    "answer": -603639
+  },
+  {
+    "input": "What is 311 - 854?",
+    "answer": -543
+  },
+  {
+    "input": "What is -656 / 159?",
+    "answer": -5
+  },
+  {
+    "input": "What is -12 + 246?",
+    "answer": 234
+  },
+  {
+    "input": "What is -920 + 673?",
+    "answer": -247
+  },
+  {
+    "input": "What is 951 * 761?",
+    "answer": 723711
+  },
+  {
+    "input": "What is 13 * 549?",
+    "answer": 7137
+  },
+  {
+    "input": "What is 661 * 669?",
+    "answer": 442209
+  },
+  {
+    "input": "What is -803 * 395?",
+    "answer": -317185
+  },
+  {
+    "input": "What is 468 / 783?",
+    "answer": 0
+  },
+  {
+    "input": "What is -943 - 65?",
+    "answer": -1008
+  },
+  {
+    "input": "What is 567 + 223?",
+    "answer": 790
+  },
+  {
+    "input": "What is 345 * 117?",
+    "answer": 40365
+  },
+  {
+    "input": "What is 836 - 25?",
+    "answer": 811
+  },
+  {
+    "input": "What is 875 + 991?",
+    "answer": 1866
+  },
+  {
+    "input": "What is 947 / 612?",
+    "answer": 1
+  },
+  {
+    "input": "What is -519 + 283?",
+    "answer": -236
+  },
+  {
+    "input": "What is -560 * 887?",
+    "answer": -496720
+  },
+  {
+    "input": "What is -807 * 899?",
+    "answer": -725493
+  },
+  {
+    "input": "What is 368 + 727?",
+    "answer": 1095
+  },
+  {
+    "input": "What is 703 - 913?",
+    "answer": -210
+  },
+  {
+    "input": "What is 418 / 234?",
+    "answer": 1
+  },
+  {
+    "input": "What is -896 + 266?",
+    "answer": -630
+  },
+  {
+    "input": "What is -172 / 798?",
+    "answer": -1
+  },
+  {
+    "input": "What is 112 / 905?",
+    "answer": 0
+  },
+  {
+    "input": "What is 343 * 521?",
+    "answer": 178703
+  },
+  {
+    "input": "What is -351 + 458?",
+    "answer": 107
+  },
+  {
+    "input": "What is -393 + 62?",
+    "answer": -331
+  },
+  {
+    "input": "What is -52 * 34?",
+    "answer": -1768
+  },
+  {
+    "input": "What is -224 - 941?",
+    "answer": -1165
+  },
+  {
+    "input": "What is 977 / 166?",
+    "answer": 5
+  },
+  {
+    "input": "What is -962 * 776?",
+    "answer": -746512
+  },
+  {
+    "input": "What is 930 / 209?",
+    "answer": 4
+  },
+  {
+    "input": "What is -408 * 637?",
+    "answer": -259896
+  },
+  {
+    "input": "What is -742 / 527?",
+    "answer": -2
+  },
+  {
+    "input": "What is -28 - 225?",
+    "answer": -253
+  },
+  {
+    "input": "What is -572 * 269?",
+    "answer": -153868
+  },
+  {
+    "input": "What is -551 + 777?",
+    "answer": 226
+  },
+  {
+    "input": "What is 120 / 418?",
+    "answer": 0
+  },
+  {
+    "input": "What is -396 * 631?",
+    "answer": -249876
+  },
+  {
+    "input": "What is 572 + 30?",
+    "answer": 602
+  },
+  {
+    "input": "What is -375 * 648?",
+    "answer": -243000
+  },
+  {
+    "input": "What is 29 / 535?",
+    "answer": 0
+  },
+  {
+    "input": "What is 10 * 121?",
+    "answer": 1210
+  },
+  {
+    "input": "What is 843 - 407?",
+    "answer": 436
+  },
+  {
+    "input": "What is -449 + 124?",
+    "answer": -325
+  },
+  {
+    "input": "What is 684 * 385?",
+    "answer": 263340
+  },
+  {
+    "input": "What is 243 - 740?",
+    "answer": -497
+  },
+  {
+    "input": "What is 23 - 158?",
+    "answer": -135
+  },
+  {
+    "input": "What is -84 / 515?",
+    "answer": -1
+  },
+  {
+    "input": "What is 890 - 528?",
+    "answer": 362
+  },
+  {
+    "input": "What is -150 + 18?",
+    "answer": -132
+  },
+  {
+    "input": "What is -975 - 33?",
+    "answer": -1008
+  },
+  {
+    "input": "What is -549 / 30?",
+    "answer": -19
+  },
+  {
+    "input": "What is 485 - 72?",
+    "answer": 413
+  },
+  {
+    "input": "What is 869 - 140?",
+    "answer": 729
+  },
+  {
+    "input": "What is -665 + 302?",
+    "answer": -363
+  },
+  {
+    "input": "What is -19 - 413?",
+    "answer": -432
+  },
+  {
+    "input": "What is -247 / 568?",
+    "answer": -1
+  },
+  {
+    "input": "What is -35 / 718?",
+    "answer": -1
+  },
+  {
+    "input": "What is 717 * 159?",
+    "answer": 114003
+  },
+  {
+    "input": "What is 22 / 192?",
+    "answer": 0
+  },
+  {
+    "input": "What is -503 * 699?",
+    "answer": -351597
+  },
+  {
+    "input": "What is -340 / 976?",
+    "answer": -1
+  },
+  {
+    "input": "What is -73 * 966?",
+    "answer": -70518
+  },
+  {
+    "input": "What is -896 - 261?",
+    "answer": -1157
+  },
+  {
+    "input": "What is -164 * 790?",
+    "answer": -129560
+  },
+  {
+    "input": "What is -172 / 102?",
+    "answer": -2
+  },
+  {
+    "input": "What is -816 * 906?",
+    "answer": -739296
+  },
+  {
+    "input": "What is 883 / 787?",
+    "answer": 1
+  },
+  {
+    "input": "What is 845 / 505?",
+    "answer": 1
+  },
+  {
+    "input": "What is -871 + 710?",
+    "answer": -161
+  },
+  {
+    "input": "What is 18 + 513?",
+    "answer": 531
+  },
+  {
+    "input": "What is 44 * 344?",
+    "answer": 15136
+  },
+  {
+    "input": "What is -257 / 408?",
+    "answer": -1
+  },
+  {
+    "input": "What is 239 - 416?",
+    "answer": -177
+  },
+  {
+    "input": "What is -458 + 37?",
+    "answer": -421
+  },
+  {
+    "input": "What is -415 - 323?",
+    "answer": -738
+  },
+  {
+    "input": "What is 991 + 394?",
+    "answer": 1385
+  },
+  {
+    "input": "What is 604 + 456?",
+    "answer": 1060
+  },
+  {
+    "input": "What is 698 - 620?",
+    "answer": 78
+  },
+  {
+    "input": "What is 454 * 206?",
+    "answer": 93524
+  },
+  {
+    "input": "What is 391 + 496?",
+    "answer": 887
+  },
+  {
+    "input": "What is 273 * 929?",
+    "answer": 253617
+  },
+  {
+    "input": "What is 421 * 219?",
+    "answer": 92199
+  },
+  {
+    "input": "What is -9 * 303?",
+    "answer": -2727
+  },
+  {
+    "input": "What is 964 - 941?",
+    "answer": 23
+  },
+  {
+    "input": "What is 398 + 85?",
+    "answer": 483
+  },
+  {
+    "input": "What is 221 + 847?",
+    "answer": 1068
+  },
+  {
+    "input": "What is -237 / 88?",
+    "answer": -3
+  },
+  {
+    "input": "What is 150 * 740?",
+    "answer": 111000
+  },
+  {
+    "input": "What is 144 + 726?",
+    "answer": 870
+  },
+  {
+    "input": "What is -39 - 907?",
+    "answer": -946
+  },
+  {
+    "input": "What is 736 + 557?",
+    "answer": 1293
+  },
+  {
+    "input": "What is -796 - 342?",
+    "answer": -1138
+  },
+  {
+    "input": "What is -655 - 937?",
+    "answer": -1592
+  },
+  {
+    "input": "What is -263 * 803?",
+    "answer": -211189
+  },
+  {
+    "input": "What is -324 - 549?",
+    "answer": -873
+  },
+  {
+    "input": "What is -549 / 38?",
+    "answer": -15
+  },
+  {
+    "input": "What is -873 / 792?",
+    "answer": -2
+  },
+  {
+    "input": "What is -347 * 259?",
+    "answer": -89873
+  },
+  {
+    "input": "What is 640 + 981?",
+    "answer": 1621
+  },
+  {
+    "input": "What is 35 - 394?",
+    "answer": -359
+  },
+  {
+    "input": "What is 757 / 502?",
+    "answer": 1
+  },
+  {
+    "input": "What is 525 * 916?",
+    "answer": 480900
+  },
+  {
+    "input": "What is 561 / 120?",
+    "answer": 4
+  },
+  {
+    "input": "What is 496 - 13?",
+    "answer": 483
+  },
+  {
+    "input": "What is 750 * 788?",
+    "answer": 591000
+  },
+  {
+    "input": "What is 57 + 652?",
+    "answer": 709
+  },
+  {
+    "input": "What is -406 + 123?",
+    "answer": -283
+  },
+  {
+    "input": "What is 858 / 844?",
+    "answer": 1
+  },
+  {
+    "input": "What is -191 + 377?",
+    "answer": 186
+  },
+  {
+    "input": "What is 107 - 783?",
+    "answer": -676
+  },
+  {
+    "input": "What is -87 * 283?",
+    "answer": -24621
+  },
+  {
+    "input": "What is 142 + 205?",
+    "answer": 347
+  },
+  {
+    "input": "What is 795 / 873?",
+    "answer": 0
+  },
+  {
+    "input": "What is -638 + 135?",
+    "answer": -503
+  },
+  {
+    "input": "What is 23 * 249?",
+    "answer": 5727
+  },
+  {
+    "input": "What is 81 - 376?",
+    "answer": -295
+  },
+  {
+    "input": "What is -980 / 432?",
+    "answer": -3
+  },
+  {
+    "input": "What is 359 - 330?",
+    "answer": 29
+  },
+  {
+    "input": "What is -323 + 600?",
+    "answer": 277
+  },
+  {
+    "input": "What is -580 + 965?",
+    "answer": 385
+  },
+  {
+    "input": "What is 121 - 78?",
+    "answer": 43
+  },
+  {
+    "input": "What is 660 / 271?",
+    "answer": 2
+  },
+  {
+    "input": "What is 638 / 607?",
+    "answer": 1
+  },
+  {
+    "input": "What is 804 / 156?",
+    "answer": 5
+  },
+  {
+    "input": "What is -782 * 590?",
+    "answer": -461380
+  },
+  {
+    "input": "What is -357 + 518?",
+    "answer": 161
+  },
+  {
+    "input": "What is 184 - 144?",
+    "answer": 40
+  },
+  {
+    "input": "What is 87 - 864?",
+    "answer": -777
+  },
+  {
+    "input": "What is -733 - 512?",
+    "answer": -1245
+  },
+  {
+    "input": "What is -679 + 930?",
+    "answer": 251
+  },
+  {
+    "input": "What is 585 - 705?",
+    "answer": -120
+  },
+  {
+    "input": "What is 334 + 954?",
+    "answer": 1288
+  },
+  {
+    "input": "What is -62 * 621?",
+    "answer": -38502
+  },
+  {
+    "input": "What is -777 - 594?",
+    "answer": -1371
+  },
+  {
+    "input": "What is -252 / 350?",
+    "answer": -1
+  },
+  {
+    "input": "What is 822 / 308?",
+    "answer": 2
+  },
+  {
+    "input": "What is 542 + 365?",
+    "answer": 907
+  },
+  {
+    "input": "What is 258 + 226?",
+    "answer": 484
+  },
+  {
+    "input": "What is 236 - 88?",
+    "answer": 148
+  },
+  {
+    "input": "What is 234 / 186?",
+    "answer": 1
+  },
+  {
+    "input": "What is -960 + 286?",
+    "answer": -674
+  },
+  {
+    "input": "What is 157 + 879?",
+    "answer": 1036
+  },
+  {
+    "input": "What is -362 * 989?",
+    "answer": -358018
+  },
+  {
+    "input": "What is 944 - 451?",
+    "answer": 493
+  },
+  {
+    "input": "What is 783 * 225?",
+    "answer": 176175
+  },
+  {
+    "input": "What is -833 / 406?",
+    "answer": -3
+  },
+  {
+    "input": "What is -68 - 904?",
+    "answer": -972
+  },
+  {
+    "input": "What is 265 - 962?",
+    "answer": -697
+  },
+  {
+    "input": "What is -595 / 564?",
+    "answer": -2
+  },
+  {
+    "input": "What is -918 / 540?",
+    "answer": -2
+  },
+  {
+    "input": "What is -823 * 725?",
+    "answer": -596675
+  },
+  {
+    "input": "What is -968 * 532?",
+    "answer": -514976
+  },
+  {
+    "input": "What is 481 - 208?",
+    "answer": 273
+  },
+  {
+    "input": "What is -451 / 56?",
+    "answer": -9
+  },
+  {
+    "input": "What is -576 / 849?",
+    "answer": -1
+  },
+  {
+    "input": "What is -574 * 974?",
+    "answer": -559076
+  },
+  {
+    "input": "What is 563 + 205?",
+    "answer": 768
+  },
+  {
+    "input": "What is 667 * 224?",
+    "answer": 149408
+  },
+  {
+    "input": "What is 901 / 45?",
+    "answer": 20
+  },
+  {
+    "input": "What is 469 + 298?",
+    "answer": 767
+  },
+  {
+    "input": "What is 136 / 30?",
+    "answer": 4
+  },
+  {
+    "input": "What is -475 * 301?",
+    "answer": -142975
+  },
+  {
+    "input": "What is -553 + 166?",
+    "answer": -387
+  },
+  {
+    "input": "What is 453 - 864?",
     "answer": -411
+  },
+  {
+    "input": "What is 999 + 627?",
+    "answer": 1626
+  },
+  {
+    "input": "What is -16 / 757?",
+    "answer": -1
+  },
+  {
+    "input": "What is -7 / 482?",
+    "answer": -1
+  },
+  {
+    "input": "What is -16 + 360?",
+    "answer": 344
+  },
+  {
+    "input": "What is -63 + 781?",
+    "answer": 718
+  },
+  {
+    "input": "What is -487 / 801?",
+    "answer": -1
+  },
+  {
+    "input": "What is -365 * 667?",
+    "answer": -243455
+  },
+  {
+    "input": "What is -123 + 258?",
+    "answer": 135
+  },
+  {
+    "input": "What is -746 * 672?",
+    "answer": -501312
+  },
+  {
+    "input": "What is 754 / 215?",
+    "answer": 3
+  },
+  {
+    "input": "What is -920 / 390?",
+    "answer": -3
+  },
+  {
+    "input": "What is -923 / 114?",
+    "answer": -9
+  },
+  {
+    "input": "What is 577 * 307?",
+    "answer": 177139
+  },
+  {
+    "input": "What is 637 + 90?",
+    "answer": 727
+  },
+  {
+    "input": "What is -582 * 107?",
+    "answer": -62274
+  },
+  {
+    "input": "What is 466 / 826?",
+    "answer": 0
+  },
+  {
+    "input": "What is 433 - 879?",
+    "answer": -446
+  },
+  {
+    "input": "What is -905 + 402?",
+    "answer": -503
+  },
+  {
+    "input": "What is 46 + 697?",
+    "answer": 743
+  },
+  {
+    "input": "What is -431 * 394?",
+    "answer": -169814
+  },
+  {
+    "input": "What is 908 - 970?",
+    "answer": -62
+  },
+  {
+    "input": "What is -793 * 882?",
+    "answer": -699426
+  },
+  {
+    "input": "What is 726 + 338?",
+    "answer": 1064
+  },
+  {
+    "input": "What is -245 - 272?",
+    "answer": -517
+  },
+  {
+    "input": "What is -5 * 159?",
+    "answer": -795
+  },
+  {
+    "input": "What is -200 * 391?",
+    "answer": -78200
+  },
+  {
+    "input": "What is 147 * 297?",
+    "answer": 43659
+  },
+  {
+    "input": "What is -224 / 123?",
+    "answer": -2
+  },
+  {
+    "input": "What is -85 * 793?",
+    "answer": -67405
+  },
+  {
+    "input": "What is 70 / 308?",
+    "answer": 0
+  },
+  {
+    "input": "What is -54 * 429?",
+    "answer": -23166
+  },
+  {
+    "input": "What is 568 + 190?",
+    "answer": 758
+  },
+  {
+    "input": "What is 846 * 316?",
+    "answer": 267336
+  },
+  {
+    "input": "What is 869 * 222?",
+    "answer": 192918
+  },
+  {
+    "input": "What is 652 * 489?",
+    "answer": 318828
+  },
+  {
+    "input": "What is 303 + 948?",
+    "answer": 1251
+  },
+  {
+    "input": "What is -997 - 82?",
+    "answer": -1079
+  },
+  {
+    "input": "What is 287 * 781?",
+    "answer": 224147
+  },
+  {
+    "input": "What is 539 * 415?",
+    "answer": 223685
+  },
+  {
+    "input": "What is -964 / 592?",
+    "answer": -2
+  },
+  {
+    "input": "What is -220 * 95?",
+    "answer": -20900
+  },
+  {
+    "input": "What is -606 * 559?",
+    "answer": -338754
+  },
+  {
+    "input": "What is 453 * 899?",
+    "answer": 407247
+  },
+  {
+    "input": "What is -346 / 54?",
+    "answer": -7
+  },
+  {
+    "input": "What is 739 * 567?",
+    "answer": 419013
+  },
+  {
+    "input": "What is 966 + 467?",
+    "answer": 1433
+  },
+  {
+    "input": "What is -856 + 876?",
+    "answer": 20
+  },
+  {
+    "input": "What is 16 - 285?",
+    "answer": -269
+  },
+  {
+    "input": "What is -961 + 156?",
+    "answer": -805
+  },
+  {
+    "input": "What is -155 * 881?",
+    "answer": -136555
+  },
+  {
+    "input": "What is 121 - 234?",
+    "answer": -113
+  },
+  {
+    "input": "What is -131 - 178?",
+    "answer": -309
+  },
+  {
+    "input": "What is 841 - 752?",
+    "answer": 89
+  },
+  {
+    "input": "What is 448 + 598?",
+    "answer": 1046
+  },
+  {
+    "input": "What is 633 * 976?",
+    "answer": 617808
+  },
+  {
+    "input": "What is -353 * 630?",
+    "answer": -222390
+  },
+  {
+    "input": "What is 743 / 642?",
+    "answer": 1
+  },
+  {
+    "input": "What is 294 - 417?",
+    "answer": -123
+  },
+  {
+    "input": "What is 144 + 725?",
+    "answer": 869
+  },
+  {
+    "input": "What is -557 - 248?",
+    "answer": -805
+  },
+  {
+    "input": "What is -37 / 203?",
+    "answer": -1
+  },
+  {
+    "input": "What is 969 * 677?",
+    "answer": 656013
+  },
+  {
+    "input": "What is 338 - 475?",
+    "answer": -137
+  },
+  {
+    "input": "What is 787 + 732?",
+    "answer": 1519
+  },
+  {
+    "input": "What is 776 - 515?",
+    "answer": 261
+  },
+  {
+    "input": "What is -601 - 496?",
+    "answer": -1097
+  },
+  {
+    "input": "What is 417 + 812?",
+    "answer": 1229
+  },
+  {
+    "input": "What is -517 + 134?",
+    "answer": -383
+  },
+  {
+    "input": "What is 348 / 34?",
+    "answer": 10
+  },
+  {
+    "input": "What is -978 / 141?",
+    "answer": -7
+  },
+  {
+    "input": "What is 666 * 351?",
+    "answer": 233766
+  },
+  {
+    "input": "What is 57 / 848?",
+    "answer": 0
+  },
+  {
+    "input": "What is -911 * 728?",
+    "answer": -663208
+  },
+  {
+    "input": "What is -549 - 954?",
+    "answer": -1503
+  },
+  {
+    "input": "What is -731 - 0?",
+    "answer": -731
+  },
+  {
+    "input": "What is 429 / 803?",
+    "answer": 0
+  },
+  {
+    "input": "What is 33 * 452?",
+    "answer": 14916
+  },
+  {
+    "input": "What is 224 * 10?",
+    "answer": 2240
+  },
+  {
+    "input": "What is 801 - 201?",
+    "answer": 600
+  },
+  {
+    "input": "What is 324 * 584?",
+    "answer": 189216
+  },
+  {
+    "input": "What is -8 / 724?",
+    "answer": -1
+  },
+  {
+    "input": "What is 473 - 190?",
+    "answer": 283
+  },
+  {
+    "input": "What is -240 - 9?",
+    "answer": -249
+  },
+  {
+    "input": "What is 128 * 600?",
+    "answer": 76800
+  },
+  {
+    "input": "What is 320 + 479?",
+    "answer": 799
+  },
+  {
+    "input": "What is 321 * 209?",
+    "answer": 67089
+  },
+  {
+    "input": "What is 403 + 621?",
+    "answer": 1024
+  },
+  {
+    "input": "What is -49 - 320?",
+    "answer": -369
+  },
+  {
+    "input": "What is 418 / 858?",
+    "answer": 0
+  },
+  {
+    "input": "What is -484 + 419?",
+    "answer": -65
+  },
+  {
+    "input": "What is 530 + 754?",
+    "answer": 1284
+  },
+  {
+    "input": "What is 214 / 570?",
+    "answer": 0
+  },
+  {
+    "input": "What is -906 / 741?",
+    "answer": -2
+  },
+  {
+    "input": "What is 775 + 399?",
+    "answer": 1174
+  },
+  {
+    "input": "What is 737 - 170?",
+    "answer": 567
+  },
+  {
+    "input": "What is -607 - 693?",
+    "answer": -1300
+  },
+  {
+    "input": "What is -336 + 544?",
+    "answer": 208
+  },
+  {
+    "input": "What is 89 - 242?",
+    "answer": -153
+  },
+  {
+    "input": "What is 819 * 804?",
+    "answer": 658476
+  },
+  {
+    "input": "What is -123 - 838?",
+    "answer": -961
+  },
+  {
+    "input": "What is 232 + 839?",
+    "answer": 1071
+  },
+  {
+    "input": "What is 143 / 36?",
+    "answer": 3
+  },
+  {
+    "input": "What is 35 - 88?",
+    "answer": -53
+  },
+  {
+    "input": "What is -798 + 981?",
+    "answer": 183
+  },
+  {
+    "input": "What is 818 + 888?",
+    "answer": 1706
+  },
+  {
+    "input": "What is 12 / 469?",
+    "answer": 0
+  },
+  {
+    "input": "What is 384 * 196?",
+    "answer": 75264
+  },
+  {
+    "input": "What is -545 * 956?",
+    "answer": -521020
+  },
+  {
+    "input": "What is -32 - 296?",
+    "answer": -328
+  },
+  {
+    "input": "What is 830 + 721?",
+    "answer": 1551
+  },
+  {
+    "input": "What is 450 - 550?",
+    "answer": -100
+  },
+  {
+    "input": "What is -299 + 563?",
+    "answer": 264
+  },
+  {
+    "input": "What is -503 - 674?",
+    "answer": -1177
+  },
+  {
+    "input": "What is 928 - 881?",
+    "answer": 47
+  },
+  {
+    "input": "What is 937 + 286?",
+    "answer": 1223
+  },
+  {
+    "input": "What is 338 + 236?",
+    "answer": 574
+  },
+  {
+    "input": "What is -921 * 72?",
+    "answer": -66312
+  },
+  {
+    "input": "What is -146 - 200?",
+    "answer": -346
+  },
+  {
+    "input": "What is 415 + 440?",
+    "answer": 855
+  },
+  {
+    "input": "What is 993 - 602?",
+    "answer": 391
+  },
+  {
+    "input": "What is 132 * 467?",
+    "answer": 61644
+  },
+  {
+    "input": "What is -759 / 468?",
+    "answer": -2
+  },
+  {
+    "input": "What is 643 * 364?",
+    "answer": 234052
+  },
+  {
+    "input": "What is -740 - 735?",
+    "answer": -1475
+  },
+  {
+    "input": "What is -103 / 241?",
+    "answer": -1
+  },
+  {
+    "input": "What is -844 + 488?",
+    "answer": -356
+  },
+  {
+    "input": "What is 282 / 652?",
+    "answer": 0
+  },
+  {
+    "input": "What is -360 - 40?",
+    "answer": -400
+  },
+  {
+    "input": "What is 303 - 72?",
+    "answer": 231
+  },
+  {
+    "input": "What is -254 + 53?",
+    "answer": -201
+  },
+  {
+    "input": "What is 369 + 525?",
+    "answer": 894
+  },
+  {
+    "input": "What is -712 - 992?",
+    "answer": -1704
+  },
+  {
+    "input": "What is -329 + 348?",
+    "answer": 19
+  },
+  {
+    "input": "What is 258 / 598?",
+    "answer": 0
+  },
+  {
+    "input": "What is 530 + 356?",
+    "answer": 886
+  },
+  {
+    "input": "What is 540 / 754?",
+    "answer": 0
+  },
+  {
+    "input": "What is 150 / 259?",
+    "answer": 0
+  },
+  {
+    "input": "What is 234 + 422?",
+    "answer": 656
+  },
+  {
+    "input": "What is -423 / 488?",
+    "answer": -1
+  },
+  {
+    "input": "What is -5 / 954?",
+    "answer": -1
+  },
+  {
+    "input": "What is 433 * 638?",
+    "answer": 276254
+  },
+  {
+    "input": "What is -285 / 144?",
+    "answer": -2
+  },
+  {
+    "input": "What is -739 * 708?",
+    "answer": -523212
+  },
+  {
+    "input": "What is -600 / 493?",
+    "answer": -2
+  },
+  {
+    "input": "What is 112 - 864?",
+    "answer": -752
+  },
+  {
+    "input": "What is -189 / 763?",
+    "answer": -1
+  },
+  {
+    "input": "What is 536 / 294?",
+    "answer": 1
+  },
+  {
+    "input": "What is -343 - 502?",
+    "answer": -845
+  },
+  {
+    "input": "What is -646 - 263?",
+    "answer": -909
+  },
+  {
+    "input": "What is 794 + 618?",
+    "answer": 1412
+  },
+  {
+    "input": "What is -111 + 754?",
+    "answer": 643
+  },
+  {
+    "input": "What is 359 / 252?",
+    "answer": 1
+  },
+  {
+    "input": "What is -573 / 351?",
+    "answer": -2
+  },
+  {
+    "input": "What is 296 / 539?",
+    "answer": 0
+  },
+  {
+    "input": "What is -775 + 87?",
+    "answer": -688
+  },
+  {
+    "input": "What is -1 * 874?",
+    "answer": -874
+  },
+  {
+    "input": "What is 999 - 659?",
+    "answer": 340
+  },
+  {
+    "input": "What is -685 + 687?",
+    "answer": 2
+  },
+  {
+    "input": "What is 620 * 644?",
+    "answer": 399280
+  },
+  {
+    "input": "What is -359 / 14?",
+    "answer": -26
+  },
+  {
+    "input": "What is 13 + 473?",
+    "answer": 486
+  },
+  {
+    "input": "What is 232 * 895?",
+    "answer": 207640
+  },
+  {
+    "input": "What is -975 - 751?",
+    "answer": -1726
+  },
+  {
+    "input": "What is -339 + 566?",
+    "answer": 227
+  },
+  {
+    "input": "What is -220 - 479?",
+    "answer": -699
+  },
+  {
+    "input": "What is -286 * 1?",
+    "answer": -286
+  },
+  {
+    "input": "What is -705 * 357?",
+    "answer": -251685
+  },
+  {
+    "input": "What is -946 * 74?",
+    "answer": -70004
+  },
+  {
+    "input": "What is -592 * 933?",
+    "answer": -552336
+  },
+  {
+    "input": "What is 695 * 568?",
+    "answer": 394760
+  },
+  {
+    "input": "What is 258 * 762?",
+    "answer": 196596
+  },
+  {
+    "input": "What is 917 / 21?",
+    "answer": 43
+  },
+  {
+    "input": "What is 490 + 47?",
+    "answer": 537
+  },
+  {
+    "input": "What is -647 + 718?",
+    "answer": 71
+  },
+  {
+    "input": "What is 289 + 299?",
+    "answer": 588
+  },
+  {
+    "input": "What is 534 * 721?",
+    "answer": 385014
+  },
+  {
+    "input": "What is -497 / 762?",
+    "answer": -1
+  },
+  {
+    "input": "What is 723 - 900?",
+    "answer": -177
+  },
+  {
+    "input": "What is -751 - 530?",
+    "answer": -1281
+  },
+  {
+    "input": "What is -190 * 514?",
+    "answer": -97660
+  },
+  {
+    "input": "What is 70 / 196?",
+    "answer": 0
+  },
+  {
+    "input": "What is -732 * 203?",
+    "answer": -148596
+  },
+  {
+    "input": "What is -647 + 794?",
+    "answer": 147
+  },
+  {
+    "input": "What is -324 * 439?",
+    "answer": -142236
+  },
+  {
+    "input": "What is -291 * 171?",
+    "answer": -49761
+  },
+  {
+    "input": "What is -203 / 335?",
+    "answer": -1
+  },
+  {
+    "input": "What is 110 / 483?",
+    "answer": 0
+  },
+  {
+    "input": "What is 799 * 487?",
+    "answer": 389113
+  },
+  {
+    "input": "What is 158 - 139?",
+    "answer": 19
+  },
+  {
+    "input": "What is -46 - 537?",
+    "answer": -583
+  },
+  {
+    "input": "What is -794 * 931?",
+    "answer": -739214
+  },
+  {
+    "input": "What is 661 / 826?",
+    "answer": 0
+  },
+  {
+    "input": "What is -781 + 874?",
+    "answer": 93
+  },
+  {
+    "input": "What is -54 * 20?",
+    "answer": -1080
+  },
+  {
+    "input": "What is -961 / 194?",
+    "answer": -5
+  },
+  {
+    "input": "What is 819 / 208?",
+    "answer": 3
+  },
+  {
+    "input": "What is 121 * 42?",
+    "answer": 5082
+  },
+  {
+    "input": "What is -41 / 563?",
+    "answer": -1
+  },
+  {
+    "input": "What is 396 * 446?",
+    "answer": 176616
+  },
+  {
+    "input": "What is 28 + 570?",
+    "answer": 598
+  },
+  {
+    "input": "What is 64 + 78?",
+    "answer": 142
+  },
+  {
+    "input": "What is 22 * 42?",
+    "answer": 924
+  },
+  {
+    "input": "What is 740 + 176?",
+    "answer": 916
+  },
+  {
+    "input": "What is -886 * 271?",
+    "answer": -240106
+  },
+  {
+    "input": "What is 683 + 356?",
+    "answer": 1039
+  },
+  {
+    "input": "What is -422 - 432?",
+    "answer": -854
+  },
+  {
+    "input": "What is 406 + 825?",
+    "answer": 1231
+  },
+  {
+    "input": "What is -794 + 279?",
+    "answer": -515
+  },
+  {
+    "input": "What is 347 * 330?",
+    "answer": 114510
+  },
+  {
+    "input": "What is -726 / 526?",
+    "answer": -2
+  },
+  {
+    "input": "What is -17 / 736?",
+    "answer": -1
+  },
+  {
+    "input": "What is -453 * 863?",
+    "answer": -390939
+  },
+  {
+    "input": "What is -660 - 368?",
+    "answer": -1028
+  },
+  {
+    "input": "What is -318 + 394?",
+    "answer": 76
+  },
+  {
+    "input": "What is -242 * 867?",
+    "answer": -209814
+  },
+  {
+    "input": "What is -557 * 716?",
+    "answer": -398812
+  },
+  {
+    "input": "What is -842 / 979?",
+    "answer": -1
+  },
+  {
+    "input": "What is -121 + 88?",
+    "answer": -33
+  },
+  {
+    "input": "What is 377 / 18?",
+    "answer": 20
+  },
+  {
+    "input": "What is -154 - 268?",
+    "answer": -422
+  },
+  {
+    "input": "What is 204 * 746?",
+    "answer": 152184
+  },
+  {
+    "input": "What is 71 * 700?",
+    "answer": 49700
+  },
+  {
+    "input": "What is 968 + 360?",
+    "answer": 1328
+  },
+  {
+    "input": "What is 434 - 28?",
+    "answer": 406
+  },
+  {
+    "input": "What is -137 - 757?",
+    "answer": -894
+  },
+  {
+    "input": "What is -466 / 697?",
+    "answer": -1
+  },
+  {
+    "input": "What is 726 - 374?",
+    "answer": 352
+  },
+  {
+    "input": "What is -635 - 899?",
+    "answer": -1534
+  },
+  {
+    "input": "What is 574 * 95?",
+    "answer": 54530
+  },
+  {
+    "input": "What is -835 - 842?",
+    "answer": -1677
+  },
+  {
+    "input": "What is -68 + 825?",
+    "answer": 757
+  },
+  {
+    "input": "What is -594 + 662?",
+    "answer": 68
+  },
+  {
+    "input": "What is 811 + 402?",
+    "answer": 1213
+  },
+  {
+    "input": "What is 418 - 919?",
+    "answer": -501
+  },
+  {
+    "input": "What is 340 * 560?",
+    "answer": 190400
+  },
+  {
+    "input": "What is 88 / 486?",
+    "answer": 0
+  },
+  {
+    "input": "What is -356 - 757?",
+    "answer": -1113
+  },
+  {
+    "input": "What is 405 / 196?",
+    "answer": 2
+  },
+  {
+    "input": "What is -350 * 826?",
+    "answer": -289100
+  },
+  {
+    "input": "What is -407 - 435?",
+    "answer": -842
+  },
+  {
+    "input": "What is 473 / 577?",
+    "answer": 0
+  },
+  {
+    "input": "What is -704 / 715?",
+    "answer": -1
+  },
+  {
+    "input": "What is -382 / 300?",
+    "answer": -2
+  },
+  {
+    "input": "What is 848 - 593?",
+    "answer": 255
+  },
+  {
+    "input": "What is 631 - 645?",
+    "answer": -14
+  },
+  {
+    "input": "What is 868 / 244?",
+    "answer": 3
+  },
+  {
+    "input": "What is 347 - 653?",
+    "answer": -306
+  },
+  {
+    "input": "What is 817 + 1000?",
+    "answer": 1817
+  },
+  {
+    "input": "What is -621 - 123?",
+    "answer": -744
+  },
+  {
+    "input": "What is -243 + 629?",
+    "answer": 386
+  },
+  {
+    "input": "What is -319 + 211?",
+    "answer": -108
+  },
+  {
+    "input": "What is 719 - 325?",
+    "answer": 394
+  },
+  {
+    "input": "What is -216 + 104?",
+    "answer": -112
+  },
+  {
+    "input": "What is -161 - 220?",
+    "answer": -381
+  },
+  {
+    "input": "What is 61 - 138?",
+    "answer": -77
+  },
+  {
+    "input": "What is -198 * 631?",
+    "answer": -124938
+  },
+  {
+    "input": "What is -936 / 692?",
+    "answer": -2
+  },
+  {
+    "input": "What is -765 / 560?",
+    "answer": -2
+  },
+  {
+    "input": "What is -406 / 117?",
+    "answer": -4
+  },
+  {
+    "input": "What is -241 + 816?",
+    "answer": 575
+  },
+  {
+    "input": "What is 493 * 666?",
+    "answer": 328338
+  },
+  {
+    "input": "What is 618 / 182?",
+    "answer": 3
+  },
+  {
+    "input": "What is -100 * 535?",
+    "answer": -53500
+  },
+  {
+    "input": "What is -239 + 93?",
+    "answer": -146
+  },
+  {
+    "input": "What is 339 / 291?",
+    "answer": 1
+  },
+  {
+    "input": "What is 95 - 440?",
+    "answer": -345
+  },
+  {
+    "input": "What is 593 * 883?",
+    "answer": 523619
+  },
+  {
+    "input": "What is -439 - 360?",
+    "answer": -799
+  },
+  {
+    "input": "What is -542 * 171?",
+    "answer": -92682
+  },
+  {
+    "input": "What is -569 * 846?",
+    "answer": -481374
+  },
+  {
+    "input": "What is 430 / 532?",
+    "answer": 0
+  },
+  {
+    "input": "What is -826 - 377?",
+    "answer": -1203
+  },
+  {
+    "input": "What is -648 + 407?",
+    "answer": -241
+  },
+  {
+    "input": "What is 880 - 81?",
+    "answer": 799
+  },
+  {
+    "input": "What is 717 * 873?",
+    "answer": 625941
+  },
+  {
+    "input": "What is 533 + 489?",
+    "answer": 1022
+  },
+  {
+    "input": "What is -903 / 615?",
+    "answer": -2
+  },
+  {
+    "input": "What is -768 + 475?",
+    "answer": -293
+  },
+  {
+    "input": "What is -379 - 523?",
+    "answer": -902
+  },
+  {
+    "input": "What is 349 / 789?",
+    "answer": 0
+  },
+  {
+    "input": "What is 249 * 808?",
+    "answer": 201192
+  },
+  {
+    "input": "What is -482 + 48?",
+    "answer": -434
+  },
+  {
+    "input": "What is -146 - 955?",
+    "answer": -1101
+  },
+  {
+    "input": "What is 617 + 291?",
+    "answer": 908
+  },
+  {
+    "input": "What is -282 + 560?",
+    "answer": 278
+  },
+  {
+    "input": "What is -744 + 726?",
+    "answer": -18
+  },
+  {
+    "input": "What is 619 + 281?",
+    "answer": 900
+  },
+  {
+    "input": "What is -124 / 563?",
+    "answer": -1
+  },
+  {
+    "input": "What is -881 / 839?",
+    "answer": -2
+  },
+  {
+    "input": "What is 294 + 722?",
+    "answer": 1016
+  },
+  {
+    "input": "What is 594 - 331?",
+    "answer": 263
+  },
+  {
+    "input": "What is -986 + 202?",
+    "answer": -784
+  },
+  {
+    "input": "What is 544 / 4?",
+    "answer": 136
+  },
+  {
+    "input": "What is -735 - 531?",
+    "answer": -1266
+  },
+  {
+    "input": "What is 322 - 102?",
+    "answer": 220
+  },
+  {
+    "input": "What is 504 + 84?",
+    "answer": 588
+  },
+  {
+    "input": "What is -511 / 208?",
+    "answer": -3
+  },
+  {
+    "input": "What is 812 - 525?",
+    "answer": 287
+  },
+  {
+    "input": "What is -681 + 79?",
+    "answer": -602
+  },
+  {
+    "input": "What is -678 / 556?",
+    "answer": -2
+  },
+  {
+    "input": "What is -792 * 895?",
+    "answer": -708840
+  },
+  {
+    "input": "What is -230 + 846?",
+    "answer": 616
+  },
+  {
+    "input": "What is -750 / 895?",
+    "answer": -1
+  },
+  {
+    "input": "What is -100 * 774?",
+    "answer": -77400
+  },
+  {
+    "input": "What is -388 * 870?",
+    "answer": -337560
+  },
+  {
+    "input": "What is 119 - 307?",
+    "answer": -188
+  },
+  {
+    "input": "What is -288 - 409?",
+    "answer": -697
+  },
+  {
+    "input": "What is 783 / 108?",
+    "answer": 7
+  },
+  {
+    "input": "What is 653 - 416?",
+    "answer": 237
+  },
+  {
+    "input": "What is 850 - 813?",
+    "answer": 37
+  },
+  {
+    "input": "What is 773 - 299?",
+    "answer": 474
+  },
+  {
+    "input": "What is 375 - 22?",
+    "answer": 353
+  },
+  {
+    "input": "What is 795 * 158?",
+    "answer": 125610
+  },
+  {
+    "input": "What is 989 / 724?",
+    "answer": 1
+  },
+  {
+    "input": "What is 536 / 880?",
+    "answer": 0
+  },
+  {
+    "input": "What is -758 / 911?",
+    "answer": -1
+  },
+  {
+    "input": "What is -821 - 742?",
+    "answer": -1563
+  },
+  {
+    "input": "What is -85 * 693?",
+    "answer": -58905
+  },
+  {
+    "input": "What is -982 - 869?",
+    "answer": -1851
   }
 ]
