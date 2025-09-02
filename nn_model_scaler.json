@@ -1,0 +1,9 @@
+{
+  "method": "log_scale",
+  "is_fitted": true,
+  "log_offset": 4.934878826141357,
+  "log_std": 7.213115692138672,
+  "min_val": null,
+  "max_val": null,
+  "scale_factor": null
+}

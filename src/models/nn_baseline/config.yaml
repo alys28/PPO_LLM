@@ -1,11 +1,16 @@
 batch_size: 32
-num_epochs: 100
+num_epochs: 50  # Increased since we have early stopping
 input_dim: 1536
 hidden_dims: [768, 192, 128, 64, 16, 4, 1]
 learning_rate: 0.001
 model_save_path: "nn_model.pth"
+graph_save_path: "nn_model.png"
 device: "cuda"  # or "cpu"
 train_data_file: "data/embeddings/cohere_embeddings_train.json"
 val_data_file: "data/embeddings/cohere_embeddings_val.json"
+
+# Early stopping parameters
+early_stopping_patience: 7  # Stop if no improvement for 7 epochs
+min_delta: 0.001  # Minimum change to qualify as improvement
 
 # Epoch 100, Train loss: 0.02482874601310681, Val loss: 0.04059525479784042
