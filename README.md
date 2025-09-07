@@ -1,17 +1,18 @@
-# Assessing Reasoning Potential of Semantic Embedding Models with SFT and PPO
+# Assessing Reasoning Potential of Semantic Embedding Models with SFT
 
-**→** A controlled experiment testing whether Cohere's semantic embeddings enable arithmetic reasoning when augmented with lightweight transformer layers. **Implemented from scratch in PyTorch with both SFT and PPO training.**
+**→** A controlled experiment testing whether Cohere's semantic embeddings enable arithmetic reasoning when augmented with lightweight transformer layers. **Implemented from scratch in PyTorch with both SFT training.**
 
 ## Key Question
 
-Can frozen semantic embeddings (trained for similarity tasks) serve as useful inputs for autoregressive reasoning when combined with:
+Can frozen semantic embeddings (trained for similarity tasks) serve as useful inputs to solve math questions when combined with:
 
-1. A small transformer decoder trained via **SFT**?
-2. The same model fine-tuned with **RLHF (PPO)**?
+1. A basic neural network trained to minimize MSE?
+2. A small transformer decoder trained via **SFT**?
 
 I specifically:
 
 - Use **precomputed Cohere's `embed-v4.0` embeddings** of math questions
+- Train a neural network for regression as a baseline
 - Train a Transformer decoder to generate answers digit-by-digit
 - Evaluate the decoder’s capacity to “reason” from dense input embeddings
 
@@ -19,7 +20,7 @@ Both SFT and PPO training methods are written **from scratch**.
 
 ## Motivation
 
-I am exploring how pre-trained semantic embeddings (like those from Cohere) can be leveraged in a post-training pipeline to fine-tune a language model for simple arithmetic reasoning tasks (SFT, RLHF). My goal is to understand whether these embeddings, usually trained for similarity or classification tasks, contain enough contextual information to guide fine-tuning for such a task.
+I am exploring how pre-trained semantic embeddings (like those from Cohere) can be leveraged to fine-tune a language model for simple arithmetic reasoning tasks. My goal is to understand whether these embeddings, usually trained for similarity or classification tasks, contain enough contextual information to guide fine-tuning for such a task.
 
 ![Model Diagram](./arithmetic_embeddings.png)
 
@@ -33,7 +34,7 @@ From this diagram, which plots embeddings of math operations,the embeddings evid
 
 ## Current Progress
 
-Currently writing the training loops for both PPO and SFT. Will soon be testing both models and releasing my results
+Currently writing the training loops for SFT. Will soon be testing both models and releasing my results.
 
 ## Next Steps
 
